@@ -1,0 +1,290 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "CommonSale": {
+        "functions": [
+            "setPeriod",
+            "setToken",
+            "lastSaleDate",
+            "stagesCount",
+            "unpause",
+            "totalInvested",
+            "currentStage",
+            "paused",
+            "setMinPrice",
+            "setMultisigWallet",
+            "changeStage",
+            "clearStages",
+            "totalTokensMinted",
+            "pause",
+            "stages",
+            "owner",
+            "multisigWallet",
+            "addStage",
+            "retrieveTokens",
+            "removeStage",
+            "createTokens",
+            "start",
+            "minPrice",
+            "insertStage",
+            "period",
+            "transferOwnership",
+            "setStart",
+            "totalHardcap",
+            "token"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "Configurator": {
+        "functions": [
+            "deploy",
+            "owner",
+            "transferOwnership",
+            "mainsale",
+            "token",
+            "presale"
+        ],
+        "events": []
+    },
+    "CovestingToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "setSaleAgent",
+            "totalSupply",
+            "transferFrom",
+            "lock",
+            "decimals",
+            "mint",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "saleAgent",
+            "locked",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Mainsale": {
+        "functions": [
+            "setPeriod",
+            "setToken",
+            "lastSaleDate",
+            "setFoundersTokensWallet",
+            "stagesCount",
+            "unpause",
+            "lockPeriod",
+            "foundersTokensWallet",
+            "totalInvested",
+            "setBountyTokensPercent",
+            "currentStage",
+            "paused",
+            "setMinPrice",
+            "setMultisigWallet",
+            "changeStage",
+            "setLockPeriod",
+            "clearStages",
+            "totalTokensMinted",
+            "finishMinting",
+            "percentRate",
+            "pause",
+            "stages",
+            "foundersTokensPercent",
+            "owner",
+            "multisigWallet",
+            "bountyTokensWallet",
+            "bountyTokensPercent",
+            "addStage",
+            "retrieveTokens",
+            "setFoundersTokensPercent",
+            "removeStage",
+            "createTokens",
+            "start",
+            "minPrice",
+            "insertStage",
+            "period",
+            "transferOwnership",
+            "setStart",
+            "totalHardcap",
+            "setBountyTokensWallet",
+            "token"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "setSaleAgent",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "saleAgent",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "Presale": {
+        "functions": [
+            "setPeriod",
+            "setToken",
+            "lastSaleDate",
+            "stagesCount",
+            "unpause",
+            "totalInvested",
+            "currentStage",
+            "paused",
+            "setMinPrice",
+            "setMultisigWallet",
+            "setMainsale",
+            "changeStage",
+            "clearStages",
+            "totalTokensMinted",
+            "finishMinting",
+            "pause",
+            "stages",
+            "owner",
+            "multisigWallet",
+            "addStage",
+            "retrieveTokens",
+            "removeStage",
+            "createTokens",
+            "start",
+            "minPrice",
+            "insertStage",
+            "period",
+            "transferOwnership",
+            "setStart",
+            "totalHardcap",
+            "mainsale",
+            "token"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StagedCrowdsale": {
+        "functions": [
+            "setPeriod",
+            "lastSaleDate",
+            "stagesCount",
+            "unpause",
+            "totalInvested",
+            "currentStage",
+            "paused",
+            "changeStage",
+            "clearStages",
+            "pause",
+            "stages",
+            "owner",
+            "addStage",
+            "removeStage",
+            "start",
+            "insertStage",
+            "period",
+            "transferOwnership",
+            "setStart",
+            "totalHardcap"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

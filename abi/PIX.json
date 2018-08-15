@@ -1,0 +1,95 @@
+{
+    "PIXToken": {
+        "functions": [
+            "name",
+            "approve",
+            "year4Unlock",
+            "changeDeposit",
+            "buyRecipient",
+            "totalSupply",
+            "allocated2Year",
+            "day2Start",
+            "transferFrom",
+            "publicSaleStart",
+            "allocated4Year",
+            "getCurrentState",
+            "getCurrentBonusInPercent",
+            "day3Start",
+            "raisePreSale",
+            "getTokenPriceInWEI",
+            "year3Unlock",
+            "totalTokensReserve",
+            "totalTokensCompany",
+            "founder",
+            "totalTokensSale",
+            "addPresaleWhitelist",
+            "allocated3Year",
+            "halt",
+            "setETHUSDRate",
+            "balanceOf",
+            "allocated1Year",
+            "raiseDay1",
+            "centsPerToken",
+            "allocateReserveAndFounderTokens",
+            "changeFounder",
+            "symbol",
+            "raiseDay3",
+            "buy",
+            "transfer",
+            "capDay3",
+            "halted",
+            "capDay1",
+            "coinTradeStart",
+            "saleEnd",
+            "unhalt",
+            "raiseDay2",
+            "deposit",
+            "allocatedFounders",
+            "allowance",
+            "year2Unlock",
+            "year1Unlock",
+            "centsPerEth",
+            "weiPerEther",
+            "capDay2",
+            "capPreSale"
+        ],
+        "events": [
+            "Buy",
+            "Withdraw",
+            "AllocateTokens",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

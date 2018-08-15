@@ -1,0 +1,104 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MintInterface": {
+        "functions": [
+            "mint"
+        ],
+        "events": []
+    },
+    "Minted": {
+        "functions": [
+            "removeMinter",
+            "mint",
+            "owner",
+            "addMinter",
+            "changeOwner",
+            "numMinters",
+            "endMinting",
+            "minters",
+            "open"
+        ],
+        "events": [
+            "NewMinter"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "endBlock",
+            "owner",
+            "changeOwner",
+            "setEndBlock"
+        ],
+        "events": []
+    },
+    "ProjectToken": {
+        "functions": [
+            "name",
+            "endBlock",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "removeMinter",
+            "decimals",
+            "approveAndCall",
+            "mint",
+            "transferableBlock",
+            "balanceOf",
+            "refundTokens",
+            "owner",
+            "symbol",
+            "addMinter",
+            "changeOwner",
+            "transfer",
+            "setEndBlock",
+            "allowance",
+            "numMinters",
+            "endMinting",
+            "minters",
+            "open"
+        ],
+        "events": [
+            "NewMinter",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

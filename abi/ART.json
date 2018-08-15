@@ -1,0 +1,130 @@
+{
+    "IERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IMintableToken": {
+        "functions": [
+            "mintTokens"
+        ],
+        "events": []
+    },
+    "IToken": {
+        "functions": [
+            "totalSupply",
+            "mintTokens"
+        ],
+        "events": []
+    },
+    "ItokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Lockable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "lockUntil",
+            "newOwner",
+            "lockedUntilBlock",
+            "transferOwnership"
+        ],
+        "events": [
+            "ContractLocked",
+            "OwnerUpdate"
+        ]
+    },
+    "MaecenasToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "crowdsaleContractAddress",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "ReentrnacyHandlingContract": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "crowdsaleContractAddress",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

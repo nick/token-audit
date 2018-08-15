@@ -1,0 +1,163 @@
+{
+    "BountyTokenAllocation": {
+        "functions": [
+            "allocationAddressList",
+            "proposeBountyTransfer",
+            "remainingBountyTokens",
+            "approveBountyTransfer",
+            "owner",
+            "bountyOf",
+            "rejectBountyTransfer"
+        ],
+        "events": []
+    },
+    "ERC20Token": {
+        "functions": [
+            "balanceOf",
+            "transfer"
+        ],
+        "events": []
+    },
+    "ERC223MintableToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "circulatingSupply",
+            "symbol",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Mint",
+            "ERC223Transfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC223ReceivingContract": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "ERC223Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "ERC223Transfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ExyToken": {
+        "functions": [
+            "getCompanyAllocation",
+            "pauseProposer",
+            "name",
+            "approve",
+            "getRemainingCompanyTokensAllocation",
+            "IS_SIGNATORY",
+            "totalSupply",
+            "transferFrom",
+            "approveBountyTransfer",
+            "decimals",
+            "getRemainingPartnerTokensAllocation",
+            "claimTokens",
+            "rejectCompanyAllocation",
+            "getRemainingBountyTokens",
+            "paused",
+            "proposeBountyTransfer",
+            "approvePartnerAllocation",
+            "balanceOf",
+            "proposeCompanyAllocation",
+            "circulatingSupply",
+            "rejectPartnerAllocation",
+            "symbol",
+            "proposePartnerAllocation",
+            "transfer",
+            "erc20TokenTransfer",
+            "INIT_DATE",
+            "rejectBountyTransfer",
+            "transfer",
+            "proposePauseChange",
+            "approveCompanyAllocation",
+            "approvePauseChange",
+            "getPartnerAllocation",
+            "allowance",
+            "getBountyTransfers",
+            "rejectPauseChange"
+        ],
+        "events": [
+            "LogPause",
+            "Mint",
+            "ERC223Transfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SignatoryOwnable": {
+        "functions": [
+            "IS_SIGNATORY"
+        ],
+        "events": []
+    },
+    "SignatoryPausable": {
+        "functions": [
+            "pauseProposer",
+            "IS_SIGNATORY",
+            "paused",
+            "proposePauseChange",
+            "approvePauseChange",
+            "rejectPauseChange"
+        ],
+        "events": [
+            "LogPause"
+        ]
+    },
+    "Types": {
+        "functions": [],
+        "events": []
+    },
+    "VestingAllocation": {
+        "functions": [
+            "totalSupply",
+            "approveAllocation",
+            "minutesInPeriod",
+            "proposeAllocation",
+            "allocationAddressList",
+            "remainingTokensPerPeriod",
+            "initTimestamp",
+            "owner",
+            "periods",
+            "allocationOf",
+            "rejectAllocation",
+            "claimTokens"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "INSToken": {
+        "functions": [
+            "freezeTransfers",
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unfreezeTransfers",
+            "createTokens",
+            "approve",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance",
+            "totalCollected"
+        ],
+        "events": [
+            "Freeze",
+            "Unfreeze",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

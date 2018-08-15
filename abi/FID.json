@@ -1,0 +1,54 @@
+{
+    "FideliumToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "ApprovedFunds",
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "TOKENERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

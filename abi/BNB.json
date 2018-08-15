@@ -1,0 +1,31 @@
+{
+    "BNB": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "withdrawEther",
+            "burn",
+            "unfreeze",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "freezeOf",
+            "freeze",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn",
+            "Freeze",
+            "Unfreeze"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

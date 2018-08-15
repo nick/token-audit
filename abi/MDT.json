@@ -1,0 +1,142 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC677": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "transferAndCall",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "ERC677Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC677Receiver": {
+        "functions": [
+            "onTokenTransfer"
+        ],
+        "events": []
+    },
+    "ERC677Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "transferAndCall",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "ERC677Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MDToken": {
+        "functions": [
+            "mdtFoundationAddress",
+            "name",
+            "approve",
+            "tokenSaleAddress",
+            "totalSupply",
+            "transferFrom",
+            "TEAM_TOKENS_RESERVED",
+            "userGrowthAddress",
+            "decimals",
+            "mdtTeamAddress",
+            "transferAndCall",
+            "burn",
+            "changeMdtFoundationAddress",
+            "USER_GROWTH_TOKENS_RESERVED",
+            "INVESTORS_TOKENS_RESERVED",
+            "changeInvestorsAddress",
+            "balanceOf",
+            "burnFrom",
+            "changeTokenSaleAddress",
+            "owner",
+            "changeUserGrowthAddress",
+            "symbol",
+            "transfer",
+            "investorsAddress",
+            "changeMdtTeamAddress",
+            "maxSupply",
+            "emergencyERC20Drain",
+            "allowance",
+            "BONUS_TOKENS_RESERVED",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "OwnershipTransferred",
+            "ERC677Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

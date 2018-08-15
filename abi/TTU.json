@@ -1,0 +1,51 @@
+{
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TaTaTu": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "fundsWallet",
+            "transferFrom",
+            "decimals",
+            "version",
+            "unitsOneEthCanBuy",
+            "balanceOf",
+            "totalEthInWei",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

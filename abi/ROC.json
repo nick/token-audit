@@ -1,0 +1,81 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "convert",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ICO": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "userStructs",
+            "stringToUint",
+            "transferFrom",
+            "check_array_add",
+            "__callback",
+            "decimals",
+            "__callback",
+            "balanceOf",
+            "symbol",
+            "drain",
+            "convert",
+            "transfer",
+            "request_dividend",
+            "allowance",
+            "addresses",
+            "transfer_ownership"
+        ],
+        "events": [
+            "Message",
+            "TRANS",
+            "Message",
+            "Price",
+            "valuee",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "OraclizeAddrResolverI": {
+        "functions": [
+            "getAddress"
+        ],
+        "events": []
+    },
+    "OraclizeI": {
+        "functions": [
+            "getPrice",
+            "getPrice",
+            "useCoupon",
+            "setProofType",
+            "query2",
+            "queryN",
+            "query2_withGasLimit",
+            "randomDS_getSessionPubKeyHash",
+            "query",
+            "cbAddress",
+            "query_withGasLimit",
+            "queryN_withGasLimit",
+            "setCustomGasPrice",
+            "setConfig"
+        ],
+        "events": []
+    },
+    "usingOraclize": {
+        "functions": [
+            "__callback",
+            "__callback"
+        ],
+        "events": []
+    }
+}

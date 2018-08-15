@@ -1,0 +1,23 @@
+{
+    "EthereumGold": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

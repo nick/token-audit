@@ -1,0 +1,28 @@
+{
+    "Nexium": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "initialSupply",
+            "balanceOf",
+            "burnAddress",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "tokenSpender": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

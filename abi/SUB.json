@@ -1,0 +1,62 @@
+{
+    "MyAdvancedToken": {
+        "functions": [
+            "setPrices",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "sellPrice",
+            "standard",
+            "balanceOf",
+            "mintToken",
+            "buyPrice",
+            "owner",
+            "symbol",
+            "buy",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "allowance",
+            "sell",
+            "freezeAccount",
+            "transferOwnership"
+        ],
+        "events": [
+            "FrozenFunds",
+            "Transfer"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

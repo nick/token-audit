@@ -1,0 +1,86 @@
+{
+    "Ledger": {
+        "functions": [
+            "tokenTransfer",
+            "totalSupply",
+            "changeUsed",
+            "seenHereA",
+            "reduceTotalSupply",
+            "changeToken",
+            "balanceOf",
+            "owner",
+            "changeOwner",
+            "resetUsedToday",
+            "allowance",
+            "setBalance",
+            "tokenTransferFrom",
+            "tokenApprove"
+        ],
+        "events": [
+            "Approval"
+        ]
+    },
+    "Mutex": {
+        "functions": [
+            "unMutex",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "Rental": {
+        "functions": [
+            "offer",
+            "exec",
+            "owner",
+            "changeOwner",
+            "claimBalance"
+        ],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "unMutex",
+            "changeRental",
+            "totalSupply",
+            "changeTimes",
+            "transferFrom",
+            "decimals",
+            "completeCrowdsale",
+            "burn",
+            "pauseTransfers",
+            "version",
+            "changeLedger",
+            "balanceOf",
+            "claimUnrented",
+            "rentOut",
+            "owner",
+            "symbol",
+            "changePrice",
+            "changeOwner",
+            "transfer",
+            "resumeTransfers",
+            "changeClub",
+            "dilute",
+            "allowance",
+            "safeAdd",
+            "checkIn",
+            "lock"
+        ],
+        "events": [
+            "LedgerUpdated",
+            "Dilution",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "totalPledgedFees",
+            "decimals",
+            "changeController",
+            "reducePledgedFees",
+            "balanceOfAt",
+            "pledgeFees",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "totalPledgedFeesAt",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "NEC": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "totalPledgedFees",
+            "decimals",
+            "changeController",
+            "reducePledgedFees",
+            "burningEnabled",
+            "balanceOfAt",
+            "burnAndRetrieve",
+            "pledgeFees",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "enableBurning",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "totalPledgedFeesAt",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "Burned",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "TokenController": {
+        "functions": [
+            "onBurn",
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "Claimable": {
+        "functions": [
+            "claimOwnership",
+            "owner",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Zxc": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "setCrowdsaleAddress",
+            "transferFrom",
+            "decimals",
+            "crowdsaleAddress",
+            "burn",
+            "claimOwnership",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance",
+            "pendingOwner",
+            "enableTransfer",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

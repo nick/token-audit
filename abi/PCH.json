@@ -1,0 +1,58 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "POPCHAINCASH": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "unlockTimeOf",
+            "lockupBalanceOf",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "unlock",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "distribute",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

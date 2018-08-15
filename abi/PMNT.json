@@ -1,0 +1,20 @@
+{
+    "NewToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

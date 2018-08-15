@@ -1,0 +1,262 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "ContributionWallet": {
+        "functions": [
+            "endBlock",
+            "withdraw",
+            "multisig",
+            "contribution"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "DevTokensHolder": {
+        "functions": [
+            "acceptOwnership",
+            "collectTokens",
+            "owner",
+            "changeOwner",
+            "newOwner",
+            "claimTokens"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "TokensWithdrawn"
+        ]
+    },
+    "DynamicCeiling": {
+        "functions": [
+            "curves",
+            "currentIndex",
+            "nCurves",
+            "allRevealed",
+            "contribution",
+            "setHiddenCurves",
+            "revealMulti",
+            "revealCurve",
+            "revealedCurves",
+            "acceptOwnership",
+            "calculateHash",
+            "toCollect",
+            "owner",
+            "changeOwner",
+            "moveTo",
+            "newOwner"
+        ],
+        "events": []
+    },
+    "ERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "newOwner"
+        ],
+        "events": []
+    },
+    "SGTExchanger": {
+        "functions": [
+            "snt",
+            "sgt",
+            "collected",
+            "onTransfer",
+            "statusContribution",
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "newOwner",
+            "onApprove",
+            "claimTokens",
+            "totalCollected",
+            "collect",
+            "proxyPayment"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "TokensCollected"
+        ]
+    },
+    "SNT": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "SNTPlaceHolder": {
+        "functions": [
+            "snt",
+            "changeController",
+            "onTransfer",
+            "contribution",
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "sgtExchanger",
+            "newOwner",
+            "activationTime",
+            "onApprove",
+            "claimTokens",
+            "proxyPayment"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "ControllerChanged"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StatusContribution": {
+        "functions": [
+            "destEthDevs",
+            "endBlock",
+            "maxSGTSupply",
+            "totalGuaranteedCollected",
+            "totalNormalCollected",
+            "maxCallFrequency",
+            "sntController",
+            "failSafeLimit",
+            "exchangeRate",
+            "maxGasPrice",
+            "finalizedBlock",
+            "startBlock",
+            "onTransfer",
+            "pauseContribution",
+            "finalize",
+            "maxGuaranteedLimit",
+            "lastCallBlock",
+            "dynamicCeiling",
+            "destTokensDevs",
+            "paused",
+            "guaranteedBuyersBought",
+            "acceptOwnership",
+            "tokensIssued",
+            "initialize",
+            "owner",
+            "SGT",
+            "guaranteedBuyersLimit",
+            "destTokensSgt",
+            "changeOwner",
+            "resumeContribution",
+            "SNT",
+            "setGuaranteedAddress",
+            "newOwner",
+            "destTokensReserve",
+            "onApprove",
+            "claimTokens",
+            "totalCollected",
+            "proxyPayment",
+            "finalizedTime"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "NewSale",
+            "GuaranteedAddress",
+            "Finalized"
+        ]
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

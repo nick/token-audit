@@ -1,0 +1,96 @@
+{
+    "ContractReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "ERC23BasicToken": {
+        "functions": [
+            "isContract",
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "tokenFallback"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC23StandardToken": {
+        "functions": [
+            "approve",
+            "isContract",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "tokenFallback",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "OpusToken": {
+        "functions": [
+            "crowdsaleOn",
+            "name",
+            "endBlock",
+            "approve",
+            "buyRecipient",
+            "phase1StartBlock",
+            "acceptFoundationTransfer",
+            "isContract",
+            "totalSupply",
+            "crowdsaleTokenSold",
+            "transferFrom",
+            "decimals",
+            "foundation",
+            "burn",
+            "crowdsaleTokenSupply",
+            "presaleEtherRaised",
+            "multisig",
+            "perAddressCap",
+            "startBlock",
+            "phase1EndBlock",
+            "ecosystemTokenSupply",
+            "halt",
+            "preCrowdsaleOn",
+            "phase2EndBlock",
+            "candidate",
+            "balanceOf",
+            "returnRate",
+            "preEndBlock",
+            "proposeFoundationTransfer",
+            "phase3EndBlock",
+            "getTokenSold",
+            "symbol",
+            "buy",
+            "transfer",
+            "halted",
+            "transfer",
+            "tokenFallback",
+            "transferLockup",
+            "unhalt",
+            "allowance",
+            "getEtherRaised",
+            "cancelFoundationTransfer",
+            "setMultisig",
+            "foundationTokenSupply"
+        ],
+        "events": [
+            "Halt",
+            "Unhalt",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

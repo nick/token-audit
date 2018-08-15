@@ -1,0 +1,45 @@
+{
+    "Pebbles": {
+        "functions": [
+            "launch",
+            "name",
+            "approve",
+            "reserveTeam",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "withdrawDeferred",
+            "founder",
+            "allowed",
+            "treasury",
+            "withdrawnTeam",
+            "balanceOf",
+            "balanceTeam",
+            "launched",
+            "team",
+            "symbol",
+            "reserveTreasury",
+            "transfer",
+            "allowance",
+            "balanceTreasury"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

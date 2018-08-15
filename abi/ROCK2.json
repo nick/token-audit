@@ -1,0 +1,46 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IceRockMining": {
+        "functions": [
+            "name",
+            "approve",
+            "setBonus",
+            "totalSupply",
+            "transferFrom",
+            "approvedDividendsOf",
+            "withdraw",
+            "transferAllDividends",
+            "balanceOf",
+            "setCurrentExchangeRate",
+            "symbol",
+            "transfer",
+            "approveDividends",
+            "burnUnsold",
+            "send",
+            "allowance"
+        ],
+        "events": [
+            "Burned",
+            "DividendsTransfered",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "itMaps": {
+        "functions": [],
+        "events": []
+    }
+}

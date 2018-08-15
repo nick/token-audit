@@ -1,0 +1,100 @@
+{
+    "IERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ItokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StormToken": {
+        "functions": [
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "transfers",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "issue",
+            "owner",
+            "symbol",
+            "crowdsaleContractAddress",
+            "salvageTokensFromContract",
+            "destroy",
+            "transfer",
+            "transfersEnabled",
+            "approveAndCall",
+            "newOwner",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Issuance",
+            "Destruction",
+            "Mint",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "crowdsaleContractAddress",
+            "salvageTokensFromContract",
+            "transfer",
+            "approveAndCall",
+            "newOwner",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

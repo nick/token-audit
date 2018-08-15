@@ -1,0 +1,168 @@
+{
+    "ApproveAndCallReceiver": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "Controller": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GNX": {
+        "functions": [
+            "grantVestedTokens",
+            "tokenGrantsCount",
+            "name",
+            "approve",
+            "spendableBalanceOf",
+            "creationBlock",
+            "totalSupply",
+            "setCanCreateGrants",
+            "transferFrom",
+            "grants",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "tokenGrant",
+            "createCloneToken",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "multiMint",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "transferableTokens",
+            "destroyTokens",
+            "allowance",
+            "sterilize",
+            "tokenFactory",
+            "enableTransfers",
+            "controller",
+            "changeVestingWhitelister"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "NewCloneToken",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MiniMeIrrevocableVestedToken": {
+        "functions": [
+            "grantVestedTokens",
+            "tokenGrantsCount",
+            "name",
+            "approve",
+            "spendableBalanceOf",
+            "creationBlock",
+            "totalSupply",
+            "setCanCreateGrants",
+            "transferFrom",
+            "grants",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "tokenGrant",
+            "createCloneToken",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "transferableTokens",
+            "destroyTokens",
+            "allowance",
+            "tokenFactory",
+            "enableTransfers",
+            "controller",
+            "changeVestingWhitelister"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "NewCloneToken",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "NewCloneToken",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "minereum": {
+        "functions": [
+            "name",
+            "currentEthBlock",
+            "initialSupplyPerAddress",
+            "totalSupply",
+            "totalGenesisAddresses",
+            "availableBalanceOf",
+            "setGenesisCallerAddress",
+            "maxTotalSupply",
+            "decimals",
+            "balanceOf",
+            "setGenesisAddressArray",
+            "symbol",
+            "transfer",
+            "genesisAddress",
+            "rewardPerBlockPerAddress",
+            "currentBlock",
+            "initialBlockCount",
+            "genesisCallerAddress"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    }
+}

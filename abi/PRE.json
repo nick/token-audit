@@ -1,0 +1,34 @@
+{
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "preToken": {
+        "functions": [
+            "name",
+            "approve",
+            "updateUnlockDate",
+            "totalSupply",
+            "setCrowdsaleAddress",
+            "transferFrom",
+            "decimals",
+            "crowdsaleAddress",
+            "initialSupply",
+            "burn",
+            "unlockDate",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "mint",
+            "transfer",
+            "maxSupply",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    }
+}

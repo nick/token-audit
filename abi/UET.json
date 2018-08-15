@@ -1,0 +1,33 @@
+{
+    "ForeignToken": {
+        "functions": [
+            "balanceOf",
+            "transfer"
+        ],
+        "events": []
+    },
+    "UselessEthereumToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalContribution",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "disablePurchasing",
+            "balanceOf",
+            "enablePurchasing",
+            "symbol",
+            "totalBonusTokensIssued",
+            "transfer",
+            "getStats",
+            "purchasingAllowed",
+            "allowance",
+            "withdrawForeignTokens"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

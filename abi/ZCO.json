@@ -1,0 +1,128 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "transferAllowed",
+            "mint",
+            "resumeMinting",
+            "endTransfer",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "startTransfer",
+            "burn",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Burn",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ZebiCoin": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "transferAllowed",
+            "mint",
+            "resumeMinting",
+            "endTransfer",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "startTransfer",
+            "burn",
+            "owner",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Burn",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

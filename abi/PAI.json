@@ -1,0 +1,88 @@
+{
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "PAIStandardToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "crowdPrice",
+            "transferFrom",
+            "deadline",
+            "saleShare",
+            "decimals",
+            "setBlacklist",
+            "wallet",
+            "crowdETHTotal",
+            "purchase",
+            "crowdTarget",
+            "balanceOf",
+            "crowdETHs",
+            "owner",
+            "symbol",
+            "reflects",
+            "closeBlacklistSwitch",
+            "setReflectSwitch",
+            "transfer",
+            "posShare",
+            "start",
+            "setTransferLock",
+            "reflect",
+            "reflectSwitch",
+            "allowance",
+            "teamShare",
+            "end",
+            "transferOwnership",
+            "foundationShare",
+            "blacklistSwitch"
+        ],
+        "events": [
+            "PurchaseSuccess",
+            "EthSweepSuccess",
+            "SetReflectSwitchEvent",
+            "ReflectEvent",
+            "BlacklistEvent",
+            "SetTransferLockEvent",
+            "CloseBlacklistSwitchEvent",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

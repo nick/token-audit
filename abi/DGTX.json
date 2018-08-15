@@ -1,0 +1,222 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "totalSupply",
+            "burn",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Burn",
+            "Transfer"
+        ]
+    },
+    "DGTX": {
+        "functions": [
+            "name",
+            "approve",
+            "increaseSupply",
+            "totalSupply",
+            "softcapInTokens",
+            "releaseUnclaimedFunds",
+            "transferFrom",
+            "__callback",
+            "decimals",
+            "__callback",
+            "USDETH",
+            "burn",
+            "maximumInvestmentInWei",
+            "finalize",
+            "ICOactive",
+            "ICOstarttime",
+            "decreaseApproval",
+            "balanceOf",
+            "goalReached",
+            "isFinalized",
+            "owner",
+            "symbol",
+            "vault_state",
+            "buy",
+            "totaltokensold",
+            "transfer",
+            "transferFrom",
+            "hardcapInTokens",
+            "claimRefund",
+            "DECIMALS_MULTIPLIER",
+            "transfer",
+            "vault_deposited",
+            "increaseApproval",
+            "allowance",
+            "refundDeadline",
+            "vault_wallet",
+            "ICOendtime",
+            "transferOwnership",
+            "minimumInvestmentInWei"
+        ],
+        "events": [
+            "Finalized",
+            "newOraclizeQuery",
+            "newETHUSDPrice",
+            "Burn",
+            "Transfer",
+            "Approval",
+            "Transfer",
+            "DepositReleased",
+            "RefundsEnabled",
+            "RefundsDisabled",
+            "Refunded",
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC223": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC223Receiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "OraclizeAddrResolverI": {
+        "functions": [
+            "getAddress"
+        ],
+        "events": []
+    },
+    "OraclizeI": {
+        "functions": [
+            "getPrice",
+            "getPrice",
+            "useCoupon",
+            "setProofType",
+            "query2",
+            "queryN",
+            "query2_withGasLimit",
+            "randomDS_getSessionPubKeyHash",
+            "query",
+            "cbAddress",
+            "query_withGasLimit",
+            "queryN_withGasLimit",
+            "setCustomGasPrice",
+            "setConfig"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "RefundVault": {
+        "functions": [
+            "vault_state",
+            "vault_deposited",
+            "refundDeadline",
+            "vault_wallet"
+        ],
+        "events": [
+            "DepositReleased",
+            "RefundsEnabled",
+            "RefundsDisabled",
+            "Refunded"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Standard223Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "usingOraclize": {
+        "functions": [
+            "__callback",
+            "__callback"
+        ],
+        "events": []
+    }
+}

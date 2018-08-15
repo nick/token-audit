@@ -1,0 +1,65 @@
+{
+    "TokenERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "WABnetwork": {
+        "functions": [
+            "setPrices",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "sellPrice",
+            "balanceOf",
+            "burnFrom",
+            "buyPrice",
+            "owner",
+            "symbol",
+            "buy",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "allowance",
+            "sell",
+            "freezeAccount",
+            "transferOwnership"
+        ],
+        "events": [
+            "FrozenFunds",
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

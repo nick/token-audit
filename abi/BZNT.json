@@ -1,0 +1,71 @@
+{
+    "BezantERC20Base": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "BezantToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "isUseContractFreeze",
+            "freezeAccountForOwner",
+            "balanceOf",
+            "burnFrom",
+            "freezeAccountForContract",
+            "setManagementContractAddress",
+            "owner",
+            "symbol",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "managementContractAddress",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "FrozenFunds",
+            "Transfer",
+            "Burn",
+            "TransferOwnership"
+        ]
+    },
+    "Migrations": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "TransferOwnership"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

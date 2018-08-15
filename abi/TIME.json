@@ -1,0 +1,130 @@
+{
+    "ChronoBankAsset": {
+        "functions": [
+            "__transferWithReference",
+            "__approve",
+            "__transferFromWithReference",
+            "__process"
+        ],
+        "events": []
+    },
+    "ChronoBankAssetProxy": {
+        "functions": [
+            "name",
+            "approve",
+            "commitUpgrade",
+            "getLatestVersion",
+            "totalSupply",
+            "emitApprove",
+            "transferFrom",
+            "emitTransfer",
+            "decimals",
+            "chronoBankPlatform",
+            "getPendingVersionTimestamp",
+            "purgeUpgrade",
+            "optIn",
+            "transferFromWithReference",
+            "__transferWithReference",
+            "balanceOf",
+            "__approve",
+            "symbol",
+            "getPendingVersion",
+            "transfer",
+            "transferWithReference",
+            "init",
+            "proposeUpgrade",
+            "stringToBytes32",
+            "optOut",
+            "allowance",
+            "__transferFromWithReference",
+            "getVersionFor"
+        ],
+        "events": [
+            "UpgradeProposal",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ChronoBankPlatform": {
+        "functions": [
+            "owner",
+            "setupEventsHistory",
+            "issueAsset",
+            "getHolderId",
+            "proxyApprove",
+            "proxyTransferFromWithReference",
+            "allowance",
+            "holders",
+            "isCreated",
+            "claimContractOwnership",
+            "trust",
+            "balanceOf",
+            "changeContractOwnership",
+            "proxyTransferWithReference",
+            "pendingContractOwner",
+            "_balanceOf",
+            "setProxy",
+            "recover",
+            "isTrusted",
+            "_address",
+            "name",
+            "proxies",
+            "holdersCount",
+            "assets",
+            "totalSupply",
+            "description",
+            "isReissuable",
+            "revokeAsset",
+            "contractOwner",
+            "baseUnit",
+            "reissueAsset",
+            "isOwner",
+            "eventsHistory",
+            "distrust",
+            "changeOwnership"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Emitter": {
+        "functions": [
+            "emitTransfer",
+            "emitOwnershipChange",
+            "emitIssue",
+            "emitRevoke",
+            "emitApprove",
+            "emitError",
+            "emitRecovery"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "claimContractOwnership",
+            "changeContractOwnership",
+            "pendingContractOwner",
+            "contractOwner"
+        ],
+        "events": []
+    },
+    "Proxy": {
+        "functions": [
+            "emitApprove",
+            "emitTransfer"
+        ],
+        "events": []
+    }
+}

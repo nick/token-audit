@@ -1,0 +1,143 @@
+{
+    "EVNToken": {
+        "functions": [
+            "retrieveEth",
+            "admin2",
+            "name",
+            "approve",
+            "addToKycTeam",
+            "isKycTeam",
+            "admin1",
+            "ETH_RECEIVED_MIN",
+            "totalSupply",
+            "removeFromKycTeam",
+            "transferFrom",
+            "__callback",
+            "holders",
+            "proceed",
+            "ccLockedUpBalances",
+            "decimals",
+            "__callback",
+            "oraclizeQueryCost",
+            "deliverTokens",
+            "finalize",
+            "version",
+            "refund",
+            "cancelDelivery",
+            "updatePrice",
+            "balanceOf",
+            "getHolderCount",
+            "allReceivedEth",
+            "pause",
+            "ccReleaseBlock",
+            "fundingEndBlock",
+            "symbol",
+            "getBalanceOf",
+            "tokenVendor",
+            "kycVerified",
+            "transfer",
+            "allUnKycedEth",
+            "getPurchaseById",
+            "createTokens",
+            "purchaseArray",
+            "getPurchaseCount",
+            "deliverTeamTokens",
+            "state",
+            "TOKEN_THIRD_DISCOUNT_MULTIPLIER",
+            "ETH_USD_EXCHANGE_RATE_IN_CENTS",
+            "refuseKyc",
+            "teamTokensDelivered",
+            "roundTwoBlock",
+            "isHolder",
+            "fundingStartBlock",
+            "ETH_RECEIVED_CAP",
+            "TOKEN_FIRST_DISCOUNT_MULTIPLIER",
+            "allowance",
+            "roundFourBlock",
+            "TOKEN_MIN",
+            "getHolder",
+            "roundThreeBlock",
+            "TOKEN_SECOND_DISCOUNT_MULTIPLIER",
+            "TOKEN_CREATED_MIN",
+            "unlockKyc",
+            "TOKEN_CREATION_CAP",
+            "setOraclizeGas"
+        ],
+        "events": [
+            "updatedPrice",
+            "newOraclizeQuery",
+            "LogRefund",
+            "LogCreateEVN",
+            "LogDeliverEVN",
+            "LogCancelDelivery",
+            "LogKycRefused",
+            "LogTeamTokensDelivered",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "OraclizeAddrResolverI": {
+        "functions": [
+            "getAddress"
+        ],
+        "events": []
+    },
+    "OraclizeI": {
+        "functions": [
+            "getPrice",
+            "getPrice",
+            "useCoupon",
+            "setProofType",
+            "query2",
+            "queryN",
+            "query2_withGasLimit",
+            "randomDS_getSessionPubKeyHash",
+            "query",
+            "cbAddress",
+            "query_withGasLimit",
+            "queryN_withGasLimit",
+            "setCustomGasPrice",
+            "setConfig"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "usingOraclize": {
+        "functions": [
+            "__callback",
+            "__callback"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance",
+            "fee"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ParagonCoinToken": {
+        "functions": [
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "approve",
+            "burnTokens",
+            "balanceOf",
+            "setFundAddress",
+            "symbol",
+            "transfer",
+            "allowance",
+            "fee"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

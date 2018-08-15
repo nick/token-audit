@@ -1,0 +1,34 @@
+{
+    "QuantumToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "_totalSupply",
+            "burn",
+            "version",
+            "allowances",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn",
+            "Approval"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

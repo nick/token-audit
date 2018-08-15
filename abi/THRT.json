@@ -1,0 +1,87 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balances",
+            "totalSupply_",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "totalSupply_",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Burn",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ThriveToken": {
+        "functions": [
+            "RAISED_AMOUNT",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "INITIAL_SUPPLY",
+            "decimals",
+            "totalSupply_",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Burn",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

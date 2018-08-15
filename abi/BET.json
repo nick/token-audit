@@ -1,0 +1,57 @@
+{
+    "DaoCasinoToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "seal",
+            "balanceOf",
+            "acceptOwnership",
+            "fill",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwner",
+            "transferAnyERC20Token",
+            "allowance",
+            "sealed",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

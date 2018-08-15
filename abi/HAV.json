@@ -1,0 +1,48 @@
+{
+    "Owned": {
+        "functions": [
+            "nominateNewOwner",
+            "nominatedOwner",
+            "acceptOwnership",
+            "owner"
+        ],
+        "events": [
+            "OwnerNominated",
+            "OwnerChanged"
+        ]
+    },
+    "Proxy": {
+        "functions": [
+            "nominateNewOwner",
+            "nominatedOwner",
+            "setTarget",
+            "acceptOwnership",
+            "owner",
+            "_emit",
+            "useDELEGATECALL",
+            "setUseDELEGATECALL",
+            "target"
+        ],
+        "events": [
+            "TargetUpdated",
+            "OwnerNominated",
+            "OwnerChanged"
+        ]
+    },
+    "Proxyable": {
+        "functions": [
+            "nominateNewOwner",
+            "nominatedOwner",
+            "acceptOwnership",
+            "owner",
+            "setProxy",
+            "setMessageSender",
+            "proxy"
+        ],
+        "events": [
+            "ProxyUpdated",
+            "OwnerNominated",
+            "OwnerChanged"
+        ]
+    }
+}

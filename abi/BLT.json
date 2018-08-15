@@ -1,0 +1,168 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "BLT": {
+        "functions": [
+            "tokenGrantsCount",
+            "name",
+            "approve",
+            "spendableBalanceOf",
+            "creationBlock",
+            "totalSupply",
+            "canCreateGrants",
+            "setCanCreateGrants",
+            "transferFrom",
+            "grants",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "tokenGrant",
+            "createCloneToken",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "grantVestedTokens",
+            "totalSupplyAt",
+            "transfer",
+            "revokeTokenGrant",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "transferableTokens",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "vestingWhitelister",
+            "tokenFactory",
+            "enableTransfers",
+            "controller",
+            "changeVestingWhitelister"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "Math": {
+        "functions": [],
+        "events": []
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "MiniMeVestedToken": {
+        "functions": [
+            "tokenGrantsCount",
+            "name",
+            "approve",
+            "spendableBalanceOf",
+            "creationBlock",
+            "totalSupply",
+            "canCreateGrants",
+            "setCanCreateGrants",
+            "transferFrom",
+            "grants",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "tokenGrant",
+            "createCloneToken",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "grantVestedTokens",
+            "totalSupplyAt",
+            "transfer",
+            "revokeTokenGrant",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "transferableTokens",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "vestingWhitelister",
+            "tokenFactory",
+            "enableTransfers",
+            "controller",
+            "changeVestingWhitelister"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

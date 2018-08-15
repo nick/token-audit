@@ -1,0 +1,67 @@
+{
+    "MyToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "withdrawEther",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "symbol",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "freezeOf",
+            "allowance",
+            "withdrawMytoken",
+            "freezeAccount",
+            "transferOwnership"
+        ],
+        "events": [
+            "FrozenFunds",
+            "Burn",
+            "Transfer",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

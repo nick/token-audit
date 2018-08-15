@@ -1,0 +1,150 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MITx_Token": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "startTrading",
+            "decimals",
+            "mint",
+            "tradingStarted",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "emergencyERC20Drain",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MITx_TokenSale": {
+        "functions": [
+            "oneCoin",
+            "tokensForSale",
+            "tier1Timestamp",
+            "tokenRaised",
+            "rate",
+            "placeTokens",
+            "decimals",
+            "multiSig",
+            "weiRaised",
+            "freeForAll",
+            "cs",
+            "numberOfPurchasers",
+            "switchONfreeForAll",
+            "blockAccount",
+            "authoriseManyAccounts",
+            "maxContribution",
+            "owner",
+            "switchOFFfreeForAll",
+            "finishSale",
+            "setCS",
+            "endTimestamp",
+            "minContribution",
+            "authoriseAccount",
+            "tier3Timestamp",
+            "authorised",
+            "emergencyERC20Drain",
+            "tier2Timestamp",
+            "setWallet",
+            "startTimestamp",
+            "maxTokens",
+            "hasEnded",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase",
+            "SaleClosed"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

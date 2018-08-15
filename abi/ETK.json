@@ -1,0 +1,127 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Claimable": {
+        "functions": [
+            "claimOwnership",
+            "owner",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "EnergiToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "thawAddress",
+            "decimals",
+            "mint",
+            "claimOwnership",
+            "freezeAddress",
+            "version",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "isFrozen",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

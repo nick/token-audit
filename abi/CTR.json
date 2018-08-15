@@ -1,0 +1,69 @@
+{
+    "CentraToken": {
+        "functions": [
+            "card_blue_first",
+            "name",
+            "approve",
+            "cards_gold",
+            "totalSupply",
+            "card_black_first",
+            "ico_finish",
+            "transferFrom",
+            "ownerSupply",
+            "card_start_minamount",
+            "decimals",
+            "withdraw",
+            "card_gold_minamount",
+            "card_black_minamount",
+            "card_gold_first",
+            "tokens_buy",
+            "cards_black_total",
+            "balanceOf",
+            "cards_titanium_total",
+            "ico_start",
+            "token_price",
+            "card_titanium_first",
+            "owner",
+            "maxValue",
+            "symbol",
+            "minValue",
+            "cards_start",
+            "card_titanium_minamount",
+            "minValuePre",
+            "transfer",
+            "cards_titanium",
+            "cards_blue",
+            "cards_black",
+            "cards_start_total",
+            "cards_black_check",
+            "cards_blue_total",
+            "allowance",
+            "card_start_first",
+            "maxTokens",
+            "cards_gold_total",
+            "card_blue_minamount"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

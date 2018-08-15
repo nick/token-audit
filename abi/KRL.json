@@ -1,0 +1,140 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "KryllToken": {
+        "functions": [
+            "initialDistributionDone",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "sale_address",
+            "decimals",
+            "SALE",
+            "ADVISORS",
+            "PRESS_MARKETING",
+            "decreaseApproval",
+            "restrict",
+            "balanceOf",
+            "security_address",
+            "user_acq_address",
+            "press_address",
+            "bounty_address",
+            "advisors_address",
+            "allowTransfert",
+            "owner",
+            "team_address",
+            "transferable",
+            "symbol",
+            "whitelist",
+            "transfer",
+            "setName",
+            "USER_ACQUISITION",
+            "TEAM",
+            "BOUNTY",
+            "increaseApproval",
+            "whitelisted",
+            "allowance",
+            "reset",
+            "distribute",
+            "restrictTransfert",
+            "transferOwnership",
+            "SECURITY"
+        ],
+        "events": [
+            "Transferable",
+            "UnTransferable",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "TransferableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "restrict",
+            "balanceOf",
+            "allowTransfert",
+            "owner",
+            "transferable",
+            "whitelist",
+            "transfer",
+            "increaseApproval",
+            "whitelisted",
+            "allowance",
+            "restrictTransfert",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transferable",
+            "UnTransferable",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "Base": {
+        "functions": [
+            "max",
+            "min"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isStarted",
+            "max",
+            "balanceOf",
+            "acceptOwnership",
+            "min",
+            "owner",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "max",
+            "acceptOwnership",
+            "min",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SAN": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "setBeneficiary",
+            "transferFrom",
+            "_mintFromDeposit",
+            "_fulfillPayment",
+            "decimals",
+            "SUBSCRIPTION_MODULE",
+            "beneficiary",
+            "isStarted",
+            "_fulfillPreapprovedPayment",
+            "totalInCirculation",
+            "getRate",
+            "max",
+            "attachSubscriptionModule",
+            "balanceOf",
+            "acceptOwnership",
+            "min",
+            "owner",
+            "mint",
+            "symbol",
+            "totalOnDeposit",
+            "transfer",
+            "_burnForDeposit",
+            "start",
+            "startToken",
+            "newOwner",
+            "allowance",
+            "PLATFORM_FEE_PER_10000",
+            "getCode",
+            "transferOwnership",
+            "setPlatformFeePer10000"
+        ],
+        "events": [
+            "Payment",
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    },
+    "SubscriptionModule": {
+        "functions": [
+            "attachToken"
+        ],
+        "events": []
+    }
+}

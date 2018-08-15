@@ -1,0 +1,144 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "approve",
+            "removeOwner",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "addOwner",
+            "balanceOf",
+            "nextSupplyAfterBlock",
+            "currentIteration",
+            "transfer",
+            "revoke",
+            "changeRequirement",
+            "totalSupplyLimit",
+            "hasConfirmed",
+            "increaseApproval",
+            "required",
+            "allowance",
+            "numberOfBlocksBetweenSupplies",
+            "currentIterationSupplyLimit"
+        ],
+        "events": [
+            "Mint",
+            "Confirmation",
+            "Revoke",
+            "RequirementChange",
+            "OwnerAddition",
+            "OwnerRemoval",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "OTNToken": {
+        "functions": [
+            "name",
+            "approve",
+            "removeOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "decreaseApproval",
+            "addOwner",
+            "balanceOf",
+            "nextSupplyAfterBlock",
+            "currentIteration",
+            "symbol",
+            "transfer",
+            "revoke",
+            "changeRequirement",
+            "totalSupplyLimit",
+            "hasConfirmed",
+            "increaseApproval",
+            "required",
+            "allowance",
+            "numberOfBlocksBetweenSupplies",
+            "currentIterationSupplyLimit"
+        ],
+        "events": [
+            "Mint",
+            "Confirmation",
+            "Revoke",
+            "RequirementChange",
+            "OwnerAddition",
+            "OwnerRemoval",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Shareable": {
+        "functions": [
+            "removeOwner",
+            "addOwner",
+            "revoke",
+            "changeRequirement",
+            "hasConfirmed",
+            "required"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke",
+            "RequirementChange",
+            "OwnerAddition",
+            "OwnerRemoval"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

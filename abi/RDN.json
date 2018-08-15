@@ -1,0 +1,102 @@
+{
+    "DutchAuction": {
+        "functions": [
+            "num_tokens_auctioned",
+            "final_price",
+            "price_exponent",
+            "end_time",
+            "bid",
+            "token_multiplier",
+            "price_start",
+            "bid_threshold",
+            "funds_claimed",
+            "claimTokens",
+            "token_claim_waiting_period",
+            "whitelister_address",
+            "removeFromWhitelist",
+            "bids",
+            "setup",
+            "startAuction",
+            "received_wei",
+            "addToWhitelist",
+            "owner_address",
+            "start_time",
+            "whitelist",
+            "price_constant",
+            "price",
+            "proxyClaimTokens",
+            "start_block",
+            "stage",
+            "missingFundsToEndAuction",
+            "wallet_address",
+            "finalizeAuction",
+            "token"
+        ],
+        "events": [
+            "Deployed",
+            "Setup",
+            "AuctionStarted",
+            "BidSubmission",
+            "ClaimedTokens",
+            "AuctionEnded",
+            "TokensDistributed"
+        ]
+    },
+    "ERC223ReceivingContract": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "RaidenToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Deployed",
+            "Burnt",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

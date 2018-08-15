@@ -1,0 +1,133 @@
+{
+    "Crowdsale": {
+        "functions": [
+            "buyForBtc",
+            "preSaleStart",
+            "sendOtherTokens",
+            "setTokenOwner",
+            "satLimit",
+            "rate",
+            "saleRateSecondDay",
+            "weiRaised",
+            "saleRate",
+            "balances",
+            "saleStartFirstDayEnd",
+            "wallet",
+            "verify",
+            "getWeiOwed",
+            "preSaleEnd",
+            "teamFrozenTokens",
+            "acceptOwnership",
+            "saleStartSecondDayEnd",
+            "getWeiTokensOwed",
+            "owner",
+            "refundedSat",
+            "isPresale",
+            "refundWei",
+            "buy",
+            "teamUnfreezeDate",
+            "saleStart",
+            "satRaised",
+            "isVerified",
+            "weiLimit",
+            "saleEnd",
+            "forwardFunds",
+            "presaleMinValue",
+            "rsrvToSale",
+            "preSaleRate",
+            "getSatOwed",
+            "transferOwnership",
+            "owedTokens",
+            "getSatTokensOwed",
+            "isSale",
+            "saleRateFirstDay",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "Declaration": {
+        "functions": [
+            "preSaleStart",
+            "rate",
+            "saleRateSecondDay",
+            "saleRate",
+            "balances",
+            "saleStartFirstDayEnd",
+            "preSaleEnd",
+            "teamFrozenTokens",
+            "saleStartSecondDayEnd",
+            "isPresale",
+            "teamUnfreezeDate",
+            "saleStart",
+            "saleEnd",
+            "presaleMinValue",
+            "preSaleRate",
+            "isSale",
+            "saleRateFirstDay",
+            "token"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "NitroToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

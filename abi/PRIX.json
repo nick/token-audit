@@ -1,0 +1,174 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MultiOwners": {
+        "functions": [
+            "grant",
+            "revoke",
+            "isOwner",
+            "checkOwner"
+        ],
+        "events": [
+            "AccessGrant",
+            "AccessRevoke"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Sale": {
+        "functions": [
+            "totalEthers",
+            "minimalEther",
+            "softCapReached",
+            "endTime",
+            "withdraw",
+            "refundAllowed",
+            "wallet",
+            "refund",
+            "grant",
+            "revoke",
+            "startTime",
+            "teamReward",
+            "isOwner",
+            "softCap",
+            "etherBalances",
+            "hardCapReached",
+            "whitelist",
+            "bountyReward",
+            "addWhitelist",
+            "finishCrowdsale",
+            "calcAmountAt",
+            "withdrawTokenToFounder",
+            "maximumTokens",
+            "addWhitelists",
+            "running",
+            "weiPerToken",
+            "checkOwner",
+            "buyTokens",
+            "founderReward",
+            "hardCap",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase",
+            "Whitelist",
+            "AccessGrant",
+            "AccessRevoke"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "transferAllowed",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "burn",
+            "owner",
+            "symbol",
+            "finishMinting",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "TransferAllowed",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

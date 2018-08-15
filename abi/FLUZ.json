@@ -1,0 +1,39 @@
+{
+    "Fluz": {
+        "functions": [
+            "launch",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "founder",
+            "allowed",
+            "transfersAreLocked",
+            "balanceOf",
+            "launched",
+            "symbol",
+            "transfer",
+            "changeTransferLock",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

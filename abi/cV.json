@@ -1,0 +1,122 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "cVMintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "supplyLimit",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "cVToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "supplyLimit",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "lockTill",
+            "transfersAreLocked",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "tokenOwner",
+            "transfer",
+            "changeTransferLock",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

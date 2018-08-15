@@ -1,0 +1,223 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Burn",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Crowdsale": {
+        "functions": [
+            "weiRaised",
+            "hasStarted",
+            "wallet",
+            "soldTokens",
+            "hasEnded",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FinalizableCrowdsale": {
+        "functions": [
+            "weiRaised",
+            "hasStarted",
+            "finalize",
+            "wallet",
+            "soldTokens",
+            "isFinalized",
+            "owner",
+            "hasEnded",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "Finalized",
+            "OwnershipTransferred",
+            "TokenPurchase"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MyWishCrowdsale": {
+        "functions": [
+            "setStartTime",
+            "weiRaised",
+            "hasStarted",
+            "finalize",
+            "wallet",
+            "soldTokens",
+            "isFinalized",
+            "owner",
+            "rateProvider",
+            "addExcluded",
+            "setRateProvider",
+            "setEndTime",
+            "setHardCap",
+            "hasEnded",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "Finalized",
+            "OwnershipTransferred",
+            "TokenPurchase"
+        ]
+    },
+    "MyWishRateProvider": {
+        "functions": [
+            "getRate",
+            "removeExclusiveRate",
+            "setExclusiveRate",
+            "owner",
+            "getBaseRate",
+            "getRateScale",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "MyWishRateProviderI": {
+        "functions": [
+            "getRate",
+            "getBaseRate",
+            "getRateScale"
+        ],
+        "events": []
+    },
+    "MyWishToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "burn",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "burnFrom",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "addExcluded",
+            "increaseApproval",
+            "allowance",
+            "crowdsaleFinished",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "usingMyWishConsts": {
+        "functions": [],
+        "events": []
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "DetailedERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "OCoin": {
+        "functions": [
+            "lockedBalances",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferToLockedBalance",
+            "transferFrom",
+            "decimals",
+            "unlocktime",
+            "unpause",
+            "paused",
+            "setCrowdsaleContract",
+            "decreaseApproval",
+            "balanceOf",
+            "pause",
+            "owner",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

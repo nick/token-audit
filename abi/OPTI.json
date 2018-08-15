@@ -1,0 +1,64 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "OPTIToken": {
+        "functions": [
+            "freezeTransfers",
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unfreezeTransfers",
+            "burn",
+            "balanceOf",
+            "createTokens",
+            "refundTokens",
+            "symbol",
+            "transfer",
+            "allowance",
+            "freezeAccount",
+            "burningCapableAccount"
+        ],
+        "events": [
+            "Freeze",
+            "Unfreeze",
+            "FrozenFunds",
+            "Burn",
+            "RefundTokens",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

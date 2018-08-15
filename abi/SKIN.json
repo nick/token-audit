@@ -1,0 +1,135 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Crowdsale": {
+        "functions": [
+            "coin",
+            "refund",
+            "etherReceived",
+            "endTime",
+            "finalize",
+            "withdrawPayments",
+            "emergencyStop",
+            "MIN_INVEST_ETHER",
+            "stopped",
+            "startTime",
+            "MIN_CAP",
+            "backSkinCoinOwner",
+            "release",
+            "owner",
+            "coinSentToEther",
+            "drain",
+            "COIN_PER_ETHER",
+            "backers",
+            "start",
+            "crowdsaleClosed",
+            "multisigEther",
+            "MAX_CAP",
+            "getRemainCoins",
+            "payments",
+            "transferOwnership",
+            "setMultisig"
+        ],
+        "events": [
+            "LogReceivedETH",
+            "LogCoinsEmited",
+            "LogRefundETH"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "emergencyStop",
+            "stopped",
+            "release",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "PullPayment": {
+        "functions": [
+            "withdrawPayments",
+            "payments"
+        ],
+        "events": [
+            "LogRefundETH"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SkinCoin": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

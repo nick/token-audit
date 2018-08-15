@@ -1,0 +1,143 @@
+{
+    "AxpirePausableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "unpause",
+            "burn",
+            "paused",
+            "balanceOf",
+            "burnFrom",
+            "pause",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "AxpireToken": {
+        "functions": [
+            "setHaltIco",
+            "icoTokenExchangeRate",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "dead",
+            "sendFundHome",
+            "unpause",
+            "burn",
+            "toggleDead",
+            "paused",
+            "sendFundHomeAmt",
+            "tokenCreationCap",
+            "balanceOf",
+            "burnFrom",
+            "setIcoTokenExchangeRate",
+            "pause",
+            "owner",
+            "symbol",
+            "transfer",
+            "createTokens",
+            "tokenSaleActive",
+            "allowance",
+            "haltIco",
+            "endIco",
+            "transferOwnership"
+        ],
+        "events": [
+            "CreateToken",
+            "Transfer",
+            "Burn",
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "ContractResolver": {
+        "functions": [
+            "get_contract",
+            "owner",
+            "init_register_contract",
+            "unregister_contract",
+            "locked"
+        ],
+        "events": []
+    },
+    "DigixConstants": {
+        "functions": [],
+        "events": []
+    },
+    "ResolverClient": {
+        "functions": [
+            "resolver",
+            "key",
+            "get_contract",
+            "destroy",
+            "CONTRACT_ADDRESS"
+        ],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "resolver",
+            "name",
+            "approve",
+            "log_recast",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "key",
+            "get_contract",
+            "log_move_fees",
+            "balanceOf",
+            "log_demurrage_fees",
+            "destroy",
+            "log_recast_fees",
+            "log_approve",
+            "log_mint",
+            "symbol",
+            "transfer",
+            "transferAndCall",
+            "CONTRACT_ADDRESS",
+            "allowance",
+            "log_transfer"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenApprovalController": {
+        "functions": [
+            "approve"
+        ],
+        "events": []
+    },
+    "TokenInfoController": {
+        "functions": [
+            "get_allowance",
+            "get_balance",
+            "get_total_supply"
+        ],
+        "events": []
+    },
+    "TokenLoggerCallback": {
+        "functions": [
+            "resolver",
+            "log_recast",
+            "key",
+            "get_contract",
+            "log_move_fees",
+            "log_demurrage_fees",
+            "destroy",
+            "log_recast_fees",
+            "log_approve",
+            "log_mint",
+            "CONTRACT_ADDRESS",
+            "log_transfer"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "TokenTransferController": {
+        "functions": [
+            "put_transfer"
+        ],
+        "events": []
+    }
+}

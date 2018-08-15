@@ -1,0 +1,106 @@
+{
+    "ExchangeContract": {
+        "functions": [
+            "prevTokenAddress",
+            "exchange",
+            "nextCourse",
+            "changeCourse",
+            "founder",
+            "changeFounder",
+            "prevCourse",
+            "nextTokenAddress"
+        ],
+        "events": []
+    },
+    "LATToken": {
+        "functions": [
+            "name",
+            "minter",
+            "approve",
+            "burnTokens",
+            "totalSupply",
+            "transferFrom",
+            "changeMinter",
+            "decimals",
+            "issueTokens",
+            "exchanger",
+            "founder",
+            "version",
+            "balanceOf",
+            "changeFounder",
+            "symbol",
+            "changeExchanger",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance",
+            "Burn"
+        ]
+    },
+    "LATokenMinter": {
+        "functions": [
+            "alreadyHarvestedTokens",
+            "fundTeamInstant",
+            "endTime",
+            "harvest",
+            "founder",
+            "helper",
+            "teamInstantSent",
+            "unfrozePerDay",
+            "teamPoolInstant",
+            "startTime",
+            "getBlockTimestamp",
+            "changeFounder",
+            "teamPoolForFrozenTokens",
+            "changeTokenAddress",
+            "changeTeamPoolForFrozenTokens",
+            "numberOfDays",
+            "changeTeamPoolInstant",
+            "changeHelper",
+            "token"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance",
+            "Burn"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance",
+            "Burn"
+        ]
+    }
+}

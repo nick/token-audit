@@ -1,0 +1,83 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Constants": {
+        "functions": [],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "Launch",
+            "name",
+            "approve",
+            "lockedTokenHolder",
+            "totalSupply",
+            "finalizeRemainders",
+            "transferFrom",
+            "lockTokenHolder",
+            "decimals",
+            "claimOwnerSupply",
+            "unpause",
+            "mint",
+            "burn",
+            "paused",
+            "neverPauseAgain",
+            "decreaseApproval",
+            "balanceOf",
+            "currentSupply",
+            "acceptOwnership",
+            "launched",
+            "setOwnerFreeDay",
+            "pause",
+            "tokenholder",
+            "owner",
+            "mintingDone",
+            "pausingMechanismLocked",
+            "setController",
+            "symbol",
+            "remaindersSet",
+            "multiMint",
+            "remainingOwner",
+            "changeOwner",
+            "completeMinting",
+            "transfer",
+            "ownerTokensFreeDay",
+            "claimAuctionableTokens",
+            "setRemainders",
+            "remainingAuctionable",
+            "approveAndCall",
+            "increaseApproval",
+            "allowance",
+            "claimTokens",
+            "setTokenHolder",
+            "controller"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "logTokenTransfer"
+        ]
+    },
+    "TokenHolder": {
+        "functions": [
+            "burn"
+        ],
+        "events": []
+    }
+}

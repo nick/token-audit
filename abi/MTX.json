@@ -1,0 +1,178 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf"
+        ],
+        "events": []
+    },
+    "MatryxToken": {
+        "functions": [
+            "setTransferAgent",
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "decimals",
+            "mint",
+            "upgrade",
+            "upgradeAgent",
+            "releaseTokenTransfer",
+            "upgradeMaster",
+            "balanceOf",
+            "finishMinting",
+            "getUpgradeState",
+            "transferAgents",
+            "owner",
+            "symbol",
+            "released",
+            "transfer",
+            "totalUpgraded",
+            "releaseAgent",
+            "setUpgradeAgent",
+            "allowance",
+            "transferOwnership",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "Upgrade",
+            "UpgradeAgentSet",
+            "Mint",
+            "MintFinished",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "setTransferAgent",
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "mint",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "finishMinting",
+            "transferAgents",
+            "owner",
+            "released",
+            "transfer",
+            "releaseAgent",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ReleasableToken": {
+        "functions": [
+            "setTransferAgent",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "transferAgents",
+            "owner",
+            "released",
+            "transfer",
+            "releaseAgent",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "UpgradeAgent": {
+        "functions": [
+            "originalSupply",
+            "isUpgradeAgent",
+            "upgradeFrom"
+        ],
+        "events": []
+    },
+    "UpgradeableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "upgrade",
+            "upgradeAgent",
+            "upgradeMaster",
+            "balanceOf",
+            "getUpgradeState",
+            "owner",
+            "transfer",
+            "totalUpgraded",
+            "setUpgradeAgent",
+            "allowance",
+            "transferOwnership",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "Upgrade",
+            "UpgradeAgentSet",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

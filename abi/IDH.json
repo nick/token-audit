@@ -1,0 +1,130 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "acceptOwnership",
+            "tokensIssuedTotal",
+            "owner",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferProposed",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IndaHashToken": {
+        "functions": [
+            "CLAWBACK_PERIOD",
+            "DATE_PRESALE_START",
+            "BONUS_ICO_WEEK_TWO",
+            "BONUS_PRESALE",
+            "name",
+            "approve",
+            "totalSupply",
+            "isTransferable",
+            "transferFrom",
+            "decimals",
+            "icoEtherContributed",
+            "setAdminWallet",
+            "adminWallet",
+            "MIN_FUNDING_GOAL",
+            "MIN_CONTRIBUTION",
+            "computeAirdrop",
+            "PRESALE_ETH_CAP",
+            "removeLock",
+            "wallet",
+            "claimAirdrop",
+            "DATE_PRESALE_END",
+            "tokensClaimedAirdrop",
+            "COOLDOWN_PERIOD",
+            "balanceOf",
+            "TOKEN_SUPPLY_MKT",
+            "mintMarketing",
+            "acceptOwnership",
+            "atNow",
+            "tokensIssuedTotal",
+            "owner",
+            "MAX_CONTRIBUTION",
+            "DATE_ICO_START",
+            "symbol",
+            "updateTokensPerEth",
+            "transferMultiple",
+            "transfer",
+            "adminClaimAirdrop",
+            "refundClaimed",
+            "ownerClawback",
+            "DATE_ICO_END",
+            "BONUS_ICO_WEEK_ONE",
+            "TOKEN_SUPPLY_ICO",
+            "tokensPerEth",
+            "locked",
+            "reclaimFunds",
+            "icoTokensReceived",
+            "TOKEN_SUPPLY_TOTAL",
+            "airdropClaimed",
+            "newOwner",
+            "tokensIssuedIco",
+            "transferAnyERC20Token",
+            "allowance",
+            "setWallet",
+            "tokensIssuedMkt",
+            "icoThresholdReached",
+            "adminClaimAirdropMultiple",
+            "icoEtherReceived",
+            "transferOwnership",
+            "removeLockMultiple"
+        ],
+        "events": [
+            "WalletUpdated",
+            "AdminWalletUpdated",
+            "TokensPerEthUpdated",
+            "TokensMinted",
+            "TokensIssued",
+            "Refund",
+            "Airdrop",
+            "LockRemoved",
+            "OwnershipTransferProposed",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferProposed",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath3": {
+        "functions": [],
+        "events": []
+    }
+}

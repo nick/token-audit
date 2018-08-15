@@ -1,0 +1,79 @@
+{
+    "EthLendToken": {
+        "functions": [
+            "supply",
+            "name",
+            "teamTokenBonus",
+            "approve",
+            "TOTAL_SOLD_TOKEN_SUPPLY_LIMIT",
+            "currentState",
+            "PRESALE_MAX_ETH",
+            "totalSupply",
+            "buyTokensPresale",
+            "transferFrom",
+            "presaleSoldTokens",
+            "tokenManager",
+            "decimals",
+            "icoSoldTokens",
+            "setState",
+            "PRESALE_PRICE",
+            "ICO_PRICE1",
+            "balanceOf",
+            "withdrawEther",
+            "DEVELOPERS_BONUS",
+            "setTokenManager",
+            "TOTAL_SUPPLY",
+            "symbol",
+            "getPrice",
+            "transfer",
+            "enableTransfers",
+            "buyTokens",
+            "buyTokensICO",
+            "totalSoldTokens",
+            "allowance",
+            "escrow",
+            "ICO_PRICE3",
+            "PRESALE_TOKEN_SUPPLY_LIMIT",
+            "ICO_PRICE2"
+        ],
+        "events": [
+            "LogBuy",
+            "LogBurn",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StdToken": {
+        "functions": [
+            "supply",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

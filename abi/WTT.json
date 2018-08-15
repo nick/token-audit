@@ -1,0 +1,74 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GigaWattToken": {
+        "functions": [
+            "freezeTransfers",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "unfreezeTransfers",
+            "balanceOf",
+            "createTokens",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Freeze",
+            "Unfreeze",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "freezeTransfers",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "unfreezeTransfers",
+            "balanceOf",
+            "createTokens",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Freeze",
+            "Unfreeze",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

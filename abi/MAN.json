@@ -1,0 +1,39 @@
+{
+    "MANToken": {
+        "functions": [
+            "name",
+            "approve",
+            "mintMAN",
+            "totalSupply",
+            "finalised",
+            "transferFrom",
+            "decimals",
+            "endTime",
+            "burn",
+            "currentStage",
+            "currentTokenPerETH",
+            "balanceOf",
+            "startTime",
+            "burnFrom",
+            "availableSupply",
+            "symbol",
+            "finalise",
+            "transfer",
+            "isInLockStage",
+            "approveAndCall",
+            "allowance",
+            "tokenHasDistributed",
+            "unlockTokens"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

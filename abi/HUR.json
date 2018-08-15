@@ -1,0 +1,28 @@
+{
+    "Hurify": {
+        "functions": [
+            "pauseable",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "tokensup",
+            "hault",
+            "decimals",
+            "unpause",
+            "burn",
+            "hurifymint",
+            "balanceOf",
+            "hurmint",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn",
+            "Approval"
+        ]
+    }
+}

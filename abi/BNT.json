@@ -1,0 +1,131 @@
+{
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "IOwned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ISmartToken": {
+        "functions": [
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "withdrawTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "issue",
+            "owner",
+            "symbol",
+            "destroy",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ITokenHolder": {
+        "functions": [
+            "withdrawTokens",
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SmartToken": {
+        "functions": [
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "standard",
+            "withdrawTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "issue",
+            "owner",
+            "symbol",
+            "destroy",
+            "transfer",
+            "transfersEnabled",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "NewSmartToken",
+            "Issuance",
+            "Destruction",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenHolder": {
+        "functions": [
+            "withdrawTokens",
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    }
+}

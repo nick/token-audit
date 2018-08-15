@@ -1,0 +1,34 @@
+{
+    "EZToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "freezedAccounts",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

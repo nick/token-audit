@@ -1,0 +1,213 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "CanReclaimToken": {
+        "functions": [
+            "reclaimToken",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Contactable": {
+        "functions": [
+            "contactInformation",
+            "owner",
+            "setContactInformation",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FlipToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "TOTAL_TOKENS",
+            "ONE_TOKENS",
+            "reclaimToken",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "MILLION_TOKENS",
+            "contactInformation",
+            "unpause",
+            "mint",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "pause",
+            "owner",
+            "symbol",
+            "reclaimEther",
+            "transfer",
+            "setContactInformation",
+            "tokenFallback",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "HasNoEther": {
+        "functions": [
+            "owner",
+            "reclaimEther",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "HasNoTokens": {
+        "functions": [
+            "reclaimToken",
+            "owner",
+            "tokenFallback",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "PausableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "unpause",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "pause",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeERC20": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

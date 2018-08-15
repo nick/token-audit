@@ -1,0 +1,116 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "ETBSToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "tokenBurner",
+            "decimals",
+            "changeController",
+            "burn",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "owner",
+            "symbol",
+            "totalSupplyAt",
+            "multiMint",
+            "transfer",
+            "setTokenBurner",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "tokenFactory",
+            "transferOwnership",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "owner",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "tokenFactory",
+            "transferOwnership",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "TokenBurner": {
+        "functions": [
+            "burn"
+        ],
+        "events": []
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

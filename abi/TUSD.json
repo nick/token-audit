@@ -1,0 +1,411 @@
+{
+    "AddressList": {
+        "functions": [
+            "name",
+            "claimOwnership",
+            "onList",
+            "owner",
+            "pendingOwner",
+            "changeList",
+            "transferOwnership"
+        ],
+        "events": [
+            "ChangeWhiteList",
+            "OwnershipTransferred"
+        ]
+    },
+    "AllowanceSheet": {
+        "functions": [
+            "allowanceOf",
+            "claimOwnership",
+            "addAllowance",
+            "owner",
+            "subAllowance",
+            "setAllowance",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "BalanceSheet": {
+        "functions": [
+            "addBalance",
+            "claimOwnership",
+            "balanceOf",
+            "owner",
+            "subBalance",
+            "setBalance",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "claimOwnership",
+            "setBalanceSheet",
+            "balanceOf",
+            "balances",
+            "owner",
+            "transfer",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Transfer"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "totalSupply",
+            "burn",
+            "claimOwnership",
+            "setBalanceSheet",
+            "balanceOf",
+            "balances",
+            "owner",
+            "transfer",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "OwnershipTransferred",
+            "Transfer"
+        ]
+    },
+    "CanDelegate": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "delegateToNewContract",
+            "transferFrom",
+            "allowances",
+            "claimOwnership",
+            "setBalanceSheet",
+            "decreaseApproval",
+            "balanceOf",
+            "balances",
+            "owner",
+            "transfer",
+            "delegate",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "setAllowanceSheet",
+            "transferOwnership"
+        ],
+        "events": [
+            "DelegatedTo",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "CanReclaimToken": {
+        "functions": [
+            "reclaimToken",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Claimable": {
+        "functions": [
+            "claimOwnership",
+            "owner",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "DelegateERC20": {
+        "functions": [
+            "delegateAllowance",
+            "delegateApprove",
+            "delegateBalanceOf",
+            "delegateTransferFrom",
+            "delegateIncreaseApproval",
+            "delegateTotalSupply",
+            "delegateDecreaseApproval",
+            "delegateTransfer"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "HasNoContracts": {
+        "functions": [
+            "reclaimContract",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "HasNoEther": {
+        "functions": [
+            "owner",
+            "reclaimEther",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "HasNoTokens": {
+        "functions": [
+            "reclaimToken",
+            "owner",
+            "tokenFallback",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "NoOwner": {
+        "functions": [
+            "reclaimToken",
+            "reclaimContract",
+            "owner",
+            "reclaimEther",
+            "tokenFallback",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "PausableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "allowances",
+            "unpause",
+            "claimOwnership",
+            "setBalanceSheet",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "balances",
+            "pause",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "setAllowanceSheet",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeERC20": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardDelegate": {
+        "functions": [
+            "approve",
+            "delegateAllowance",
+            "totalSupply",
+            "transferFrom",
+            "delegatedFrom",
+            "delegateApprove",
+            "allowances",
+            "delegateBalanceOf",
+            "delegateTransferFrom",
+            "claimOwnership",
+            "setBalanceSheet",
+            "delegateIncreaseApproval",
+            "setDelegatedFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "delegateTotalSupply",
+            "balances",
+            "owner",
+            "delegateDecreaseApproval",
+            "delegateTransfer",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "setAllowanceSheet",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "allowances",
+            "claimOwnership",
+            "setBalanceSheet",
+            "decreaseApproval",
+            "balanceOf",
+            "balances",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "setAllowanceSheet",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "TrueUSD": {
+        "functions": [
+            "burnMin",
+            "name",
+            "approve",
+            "delegateAllowance",
+            "burnFeeFlat",
+            "setLists",
+            "reclaimToken",
+            "totalSupply",
+            "delegateToNewContract",
+            "changeStakingFees",
+            "canReceiveMintWhiteList",
+            "transferFrom",
+            "delegatedFrom",
+            "delegateApprove",
+            "reclaimContract",
+            "decimals",
+            "allowances",
+            "unpause",
+            "mint",
+            "burn",
+            "delegateBalanceOf",
+            "delegateTransferFrom",
+            "claimOwnership",
+            "setBalanceSheet",
+            "delegateIncreaseApproval",
+            "burnFeeNumerator",
+            "canBurnWhiteList",
+            "burnMax",
+            "paused",
+            "mintFeeDenominator",
+            "staker",
+            "setDelegatedFrom",
+            "decreaseApproval",
+            "noFeesList",
+            "balanceOf",
+            "changeBurnBounds",
+            "delegateTotalSupply",
+            "balances",
+            "pause",
+            "changeName",
+            "mintFeeNumerator",
+            "owner",
+            "transferFeeNumerator",
+            "delegateDecreaseApproval",
+            "symbol",
+            "delegateTransfer",
+            "reclaimEther",
+            "transfer",
+            "changeStaker",
+            "wipeBlacklistedAccount",
+            "tokenFallback",
+            "burnFeeDenominator",
+            "delegate",
+            "blackList",
+            "transferFeeDenominator",
+            "mintFeeFlat",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "setAllowanceSheet",
+            "transferOwnership"
+        ],
+        "events": [
+            "ChangeBurnBoundsEvent",
+            "Mint",
+            "WipedAccount",
+            "DelegatedTo",
+            "Burn",
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

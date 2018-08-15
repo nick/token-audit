@@ -1,0 +1,148 @@
+{
+    "ERC20PrivateInterface": {
+        "functions": [],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "MAX_UINT256",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "totalSupplyLimit",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20TokenInterface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Lockable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "lockUntil",
+            "newOwner",
+            "lockedUntilBlock",
+            "transferOwnership"
+        ],
+        "events": [
+            "ContractLocked",
+            "OwnerUpdate"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "MAX_UINT256",
+            "acceptOwnership",
+            "owner",
+            "totalSupplyLimit",
+            "newOwner",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Transfer",
+            "Approval",
+            "OwnerUpdate"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "OwnedInterface": {
+        "functions": [
+            "owner",
+            "newOwner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [
+            "MAX_UINT256"
+        ],
+        "events": []
+    },
+    "X8XToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "MAX_UINT256",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "totalSupplyLimit",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "tokenRecipientInterface": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

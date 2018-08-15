@@ -1,0 +1,67 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ModumToken": {
+        "functions": [
+            "name",
+            "approve",
+            "lockedTokens",
+            "votingDuration",
+            "totalSupply",
+            "transferFrom",
+            "claimVotingProposal",
+            "currentProposal",
+            "rounding",
+            "decimals",
+            "showVotes",
+            "vote",
+            "claimBonus",
+            "allowed",
+            "accounts",
+            "decreaseApproval",
+            "balanceOf",
+            "votingProposal",
+            "payBonus",
+            "isProposalActive",
+            "owner",
+            "symbol",
+            "transfer",
+            "redistributionTimeout",
+            "setMintDone",
+            "isVotingPhaseOver",
+            "mintDone",
+            "showBonus",
+            "lastNegativeVoting",
+            "increaseApproval",
+            "allowance",
+            "mint",
+            "maxTokens",
+            "blockingDuration",
+            "totalDropPerUnlockedToken",
+            "isVoteOngoing",
+            "transferOwnership"
+        ],
+        "events": [
+            "Voted",
+            "Payout",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "StandardToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "deadline120",
+            "burn",
+            "standard",
+            "the365address",
+            "balanceOf",
+            "burnFrom",
+            "deadline365",
+            "owner",
+            "the120address",
+            "symbol",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "allowance",
+            "freezeAccount",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "FrozenFunds",
+            "Approval"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

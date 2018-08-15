@@ -1,0 +1,94 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC827": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "transfer"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TEFoods827Token": {
+        "functions": [
+            "name",
+            "vestedBalanceOf",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "approve",
+            "balanceOf",
+            "releaseVestedTokens",
+            "allocateTokens",
+            "owner",
+            "symbol",
+            "allocateVestedTokens",
+            "transfer",
+            "transferFrom",
+            "enableTransfers",
+            "transfer",
+            "transferrableTime",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "VestedTokensReleased",
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    },
+    "TEFoodsToken": {
+        "functions": [
+            "name",
+            "vestedBalanceOf",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "releaseVestedTokens",
+            "allocateTokens",
+            "owner",
+            "symbol",
+            "allocateVestedTokens",
+            "transfer",
+            "enableTransfers",
+            "transferrableTime",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "VestedTokensReleased",
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    }
+}

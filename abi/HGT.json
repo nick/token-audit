@@ -1,0 +1,214 @@
+{
+    "DoNotDeployThisGetTheRightOneCosParityPutsThisOnTop": {
+        "functions": [],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GBT": {
+        "functions": [
+            "parentFees",
+            "setHGT",
+            "parentChange"
+        ],
+        "events": []
+    },
+    "GoldBackedToken": {
+        "functions": [
+            "name",
+            "currentAllocations",
+            "approve",
+            "burnTokens",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "totAllocation",
+            "decimals",
+            "parentFees",
+            "currentAllocationLength",
+            "unpause",
+            "paused",
+            "balanceOf",
+            "updatedBalance",
+            "allocationsOverTime",
+            "authorisedMinter",
+            "pause",
+            "partAllocationLength",
+            "setFeeCalculator",
+            "owner",
+            "symbol",
+            "maxAllocation",
+            "allocationPool",
+            "transfer",
+            "feeCalculator",
+            "addAllocationPartTwo",
+            "partAllocations",
+            "setHGT",
+            "aotLength",
+            "calcFees",
+            "addAllocationPartOne",
+            "partFees",
+            "allowance",
+            "parentChange",
+            "HGT",
+            "mintTokens",
+            "transferOwnership",
+            "partPos",
+            "setMinter",
+            "hgtDecimals"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "DeductFees",
+            "TokenMinted",
+            "TokenBurned",
+            "Allocation",
+            "FeeOnAllocation",
+            "PartComplete",
+            "StillToGo",
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "GoldFees": {
+        "functions": [
+            "maxDays",
+            "rateForDays",
+            "updateRate",
+            "UTC2MYT",
+            "owner",
+            "calcFees",
+            "maxRate",
+            "transferOwnership",
+            "wotDay",
+            "calcMax"
+        ],
+        "events": []
+    },
+    "HelloGoldSale": {
+        "functions": [
+            "permissions",
+            "block",
+            "purchasedCoins",
+            "success",
+            "startDate",
+            "personalMax",
+            "setPeriod",
+            "decimals",
+            "multiSig",
+            "withdraw",
+            "unpause",
+            "complete",
+            "cs",
+            "paused",
+            "preallocCoins",
+            "setHgtRates",
+            "unblock",
+            "contributors",
+            "tierNo",
+            "allocatedTokens",
+            "pause",
+            "newCs",
+            "owner",
+            "coinsLeftInTier",
+            "linkCoin",
+            "failed",
+            "endDate",
+            "hgtRates",
+            "funding",
+            "HGT_Reserve",
+            "approve",
+            "coinsRemaining",
+            "when",
+            "transferOwnership",
+            "minimumCap",
+            "setStart",
+            "deposits",
+            "coinAddress",
+            "ethRaised"
+        ],
+        "events": [
+            "Purchase",
+            "Reduction",
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "HelloGoldToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unpause",
+            "paused",
+            "GBTAddress",
+            "balanceOf",
+            "pause",
+            "owner",
+            "symbol",
+            "setGBT",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

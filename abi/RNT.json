@@ -1,0 +1,95 @@
+{
+    "Controlled": {
+        "functions": [
+            "removeLock",
+            "transferEnabled",
+            "setExclude",
+            "acceptOwnership",
+            "addLock",
+            "owner",
+            "disableLock",
+            "changeOwner",
+            "enableTransfer"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "HumanStandardToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "removeLock",
+            "transferEnabled",
+            "version",
+            "setExclude",
+            "balanceOf",
+            "acceptOwnership",
+            "addLock",
+            "owner",
+            "disableLock",
+            "symbol",
+            "changeOwner",
+            "transfer",
+            "approveAndCall",
+            "allowance",
+            "enableTransfer"
+        ],
+        "events": [
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "removeLock",
+            "transferEnabled",
+            "setExclude",
+            "balanceOf",
+            "acceptOwnership",
+            "addLock",
+            "owner",
+            "disableLock",
+            "changeOwner",
+            "transfer",
+            "allowance",
+            "enableTransfer"
+        ],
+        "events": [
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

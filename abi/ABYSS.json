@@ -1,0 +1,198 @@
+{
+    "ABYSS": {
+        "functions": [
+            "owners",
+            "name",
+            "approve",
+            "totalSupply",
+            "disableLimit",
+            "SALE_END_TIME",
+            "allowTransfers",
+            "transferFrom",
+            "balances",
+            "limitedWallets",
+            "decimals",
+            "limitedWalletsManager",
+            "issuanceFinished",
+            "manager",
+            "allowed",
+            "decreaseApproval",
+            "LIMIT_TRANSFERS_PERIOD",
+            "balanceOf",
+            "delLimitedWalletAddress",
+            "issue",
+            "limitEndDate",
+            "symbol",
+            "getOwners",
+            "destroy",
+            "transfer",
+            "setListener",
+            "enableTransfers",
+            "finishIssuance",
+            "eventListener",
+            "increaseApproval",
+            "isLimitEnabled",
+            "allowance",
+            "setAllowTransfers",
+            "ownerByAddress",
+            "addLimitedWalletAddress",
+            "setOwners"
+        ],
+        "events": [
+            "TransfersEnabled",
+            "AllowTransfersChanged",
+            "Issue",
+            "Destroy",
+            "IssuanceFinished",
+            "SetOwners",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "allowed",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ITokenEventListener": {
+        "functions": [
+            "onTokenTransfer"
+        ],
+        "events": []
+    },
+    "ManagedToken": {
+        "functions": [
+            "owners",
+            "name",
+            "approve",
+            "totalSupply",
+            "allowTransfers",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "issuanceFinished",
+            "manager",
+            "allowed",
+            "decreaseApproval",
+            "balanceOf",
+            "issue",
+            "symbol",
+            "getOwners",
+            "destroy",
+            "transfer",
+            "setListener",
+            "finishIssuance",
+            "eventListener",
+            "increaseApproval",
+            "allowance",
+            "setAllowTransfers",
+            "ownerByAddress",
+            "setOwners"
+        ],
+        "events": [
+            "AllowTransfersChanged",
+            "Issue",
+            "Destroy",
+            "IssuanceFinished",
+            "SetOwners",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MultiOwnable": {
+        "functions": [
+            "owners",
+            "manager",
+            "getOwners",
+            "ownerByAddress",
+            "setOwners"
+        ],
+        "events": [
+            "SetOwners"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TransferLimitedToken": {
+        "functions": [
+            "owners",
+            "name",
+            "approve",
+            "totalSupply",
+            "disableLimit",
+            "allowTransfers",
+            "transferFrom",
+            "balances",
+            "limitedWallets",
+            "decimals",
+            "limitedWalletsManager",
+            "issuanceFinished",
+            "manager",
+            "allowed",
+            "decreaseApproval",
+            "LIMIT_TRANSFERS_PERIOD",
+            "balanceOf",
+            "delLimitedWalletAddress",
+            "issue",
+            "limitEndDate",
+            "symbol",
+            "getOwners",
+            "destroy",
+            "transfer",
+            "setListener",
+            "enableTransfers",
+            "finishIssuance",
+            "eventListener",
+            "increaseApproval",
+            "isLimitEnabled",
+            "allowance",
+            "setAllowTransfers",
+            "ownerByAddress",
+            "addLimitedWalletAddress",
+            "setOwners"
+        ],
+        "events": [
+            "TransfersEnabled",
+            "AllowTransfersChanged",
+            "Issue",
+            "Destroy",
+            "IssuanceFinished",
+            "SetOwners",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

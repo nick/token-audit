@@ -1,0 +1,201 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "ContractReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SpectreToken": {
+        "functions": [
+            "lockedBalances",
+            "name",
+            "approve",
+            "LOCK_START_TIME",
+            "creationBlock",
+            "totalSupply",
+            "OPTION_POOL_PERIOD",
+            "transferFrom",
+            "tokenBurner",
+            "optionPool",
+            "decimals",
+            "changeController",
+            "MANAGEMENT_LOCKED_ALLOC",
+            "spectreTeam",
+            "burn",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "OPTION_POOL_ALLOC",
+            "parentToken",
+            "generateTokens",
+            "MANAGEMENT_LOCKED_PERIOD",
+            "owner",
+            "walletAddressesSet",
+            "symbol",
+            "totalSupplyAt",
+            "checkLockedBalance",
+            "managementLocked",
+            "transfer",
+            "setTokenBurner",
+            "SPECTRE_BOUNTY_ADVISORY_DEV_TEAM_ALLOC",
+            "transfersEnabled",
+            "tokenFallback",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "transferOwnership",
+            "enableTransfers",
+            "controller",
+            "setWalletAddresses"
+        ],
+        "events": [
+            "WalletAddressesSet",
+            "OwnershipTransferred",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "SpectreUtilityToken": {
+        "functions": [
+            "lockedBalances",
+            "name",
+            "approve",
+            "LOCK_START_TIME",
+            "creationBlock",
+            "totalSupply",
+            "OPTION_POOL_PERIOD",
+            "transferFrom",
+            "tokenBurner",
+            "optionPool",
+            "decimals",
+            "changeController",
+            "MANAGEMENT_LOCKED_ALLOC",
+            "spectreTeam",
+            "burn",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "OPTION_POOL_ALLOC",
+            "parentToken",
+            "generateTokens",
+            "MANAGEMENT_LOCKED_PERIOD",
+            "owner",
+            "walletAddressesSet",
+            "symbol",
+            "totalSupplyAt",
+            "checkLockedBalance",
+            "managementLocked",
+            "transfer",
+            "setTokenBurner",
+            "SPECTRE_BOUNTY_ADVISORY_DEV_TEAM_ALLOC",
+            "transfersEnabled",
+            "tokenFallback",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "transferOwnership",
+            "enableTransfers",
+            "controller",
+            "setWalletAddresses"
+        ],
+        "events": [
+            "WalletAddressesSet",
+            "OwnershipTransferred",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "TokenBurner": {
+        "functions": [
+            "burn"
+        ],
+        "events": []
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

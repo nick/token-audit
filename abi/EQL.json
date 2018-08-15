@@ -1,0 +1,111 @@
+{
+    "EqualToken": {
+        "functions": [
+            "maxFee",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "eventTransfer",
+            "setFeeInfo",
+            "decimals",
+            "setAllowed",
+            "eventBurn",
+            "setWhitelistIn",
+            "_totalSupply",
+            "setWhitelist",
+            "version",
+            "setWhitelistOut",
+            "setOldToken",
+            "setNewToken",
+            "balanceOf",
+            "setMaxFee",
+            "setFeePercent",
+            "eventApproval",
+            "feePercantage",
+            "symbol",
+            "feeInfo",
+            "burn",
+            "transfer",
+            "redistribute",
+            "_owner",
+            "oldToken",
+            "approveAndCall",
+            "setWhitelistModerator",
+            "allowance",
+            "setBalance",
+            "getDecimals",
+            "setTotalSupply"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "UpdateToken"
+        ]
+    },
+    "NewToken": {
+        "functions": [
+            "transferFrom",
+            "transfer",
+            "approve"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "maxFee",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "eventTransfer",
+            "decimals",
+            "setAllowed",
+            "eventBurn",
+            "_totalSupply",
+            "balanceOf",
+            "eventApproval",
+            "feePercantage",
+            "burn",
+            "transfer",
+            "_owner",
+            "allowance",
+            "setBalance",
+            "getDecimals",
+            "setTotalSupply"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "UpdateToken"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "eventTransfer",
+            "setAllowed",
+            "eventBurn",
+            "balanceOf",
+            "eventApproval",
+            "transfer",
+            "allowance",
+            "setBalance",
+            "getDecimals",
+            "setTotalSupply"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "UpdateToken"
+        ]
+    }
+}

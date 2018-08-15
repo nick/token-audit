@@ -1,0 +1,68 @@
+{
+    "ATMToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "MILLION",
+            "kill",
+            "version",
+            "getATMTotalSupply",
+            "setDisabled",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "changeOwner",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "disabled"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "newOwner"
+        ],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

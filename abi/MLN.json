@@ -1,0 +1,131 @@
+{
+    "Assertive": {
+        "functions": [],
+        "events": []
+    },
+    "Contribution": {
+        "functions": [
+            "BTCS_ETHER_CAP",
+            "AMBASSADOR_STAKE",
+            "EXT_COMPANY_STAKE_THREE",
+            "changeMelonportAddress",
+            "signer",
+            "DIVISOR_PRICE",
+            "endTime",
+            "SPECIALIST_THREE",
+            "FOUNDER_ONE",
+            "EXT_COMPANY_STAKE_TWO",
+            "EXT_COMPANY_ONE",
+            "FOUNDER_STAKE",
+            "DIVISOR_STAKE",
+            "EXT_COMPANY_STAKE_ONE",
+            "SPECIALIST_STAKE_THREE",
+            "ADVISOR_STAKE_TWO",
+            "halt",
+            "AMBASSADOR_SEVEN",
+            "FOUNDER_TWO",
+            "ADVISOR_STAKE_ONE",
+            "EXT_COMPANY_THREE",
+            "melonToken",
+            "AMBASSADOR_TWO",
+            "PRICE_RATE_SECOND",
+            "startTime",
+            "SPECIALIST_STAKE_ONE",
+            "PRICE_RATE_THIRD",
+            "AMBASSADOR_SIX",
+            "MELONPORT_COMPANY_STAKE",
+            "SPECIALIST_STAKE_TWO",
+            "ADVISOR_STAKE_THREE",
+            "EXT_COMPANY_TWO",
+            "ADVISOR_ONE",
+            "SPECIALIST_ONE",
+            "SPECIALIST_TWO",
+            "halted",
+            "btcs",
+            "PRICE_RATE_FIRST",
+            "ADVISOR_THREE",
+            "unhalt",
+            "etherRaised",
+            "priceRate",
+            "btcsBuyRecipient",
+            "ADVISOR_FOUR",
+            "buyRecipient",
+            "ADVISOR_TWO",
+            "AMBASSADOR_THREE",
+            "buy",
+            "AMBASSADOR_ONE",
+            "ETHER_CAP",
+            "MAX_CONTRIBUTION_DURATION",
+            "PRICE_RATE_FOURTH",
+            "AMBASSADOR_FOUR",
+            "AMBASSADOR_FIVE",
+            "ADVISOR_STAKE_FOUR",
+            "melonport"
+        ],
+        "events": [
+            "TokensBought"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Protocol": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MelonToken": {
+        "functions": [
+            "name",
+            "minter",
+            "approve",
+            "totalSupply",
+            "changeMelonportAddress",
+            "transferFrom",
+            "decimals",
+            "endTime",
+            "MAX_TOTAL_TOKEN_AMOUNT_OFFERED_TO_PUBLIC",
+            "changeMintingAddress",
+            "lockedBalanceOf",
+            "balanceOf",
+            "startTime",
+            "mintIcedToken",
+            "mintLiquidToken",
+            "symbol",
+            "MAX_TOTAL_TOKEN_AMOUNT",
+            "transfer",
+            "unlockBalance",
+            "allowance",
+            "melonport",
+            "THAWING_DURATION"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

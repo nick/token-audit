@@ -1,0 +1,62 @@
+{
+    "IDXM": {
+        "functions": [
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "unlockToken",
+            "transferFrom",
+            "decimals",
+            "balancesLocked",
+            "validAfter",
+            "standard",
+            "lockBalances",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "feeDivisor",
+            "safeSub",
+            "setExportFee",
+            "transfer",
+            "singleIDXMQty",
+            "feeFor",
+            "approveAndCall",
+            "feeDecimals",
+            "locked",
+            "safeMul",
+            "setHoldingPeriod",
+            "exportFee",
+            "uploadBalances",
+            "allowance",
+            "mustHoldFor",
+            "safeAdd",
+            "baseFeeDivisor"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "owner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [
+            "safeSub",
+            "safeMul",
+            "safeAdd"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

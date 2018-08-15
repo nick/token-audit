@@ -1,0 +1,61 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "CarTaxiToken": {
+        "functions": [
+            "owners",
+            "name",
+            "approve",
+            "burnTokens",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "getOwner",
+            "icoContract",
+            "allowance",
+            "getOwnerCount",
+            "emitTokens"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "owners",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    }
+}

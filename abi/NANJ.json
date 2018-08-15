@@ -1,0 +1,88 @@
+{
+    "ContractReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "ERC223": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "transfer",
+            "allowance",
+            "transfer"
+        ],
+        "events": [
+            "Transfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "NANJCOIN": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "founder",
+            "distributeAmount",
+            "AAcontributors",
+            "lockupAccounts",
+            "balanceOf",
+            "finishMinting",
+            "activityFunds",
+            "owner",
+            "preSeasonGame",
+            "distributeAirdrop",
+            "symbol",
+            "burn",
+            "lockedFundsForthefuture",
+            "autoDistribute",
+            "transfer",
+            "frozenAccount",
+            "transfer",
+            "freezeAccounts",
+            "unlockUnixTime",
+            "setDistributeAmount",
+            "allowance",
+            "distributeAirdrop",
+            "collectTokens",
+            "transferOwnership",
+            "transfer"
+        ],
+        "events": [
+            "FrozenFunds",
+            "LockedFunds",
+            "Burn",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Transfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

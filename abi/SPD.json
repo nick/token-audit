@@ -1,0 +1,62 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SpindleToken": {
+        "functions": [
+            "name",
+            "approve",
+            "distribute",
+            "totalSupply",
+            "lockUpAmountOf",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "lockUpAmountStrOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

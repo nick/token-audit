@@ -1,0 +1,122 @@
+{
+    "DigipulseFirstRoundToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "DigipulseToken": {
+        "functions": [
+            "totalPayments",
+            "name",
+            "approve",
+            "coin",
+            "isOriginalRoundContributor",
+            "totalSupply",
+            "companyWallet",
+            "presaleWallet",
+            "transferFrom",
+            "refund",
+            "MAX_OBR_CAP",
+            "etherReceived",
+            "decimals",
+            "endTime",
+            "getBonusPercentage",
+            "finalize",
+            "version",
+            "OBR_Duration",
+            "withdrawPayments",
+            "emergencyStop",
+            "teamWallet_1",
+            "toWei",
+            "teamWallet_4",
+            "finalizedCrowdfunding",
+            "MIN_INVEST_ETHER",
+            "balanceOf",
+            "getCurrentTier",
+            "stopped",
+            "startTime",
+            "TierAmount",
+            "MIN_CAP",
+            "release",
+            "isFinalized",
+            "owner",
+            "teamWallet_2",
+            "coinSentToEther",
+            "symbol",
+            "teamWallet_3",
+            "transfer",
+            "backers",
+            "TOKENS_PER_ETH",
+            "start",
+            "MAX_CAP",
+            "DGPTokenOldContract",
+            "isOBR",
+            "allowance",
+            "payments",
+            "bountyWallet",
+            "raisedOBR"
+        ],
+        "events": [
+            "LogReceivedETH",
+            "LogCoinsEmited",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "emergencyStop",
+            "stopped",
+            "release",
+            "owner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

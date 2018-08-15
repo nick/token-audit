@@ -1,0 +1,113 @@
+{
+    "Controlled": {
+        "functions": [
+            "removeLock",
+            "transferEnabled",
+            "exclude",
+            "setExclude",
+            "acceptOwnership",
+            "addLock",
+            "owner",
+            "disableLock",
+            "changeOwner",
+            "locked",
+            "lockFlag",
+            "enableTransfer"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "MTC": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "getNonce",
+            "decimals",
+            "removeLock",
+            "transferEnabled",
+            "exclude",
+            "setExclude",
+            "balanceOf",
+            "acceptOwnership",
+            "approveProxy",
+            "addLock",
+            "owner",
+            "disableLock",
+            "symbol",
+            "changeOwner",
+            "allocateTokens",
+            "transfer",
+            "approveAndCallcode",
+            "setName",
+            "approveAndCall",
+            "locked",
+            "allowance",
+            "lockFlag",
+            "transferProxy",
+            "enableTransfer"
+        ],
+        "events": [
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "removeLock",
+            "transferEnabled",
+            "exclude",
+            "setExclude",
+            "balanceOf",
+            "acceptOwnership",
+            "addLock",
+            "owner",
+            "disableLock",
+            "changeOwner",
+            "transfer",
+            "locked",
+            "allowance",
+            "lockFlag",
+            "enableTransfer"
+        ],
+        "events": [
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

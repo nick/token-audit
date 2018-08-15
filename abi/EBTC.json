@@ -1,0 +1,27 @@
+{
+    "EBTC": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "allowed",
+            "multiPartyTransferFrom",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "multiPartyTransfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "TransferFrom",
+            "Approval"
+        ]
+    },
+    "SafeMathMod": {
+        "functions": [],
+        "events": []
+    }
+}

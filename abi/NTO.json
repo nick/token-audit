@@ -1,0 +1,61 @@
+{
+    "FujintoToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "withdrawToOwner",
+            "balanceOf",
+            "mintToken",
+            "setBuyRate",
+            "owner",
+            "symbol",
+            "buy",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "isSelling",
+            "allowance",
+            "freezeAccount",
+            "transferOwnership",
+            "buyRate",
+            "setSelling"
+        ],
+        "events": [
+            "FrozenFunds",
+            "Transfer"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "GUPToken": {
+        "functions": [
+            "name",
+            "minter",
+            "approve",
+            "totalSupply",
+            "createIlliquidToken",
+            "transferFrom",
+            "endMintingTime",
+            "decimals",
+            "createToken",
+            "balanceOf",
+            "illiquidBalance",
+            "symbol",
+            "transfer",
+            "LOCKOUT_PERIOD",
+            "allowance",
+            "makeLiquid"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StandardTokenProtocol": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

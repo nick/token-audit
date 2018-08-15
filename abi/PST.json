@@ -1,0 +1,56 @@
+{
+    "PrimasToken": {
+        "functions": [
+            "name",
+            "approve",
+            "checkRole",
+            "totalSupply",
+            "removeRole",
+            "hasRole",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "tokenUnlock",
+            "addRole",
+            "tokenLock",
+            "symbol",
+            "incentivesOut",
+            "inflate",
+            "transfer",
+            "getIncentivesPool",
+            "transferAndLock",
+            "incentivesIn",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Lock",
+            "Unlock",
+            "Inflate",
+            "RoleAdded",
+            "RoleRemoved"
+        ]
+    },
+    "RBAC": {
+        "functions": [
+            "checkRole",
+            "removeRole",
+            "hasRole",
+            "addRole"
+        ],
+        "events": [
+            "RoleAdded",
+            "RoleRemoved"
+        ]
+    },
+    "Roles": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

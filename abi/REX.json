@@ -1,0 +1,129 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "isFinalized",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FinalizableToken": {
+        "functions": [
+            "isFinalized"
+        ],
+        "events": []
+    },
+    "Math": {
+        "functions": [],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "RexToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "weiRaised",
+            "migrate",
+            "tokenSaleOnHold",
+            "getFinalSupply",
+            "finalize",
+            "transferOwnCoins",
+            "version",
+            "getRate",
+            "balanceOf",
+            "startTime",
+            "isFinalized",
+            "owner",
+            "symbol",
+            "migrateDisabled",
+            "transfer",
+            "claimMigrate",
+            "WEI_RAISED_CAP",
+            "createTokens",
+            "allowance",
+            "tokenAmount",
+            "transferOwnership",
+            "toggleMigrationStatus",
+            "toggleTokenSaleOnHold"
+        ],
+        "events": [
+            "TokenCreated",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SimpleToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "INITIAL_SUPPLY",
+            "decimals",
+            "balanceOf",
+            "isFinalized",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "isFinalized",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

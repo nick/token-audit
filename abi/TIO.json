@@ -1,0 +1,53 @@
+{
+    "BasicMathLib": {
+        "functions": [
+            "times",
+            "plus",
+            "dividedBy",
+            "minus"
+        ],
+        "events": [
+            "Err"
+        ]
+    },
+    "TIOToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "initialSupply",
+            "balanceOf",
+            "burnToken",
+            "owner",
+            "symbol",
+            "changeOwner",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "TokenLib": {
+        "functions": [
+            "transferFrom",
+            "balanceOf",
+            "burnToken",
+            "changeOwner",
+            "approve",
+            "init",
+            "closeMint",
+            "allowance",
+            "approveChange",
+            "transfer",
+            "mintToken"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "OwnerChange",
+            "Burn",
+            "MintingClosed"
+        ]
+    }
+}

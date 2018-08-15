@@ -1,0 +1,48 @@
+{
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SharderToken": {
+        "functions": [
+            "name",
+            "approve",
+            "issueFirstRoundToken",
+            "accountLockupTime",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "issueReserveToken",
+            "unpause",
+            "burn",
+            "paused",
+            "getHolders",
+            "setAdmin",
+            "balanceOf",
+            "getHolderCount",
+            "burnFrom",
+            "changeFrozenStatus",
+            "pause",
+            "frozenAccounts",
+            "owner",
+            "symbol",
+            "transfer",
+            "lockupAccount",
+            "setSymbol",
+            "setName",
+            "allowance",
+            "transferOwnership",
+            "admin"
+        ],
+        "events": [
+            "InvalidState",
+            "Issue",
+            "Transfer",
+            "Approval",
+            "Burn",
+            "FrozenFunds",
+            "Pause",
+            "Unpause"
+        ]
+    }
+}

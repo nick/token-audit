@@ -1,0 +1,116 @@
+{
+    "AmberToken": {
+        "functions": [
+            "currentPhase",
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "UNLOCK_PHASES",
+            "mint",
+            "phaseStart",
+            "PHASE_DURATION",
+            "mintLocked",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "finalise",
+            "transfer",
+            "unlockTokens",
+            "locked",
+            "allowance"
+        ],
+        "events": [
+            "Minted",
+            "MintedLocked",
+            "NewOwner",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "AmbrosusSale": {
+        "functions": [
+            "TIER_3_BUYIN",
+            "CHINESE_EXCHANGE_BUYIN",
+            "DURATION",
+            "MIN_BUYIN_VALUE",
+            "TREASURY",
+            "CHINESE_EXCHANGE_3",
+            "allocateLiquid",
+            "BTC_SUISSE_TIER_4",
+            "END_TIME",
+            "unpause",
+            "TIER_2_BUYIN",
+            "notePrepurchase",
+            "ADMINISTRATOR",
+            "buyinReturn",
+            "MAX_REVENUE",
+            "LIQUID_ALLOCATION_PPM",
+            "SALES_ALLOCATION_PPM",
+            "LOCKED_ALLOCATION_PPM",
+            "CHINESE_EXCHANGE_2",
+            "allocationsInitialised",
+            "pause",
+            "totalSold",
+            "BTC_SUISSE_TIER_1",
+            "tokens",
+            "CHINESE_EXCHANGE_1",
+            "finalise",
+            "STANDARD_BUYIN",
+            "isPaused",
+            "BTC_SUISSE_TIER_2",
+            "saleRevenue",
+            "PREPURCHASER",
+            "lockedAllocatable",
+            "CERTIFIER",
+            "liquidAllocatable",
+            "allocateLocked",
+            "BEGIN_TIME",
+            "purchaseTo",
+            "TIER_4_BUYIN",
+            "CHINESE_EXCHANGE_4",
+            "specialPurchase",
+            "MAX_BUYIN_GAS_PRICE",
+            "initialiseAllocations",
+            "BTC_SUISSE_TIER_3"
+        ],
+        "events": [
+            "Prepurchased",
+            "Purchased",
+            "SpecialPurchased",
+            "Paused",
+            "Unpaused",
+            "Allocated"
+        ]
+    },
+    "Certifier": {
+        "functions": [
+            "certified"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "owner"
+        ],
+        "events": [
+            "NewOwner"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

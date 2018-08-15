@@ -1,0 +1,84 @@
+{
+    "AElfToken": {
+        "functions": [
+            "setDurationOfLock",
+            "mintingFinished",
+            "name",
+            "approve",
+            "disableSetTransferable",
+            "totalSupply",
+            "transferForMultiAddresses",
+            "deployBlockNumber",
+            "TIMETHRESHOLD",
+            "transferFrom",
+            "approveMintTokens",
+            "setAElfDevMultisig",
+            "decimals",
+            "aelfDevMultisig",
+            "durationOfLock",
+            "mintTokensWithinTime",
+            "decreaseApproval",
+            "burnTokens",
+            "balanceOf",
+            "finishMinting",
+            "setAElfCommunityMultisig",
+            "owner",
+            "transferable",
+            "symbol",
+            "getLockTokens",
+            "setTransferable",
+            "transfer",
+            "withdrawMintTokens",
+            "totalSupplyCap",
+            "mintTokens",
+            "increaseApproval",
+            "canSetTransferable",
+            "allowance",
+            "transferOwnership",
+            "aelfCommunityMultisig",
+            "MINTTIME"
+        ],
+        "events": [
+            "SetDurationOfLock",
+            "ApproveMintTokens",
+            "WithdrawMintTokens",
+            "MintTokens",
+            "BurnTokens",
+            "MintFinished",
+            "SetTransferable",
+            "SetAElfDevMultisig",
+            "SetAElfCommunityMultisig",
+            "DisableSetTransferable",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

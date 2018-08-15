@@ -1,0 +1,107 @@
+{
+    "GoToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Deployed",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GoTokenDutchAuction": {
+        "functions": [
+            "num_tokens_auctioned",
+            "final_price",
+            "publicsalewhitelist",
+            "auction_start_time",
+            "price_constant2",
+            "end_time",
+            "bid",
+            "BONUS_DAY2_DURATION",
+            "token_multiplier",
+            "BONUS_DAY3_DURATION",
+            "price_start",
+            "bid_threshold",
+            "funds_claimed",
+            "TOKEN_CLAIM_WAIT_PERIOD",
+            "privatesale_start_time",
+            "whitelister_address",
+            "price_constant1",
+            "bids",
+            "setup",
+            "startAuction",
+            "received_wei",
+            "price_exponent1",
+            "owner_address",
+            "privatesalewhitelist",
+            "addToPublicSaleWhitelist",
+            "distributeGoTokens",
+            "price",
+            "price_exponent2",
+            "BONUS_DAY1_DURATION",
+            "removeFromPrivateSaleWhitelist",
+            "remainingFundsToEndAuction",
+            "distributor_address",
+            "addToPrivateSaleWhitelist",
+            "start_block",
+            "stage",
+            "received_wei_with_bonus",
+            "removeFromPublicSaleWhitelist",
+            "wallet_address",
+            "currentBonus",
+            "CURVE_CUTOFF_DURATION",
+            "finalizeAuction",
+            "token"
+        ],
+        "events": [
+            "Deployed",
+            "Setup",
+            "AuctionStarted",
+            "BidSubmission",
+            "ClaimedTokens",
+            "AuctionEnded",
+            "TokensDistributed",
+            "PrivateSaleWhitelisted",
+            "RemovedFromPrivateSaleWhitelist",
+            "PublicSaleWhitelisted",
+            "RemovedFromPublicSaleWhitelist"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

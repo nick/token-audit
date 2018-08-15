@@ -1,0 +1,49 @@
+{
+    "QunQunToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "symbol",
+            "transfer",
+            "issueContractAddress",
+            "approveAndCall",
+            "issue",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "Issue"
+        ]
+    },
+    "QunQunTokenIssue": {
+        "functions": [
+            "lastBlockNumber",
+            "lastYearTotalSupply",
+            "inflateCount",
+            "lastRate",
+            "tokenContractAddress",
+            "isFirstYear",
+            "issue"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

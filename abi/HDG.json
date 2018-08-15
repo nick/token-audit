@@ -1,0 +1,61 @@
+{
+    "Hedge": {
+        "functions": [
+            "isRestrictedAddress",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "initialSupply",
+            "burn",
+            "editRestrictedAddress",
+            "unfreezeTransfersUntil",
+            "standard",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "tokenFrozenUntilBlock",
+            "symbol",
+            "transfer",
+            "freezeTransfersUntil",
+            "approveAndCall",
+            "timeLock",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "TokenFrozen",
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    },
+    "IERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

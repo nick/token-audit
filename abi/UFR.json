@@ -1,0 +1,205 @@
+{
+    "CrowdsaleTokenExt": {
+        "functions": [
+            "setTransferAgent",
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "decimals",
+            "getReservedTokensListValInTokens",
+            "minCap",
+            "mint",
+            "mintAgents",
+            "setMintAgent",
+            "upgrade",
+            "setTokenInformation",
+            "reservedTokensList",
+            "upgradeAgent",
+            "releaseTokenTransfer",
+            "upgradeMaster",
+            "balanceOf",
+            "reservedTokensDestinations",
+            "getReservedTokensListValInPercentage",
+            "getUpgradeState",
+            "transferAgents",
+            "owner",
+            "symbol",
+            "released",
+            "canUpgrade",
+            "transfer",
+            "setReservedTokensListMultiple",
+            "reservedTokensDestinationsLen",
+            "totalUpgraded",
+            "releaseAgent",
+            "setUpgradeAgent",
+            "allowance",
+            "isToken",
+            "transferOwnership",
+            "setReservedTokensList",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "UpdatedTokenInformation",
+            "Upgrade",
+            "UpgradeAgentSet",
+            "MintingAgentChanged",
+            "OwnershipTransferred",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableTokenExt": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "getReservedTokensListValInTokens",
+            "mint",
+            "mintAgents",
+            "setMintAgent",
+            "reservedTokensList",
+            "balanceOf",
+            "reservedTokensDestinations",
+            "getReservedTokensListValInPercentage",
+            "owner",
+            "transfer",
+            "setReservedTokensListMultiple",
+            "reservedTokensDestinationsLen",
+            "allowance",
+            "isToken",
+            "transferOwnership",
+            "setReservedTokensList"
+        ],
+        "events": [
+            "MintingAgentChanged",
+            "OwnershipTransferred",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "ReleasableToken": {
+        "functions": [
+            "setTransferAgent",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "transferAgents",
+            "owner",
+            "released",
+            "transfer",
+            "releaseAgent",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMathLibExt": {
+        "functions": [
+            "times",
+            "plus",
+            "divides",
+            "minus"
+        ],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance",
+            "isToken"
+        ],
+        "events": [
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "UpgradeAgent": {
+        "functions": [
+            "originalSupply",
+            "isUpgradeAgent",
+            "upgradeFrom"
+        ],
+        "events": []
+    },
+    "UpgradeableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "upgrade",
+            "upgradeAgent",
+            "upgradeMaster",
+            "balanceOf",
+            "getUpgradeState",
+            "canUpgrade",
+            "transfer",
+            "totalUpgraded",
+            "setUpgradeAgent",
+            "allowance",
+            "isToken",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "Upgrade",
+            "UpgradeAgentSet",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "TronToken": {
+        "functions": [
+            "name",
+            "stop",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "stopped",
+            "symbol",
+            "transfer",
+            "start",
+            "setName",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

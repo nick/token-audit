@@ -1,0 +1,121 @@
+{
+    "ENJToken": {
+        "functions": [
+            "name",
+            "approve",
+            "releaseAdvisorTokens",
+            "totalSupply",
+            "allowTransfers",
+            "maxPresaleSupply",
+            "transferFrom",
+            "decimals",
+            "endTime",
+            "totalAllocated",
+            "crowdFundAddress",
+            "standard",
+            "withdrawTokens",
+            "minCrowdsaleAllocation",
+            "enjinTeamAllocation",
+            "balanceOf",
+            "retrieveUnsoldTokens",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "advisorAddress",
+            "addToAllocation",
+            "incentivisationAllocation",
+            "transfer",
+            "ENJ_UNIT",
+            "incentivisationFundAddress",
+            "releaseEnjinTeamTokens",
+            "newOwner",
+            "totalAllocatedToAdvisors",
+            "enjinTeamAddress",
+            "allowance",
+            "totalAllocatedToTeam",
+            "transferOwnership",
+            "advisorsAllocation"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "OwnerUpdate"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "IOwned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ITokenHolder": {
+        "functions": [
+            "withdrawTokens",
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "TokenHolder": {
+        "functions": [
+            "withdrawTokens",
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "Utils": {
+        "functions": [],
+        "events": []
+    }
+}

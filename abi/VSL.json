@@ -1,0 +1,60 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Lockable": {
+        "functions": [
+            "numOfCurrentEpoch",
+            "EPOCH_LENGTH",
+            "UNLOCKED_TIME",
+            "LOCKED_TIME",
+            "creationTime",
+            "tokenSwapLock",
+            "lock"
+        ],
+        "events": [
+            "Locked",
+            "Unlocked"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "numOfCurrentEpoch",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "disableTokenSwapLock",
+            "currentSwapRate",
+            "walletAddress",
+            "balanceOf",
+            "transfer",
+            "EPOCH_LENGTH",
+            "UNLOCKED_TIME",
+            "LOCKED_TIME",
+            "creationTime",
+            "allowance",
+            "tokenSwapLock",
+            "mintTokens",
+            "lock"
+        ],
+        "events": [
+            "TokenMint",
+            "TokenSwapOver",
+            "Locked",
+            "Unlocked",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

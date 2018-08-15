@@ -1,0 +1,157 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MultiSigWallet": {
+        "functions": [
+            "owners",
+            "removeOwner",
+            "revokeConfirmation",
+            "isOwner",
+            "confirmations",
+            "isMultiSigWallet",
+            "getTransactionCount",
+            "addOwner",
+            "isConfirmed",
+            "replaceOwnerIndexed",
+            "getConfirmationCount",
+            "transactions",
+            "getOwners",
+            "getTransactionIds",
+            "getConfirmations",
+            "transactionCount",
+            "changeRequirement",
+            "confirmTransaction",
+            "submitTransaction",
+            "MAX_OWNER_COUNT",
+            "required"
+        ],
+        "events": [
+            "Confirmation",
+            "Revocation",
+            "Submission",
+            "Execution",
+            "ExecutionFailure",
+            "Deposit",
+            "OwnerAddition",
+            "OwnerRemoval",
+            "RequirementChange"
+        ]
+    },
+    "NewDecentBetToken": {
+        "functions": [
+            "name",
+            "vaultPercentOfTotal",
+            "approve",
+            "nextUpgradeAgent",
+            "oldTokenTotalSupply",
+            "totalSupply",
+            "crowdfundPercentOfTotal",
+            "transferFrom",
+            "decimals",
+            "upgrade",
+            "finalizeNextUpgrade",
+            "upgradeAgent",
+            "isDecentBetToken",
+            "createToken",
+            "balanceOf",
+            "isNewToken",
+            "finalizedNextUpgrade",
+            "housePercentOfTotal",
+            "symbol",
+            "decentBetMultisig",
+            "setNextUpgradeAgent",
+            "transfer",
+            "oldToken",
+            "totalUpgraded",
+            "setNextUpgradeMaster",
+            "allowance",
+            "timeVault",
+            "bountyPercentOfTotal",
+            "nextUpgradeMaster"
+        ],
+        "events": [
+            "Upgrade",
+            "UpgradeFinalized",
+            "UpgradeAgentSet",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "NewDecentBetVault": {
+        "functions": [
+            "timeOffset",
+            "unlock",
+            "isDecentBetVault"
+        ],
+        "events": []
+    },
+    "NewUpgradeAgent": {
+        "functions": [
+            "finalizedUpgrade",
+            "mintedPercentOfTokens",
+            "originalSupply",
+            "crowdfundPercentOfTokens",
+            "setNewToken",
+            "isUpgradeAgent",
+            "correctOriginalSupply",
+            "upgradeHasBegun",
+            "upgradeFrom",
+            "mintedTokens",
+            "owner",
+            "decentBetMultisig",
+            "finalizeUpgrade",
+            "setOriginalSupply",
+            "oldToken",
+            "safetyInvariantCheck",
+            "newToken"
+        ],
+        "events": [
+            "NewTokenSet",
+            "UpgradeHasBegun",
+            "InvariantCheckFailed",
+            "InvariantCheckPassed"
+        ]
+    },
+    "NextUpgradeAgent": {
+        "functions": [
+            "isUpgradeAgent",
+            "upgradeFrom",
+            "owner",
+            "finalizeUpgrade",
+            "setOriginalSupply"
+        ],
+        "events": []
+    },
+    "OldToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isDecentBetToken",
+            "balanceOf",
+            "decentBetMultisig",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

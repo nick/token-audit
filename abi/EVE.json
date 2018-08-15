@@ -1,0 +1,197 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "BTTSLib": {
+        "functions": [
+            "transfer",
+            "signedTransferFromHash",
+            "signedApproveAndCallSig",
+            "signedApproveCheck",
+            "init",
+            "setMinter",
+            "signedTransferFromCheck",
+            "signedTransferSig",
+            "approveAndCall",
+            "transferOwnership",
+            "transferFrom",
+            "ecrecoverFromSig",
+            "signedTransfer",
+            "transferAnyERC20Token",
+            "signedTransferHash",
+            "bttsVersion",
+            "signedApproveAndCall",
+            "transferOwnershipImmediately",
+            "enableTransfers",
+            "signedTransferFrom",
+            "mint",
+            "signedApproveSig",
+            "signedApprove",
+            "unlockAccount",
+            "signedApproveHash",
+            "approve",
+            "signedTransferFromSig",
+            "getCheckResultMessage",
+            "signedApproveAndCallHash",
+            "signedApproveAndCallCheck",
+            "signingPrefix",
+            "acceptOwnership",
+            "signedTransferCheck",
+            "disableMinting"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "MinterUpdated",
+            "Mint",
+            "MintingDisabled",
+            "TransfersEnabled",
+            "AccountUnlocked",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "BTTSToken": {
+        "functions": [
+            "signedApproveAndCallHash",
+            "name",
+            "minter",
+            "approve",
+            "signedApproveHash",
+            "totalSupply",
+            "signedTransferFromHash",
+            "signedApproveAndCallSig",
+            "transferFrom",
+            "decimals",
+            "signedTransferFrom",
+            "mintable",
+            "signedTransferSig",
+            "balanceOf",
+            "signedTransfer",
+            "acceptOwnership",
+            "signedTransferCheck",
+            "disableMinting",
+            "transferOwnershipImmediately",
+            "bttsVersion",
+            "owner",
+            "unlockAccount",
+            "transferable",
+            "symbol",
+            "signedApproveAndCallCheck",
+            "signedTransferHash",
+            "signedApproveSig",
+            "transfer",
+            "enableTransfers",
+            "signedTransferFromSig",
+            "signedApproveCheck",
+            "approveAndCall",
+            "mint",
+            "newOwner",
+            "transferAnyERC20Token",
+            "allowance",
+            "signingPrefix",
+            "signedApprove",
+            "signedApproveAndCall",
+            "transferOwnership",
+            "signedTransferFromCheck",
+            "setMinter"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "MinterUpdated",
+            "Mint",
+            "MintingDisabled",
+            "TransfersEnabled",
+            "AccountUnlocked",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "BTTSTokenFactory": {
+        "functions": [
+            "deployBTTSTokenContract",
+            "verify",
+            "acceptOwnership",
+            "transferOwnershipImmediately",
+            "owner",
+            "newOwner",
+            "transferAnyERC20Token",
+            "transferOwnership"
+        ],
+        "events": [
+            "BTTSTokenListing",
+            "OwnershipTransferred"
+        ]
+    },
+    "BTTSTokenInterface": {
+        "functions": [
+            "signedApproveAndCallHash",
+            "approve",
+            "signedApproveHash",
+            "totalSupply",
+            "signedTransferFromHash",
+            "signedApproveAndCallSig",
+            "transferFrom",
+            "signedTransferFrom",
+            "signedTransferSig",
+            "balanceOf",
+            "signedTransfer",
+            "signedTransferCheck",
+            "disableMinting",
+            "bttsVersion",
+            "unlockAccount",
+            "signedApproveAndCallCheck",
+            "signedTransferHash",
+            "signedApproveSig",
+            "transfer",
+            "enableTransfers",
+            "signedTransferFromSig",
+            "signedApproveCheck",
+            "approveAndCall",
+            "mint",
+            "allowance",
+            "signingPrefix",
+            "signedApprove",
+            "signedApproveAndCall",
+            "signedTransferFromCheck"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "MinterUpdated",
+            "Mint",
+            "MintingDisabled",
+            "TransfersEnabled",
+            "AccountUnlocked",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "transferOwnershipImmediately",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    }
+}

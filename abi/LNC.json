@@ -1,0 +1,64 @@
+{
+    "BlocklancerToken": {
+        "functions": [
+            "ICOopen",
+            "finalize",
+            "name",
+            "approve",
+            "setStartRefund",
+            "EtherBalanceOf",
+            "totalSupply",
+            "transferFrom",
+            "addInitialInvestor",
+            "decimals",
+            "migrate",
+            "setEarlyInvestorExchangeRate",
+            "refund",
+            "balanceOf",
+            "setMigrationAgent",
+            "setStartDate",
+            "migrationAgent",
+            "TimeLeftBeforeCrowdsale",
+            "totalMigrated",
+            "symbol",
+            "setTransfer",
+            "transfer",
+            "addToken",
+            "fundingStart",
+            "isInitialInvestor",
+            "funding",
+            "setICORunning",
+            "setExchangeRate",
+            "getAmountofTotalParticipants",
+            "allowance",
+            "master",
+            "getExchangeRate"
+        ],
+        "events": [
+            "Migrate",
+            "Refund",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MigrationAgent": {
+        "functions": [
+            "migrateFrom"
+        ],
+        "events": []
+    }
+}

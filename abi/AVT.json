@@ -1,0 +1,113 @@
+{
+    "DSAuth": {
+        "functions": [
+            "setOwner",
+            "setAuthority",
+            "owner",
+            "authority"
+        ],
+        "events": [
+            "LogSetAuthority",
+            "LogSetOwner"
+        ]
+    },
+    "DSAuthEvents": {
+        "functions": [],
+        "events": [
+            "LogSetAuthority",
+            "LogSetOwner"
+        ]
+    },
+    "DSAuthority": {
+        "functions": [
+            "canCall"
+        ],
+        "events": []
+    },
+    "DSMath": {
+        "functions": [],
+        "events": []
+    },
+    "DSNote": {
+        "functions": [],
+        "events": [
+            "LogNote"
+        ]
+    },
+    "DSStop": {
+        "functions": [
+            "stop",
+            "setOwner",
+            "stopped",
+            "setAuthority",
+            "owner",
+            "start",
+            "authority"
+        ],
+        "events": [
+            "LogNote",
+            "LogSetAuthority",
+            "LogSetOwner"
+        ]
+    },
+    "DSToken": {
+        "functions": [
+            "name",
+            "stop",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "push",
+            "setName",
+            "mint",
+            "balanceOf",
+            "stopped",
+            "setAuthority",
+            "pull",
+            "owner",
+            "burn",
+            "symbol",
+            "transfer",
+            "start",
+            "authority",
+            "allowance"
+        ],
+        "events": [
+            "LogNote",
+            "LogSetAuthority",
+            "LogSetOwner",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "DSTokenBase": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

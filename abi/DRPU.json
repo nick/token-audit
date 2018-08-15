@@ -1,0 +1,171 @@
+{
+    "DRPUToken": {
+        "functions": [
+            "name",
+            "approve",
+            "removeOwner",
+            "totalSupply",
+            "transferFrom",
+            "registerObserver",
+            "isOwner",
+            "decimals",
+            "getOwnerAt",
+            "standard",
+            "getObserverAtIndex",
+            "addOwner",
+            "balanceOf",
+            "getObserverCount",
+            "issue",
+            "symbol",
+            "burn",
+            "isLocked",
+            "unlock",
+            "transfer",
+            "retrieveTokens",
+            "isObserver",
+            "allowance",
+            "getOwnerCount",
+            "lock",
+            "unregisterObserver"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IManagedToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "issue",
+            "burn",
+            "isLocked",
+            "unlock",
+            "transfer",
+            "allowance",
+            "lock"
+        ],
+        "events": []
+    },
+    "IMultiOwned": {
+        "functions": [
+            "removeOwner",
+            "isOwner",
+            "getOwnerAt",
+            "addOwner",
+            "getOwnerCount"
+        ],
+        "events": []
+    },
+    "IObservable": {
+        "functions": [
+            "registerObserver",
+            "getObserverAtIndex",
+            "getObserverCount",
+            "isObserver",
+            "unregisterObserver"
+        ],
+        "events": []
+    },
+    "IToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "ITokenObserver": {
+        "functions": [
+            "notifyTokensReceived"
+        ],
+        "events": []
+    },
+    "ITokenRetriever": {
+        "functions": [
+            "retrieveTokens"
+        ],
+        "events": []
+    },
+    "InputValidator": {
+        "functions": [],
+        "events": []
+    },
+    "ManagedToken": {
+        "functions": [
+            "name",
+            "approve",
+            "removeOwner",
+            "totalSupply",
+            "transferFrom",
+            "isOwner",
+            "decimals",
+            "getOwnerAt",
+            "standard",
+            "addOwner",
+            "balanceOf",
+            "issue",
+            "symbol",
+            "burn",
+            "isLocked",
+            "unlock",
+            "transfer",
+            "allowance",
+            "getOwnerCount",
+            "lock"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MultiOwned": {
+        "functions": [
+            "removeOwner",
+            "isOwner",
+            "getOwnerAt",
+            "addOwner",
+            "getOwnerCount"
+        ],
+        "events": []
+    },
+    "Observable": {
+        "functions": [
+            "registerObserver",
+            "getObserverAtIndex",
+            "getObserverCount",
+            "isObserver",
+            "unregisterObserver"
+        ],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenRetriever": {
+        "functions": [
+            "retrieveTokens"
+        ],
+        "events": []
+    }
+}

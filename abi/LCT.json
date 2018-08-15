@@ -1,0 +1,116 @@
+{
+    "Crowdsale": {
+        "functions": [
+            "phase_5_remaining_tokens",
+            "end_Time",
+            "phase_4_remaining_tokens",
+            "phase_2_Time",
+            "rate",
+            "weiRaised",
+            "phase_1_remaining_tokens",
+            "wallet",
+            "changeRate",
+            "start_time",
+            "owner",
+            "phase_3_Time",
+            "tokenBalance",
+            "phase_2_remaining_tokens",
+            "phase_4_Time",
+            "transferBack",
+            "buyTokens",
+            "hasEnded",
+            "transferOwnership",
+            "phase_1_Time",
+            "token",
+            "phase_3_remaining_tokens"
+        ],
+        "events": [
+            "TokenPurchase",
+            "RateChanged",
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "LendConnect": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "INITIAL_SUPPLY",
+            "decimals",
+            "decreaseApproval",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeBasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SafeStandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

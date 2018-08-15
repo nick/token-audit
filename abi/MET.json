@@ -1,0 +1,415 @@
+{
+    "Auctions": {
+        "functions": [
+            "initialAuctionEndTime",
+            "priceAt",
+            "minimumPriceInDailyAuction",
+            "MULTIPLIER",
+            "currentTick",
+            "mintInitialSupply",
+            "tentimes",
+            "initAuctions",
+            "initialized",
+            "isInitialAuctionEnded",
+            "currentMintable",
+            "isRunning",
+            "lastPurchaseTick",
+            "globalMetSupply",
+            "changeOwnership",
+            "INITIAL_AC_SUPPLY",
+            "globalDailySupply",
+            "INITIAL_SUPPLY",
+            "hundredtimes",
+            "heartbeat",
+            "createTokenLocker",
+            "genesisTime",
+            "stopEverything",
+            "currentAuction",
+            "dailyAuctionStartTime",
+            "mintable",
+            "minted",
+            "tokensOnThisChain",
+            "proceeds",
+            "INITIAL_GLOBAL_DAILY_SUPPLY",
+            "whatWouldPurchaseDo",
+            "acceptOwnership",
+            "totalMigratedIn",
+            "minimumPrice",
+            "lastPurchasePrice",
+            "dailyMintable",
+            "owner",
+            "thousandtimes",
+            "currentPrice",
+            "priceAtInitialAuction",
+            "initPricer",
+            "initialAuctionDuration",
+            "chain",
+            "whichTick",
+            "newOwner",
+            "DAILY_PURCHASE_LIMIT",
+            "INITIAL_FOUNDER_SUPPLY",
+            "prepareAuctionForNonOGChain",
+            "founders",
+            "globalSupplyAfterPercentageLogic",
+            "skipInitBecauseIAmNotOg",
+            "totalMigratedOut",
+            "AUCTION_WHEN_PERCENTAGE_LOGIC_STARTS",
+            "timeScale",
+            "tokenLockers",
+            "token",
+            "whichAuction"
+        ],
+        "events": [
+            "LogAuctionFundsIn",
+            "OwnershipChanged"
+        ]
+    },
+    "AutonomousConverter": {
+        "functions": [
+            "convertMetToEth",
+            "init",
+            "changeOwnership",
+            "getMetBalance",
+            "getEthForMetResult",
+            "getMetForEthResult",
+            "getEthBalance",
+            "handleFund",
+            "acceptOwnership",
+            "auctions",
+            "owner",
+            "convertEthToMet",
+            "smartToken",
+            "newOwner",
+            "reserveToken"
+        ],
+        "events": [
+            "LogFundsIn",
+            "ConvertEthToMet",
+            "ConvertMetToEth",
+            "OwnershipChanged"
+        ]
+    },
+    "ChainLedger": {
+        "functions": [
+            "changeOwnership",
+            "initChainLedger",
+            "tokenPorter",
+            "registerExport",
+            "chains",
+            "registerChain",
+            "validChain",
+            "acceptOwnership",
+            "auctions",
+            "owner",
+            "balance",
+            "newOwner",
+            "registerImport"
+        ],
+        "events": [
+            "LogRegisterChain",
+            "LogRegisterExport",
+            "LogRegisterImport",
+            "OwnershipChanged"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "FixedMath": {
+        "functions": [],
+        "events": []
+    },
+    "Formula": {
+        "functions": [],
+        "events": []
+    },
+    "ITokenPorter": {
+        "functions": [
+            "importMET",
+            "export"
+        ],
+        "events": [
+            "ExportOnChainClaimedReceiptLog",
+            "ExportReceiptLog",
+            "ImportReceiptLog"
+        ]
+    },
+    "METToken": {
+        "functions": [
+            "name",
+            "minter",
+            "getRoot",
+            "approve",
+            "totalSupply",
+            "initMETToken",
+            "setTokenPorter",
+            "transferFrom",
+            "changeOwnership",
+            "decimals",
+            "transferAllowed",
+            "initToken",
+            "mint",
+            "export",
+            "tokenPorter",
+            "approveMore",
+            "enableMETTransfers",
+            "autonomousConverter",
+            "getSubscription",
+            "importMET",
+            "balanceOf",
+            "approveLess",
+            "acceptOwnership",
+            "owner",
+            "subWithdraw",
+            "cancelSubscription",
+            "symbol",
+            "destroy",
+            "roots",
+            "transfer",
+            "subscribe",
+            "multiTransfer",
+            "multiSubWithdraw",
+            "initMintable",
+            "subs",
+            "rootsMatch",
+            "newOwner",
+            "setRoot",
+            "allowance",
+            "multiSubWithdrawFor"
+        ],
+        "events": [
+            "LogSubscription",
+            "LogCancelSubscription",
+            "Mint",
+            "Destroy",
+            "Transfer",
+            "OwnershipChanged",
+            "Approval"
+        ]
+    },
+    "Mintable": {
+        "functions": [
+            "minter",
+            "totalSupply",
+            "setTokenPorter",
+            "changeOwnership",
+            "mint",
+            "tokenPorter",
+            "autonomousConverter",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "destroy",
+            "initMintable",
+            "newOwner"
+        ],
+        "events": [
+            "Mint",
+            "Destroy",
+            "Transfer",
+            "OwnershipChanged"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "changeOwnership",
+            "owner"
+        ],
+        "events": [
+            "OwnershipChanged"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "changeOwnership",
+            "acceptOwnership",
+            "owner",
+            "newOwner"
+        ],
+        "events": [
+            "OwnershipChanged"
+        ]
+    },
+    "Pricer": {
+        "functions": [
+            "priceAt",
+            "minimumPriceInDailyAuction",
+            "MULTIPLIER",
+            "tentimes",
+            "hundredtimes",
+            "minimumPrice",
+            "thousandtimes",
+            "priceAtInitialAuction",
+            "initPricer"
+        ],
+        "events": []
+    },
+    "Proceeds": {
+        "functions": [
+            "changeOwnership",
+            "closeAuction",
+            "autonomousConverter",
+            "handleFund",
+            "acceptOwnership",
+            "auctions",
+            "owner",
+            "initProceeds",
+            "newOwner"
+        ],
+        "events": [
+            "LogProceedsIn",
+            "LogClosedAuction",
+            "OwnershipChanged"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SmartToken": {
+        "functions": [
+            "minter",
+            "initSmartToken",
+            "totalSupply",
+            "setTokenPorter",
+            "changeOwnership",
+            "mint",
+            "tokenPorter",
+            "autonomousConverter",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "destroy",
+            "initMintable",
+            "newOwner"
+        ],
+        "events": [
+            "Mint",
+            "Destroy",
+            "Transfer",
+            "OwnershipChanged"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "minter",
+            "approve",
+            "totalSupply",
+            "setTokenPorter",
+            "transferFrom",
+            "changeOwnership",
+            "initToken",
+            "mint",
+            "tokenPorter",
+            "approveMore",
+            "autonomousConverter",
+            "balanceOf",
+            "approveLess",
+            "acceptOwnership",
+            "owner",
+            "destroy",
+            "transfer",
+            "multiTransfer",
+            "initMintable",
+            "newOwner",
+            "allowance"
+        ],
+        "events": [
+            "Mint",
+            "Destroy",
+            "Transfer",
+            "OwnershipChanged",
+            "Approval"
+        ]
+    },
+    "TokenLocker": {
+        "functions": [
+            "lockTokenLocker",
+            "changeOwnership",
+            "quarterlyWithdrawable",
+            "withdraw",
+            "deposit",
+            "auctions",
+            "owner",
+            "lastWithdrawTime",
+            "locked",
+            "deposited",
+            "token"
+        ],
+        "events": [
+            "Withdrawn",
+            "Deposited",
+            "OwnershipChanged"
+        ]
+    },
+    "TokenPorter": {
+        "functions": [
+            "importSequence",
+            "setValidator",
+            "changeOwnership",
+            "validator",
+            "setChainLedger",
+            "claimables",
+            "removeDestinationChain",
+            "burnSequence",
+            "importMET",
+            "acceptOwnership",
+            "exportedBurns",
+            "auctions",
+            "owner",
+            "addDestinationChain",
+            "initTokenPorter",
+            "newOwner",
+            "supplyOnAllChains",
+            "destinationChains",
+            "export",
+            "chainLedger",
+            "claimReceivables",
+            "token"
+        ],
+        "events": [
+            "OwnershipChanged",
+            "ExportOnChainClaimedReceiptLog",
+            "ExportReceiptLog",
+            "ImportReceiptLog"
+        ]
+    },
+    "Validator": {
+        "functions": [
+            "validatorNum",
+            "setTokenPorter",
+            "metToken",
+            "changeOwnership",
+            "validators",
+            "validateHash",
+            "threshold",
+            "invalidateHash",
+            "tokenPorter",
+            "hashClaimed",
+            "acceptOwnership",
+            "isReceiptClaimable",
+            "owner",
+            "hashClaimable",
+            "initValidator",
+            "hashAttestations",
+            "newOwner",
+            "claimHash",
+            "isValidator"
+        ],
+        "events": [
+            "LogAttestation",
+            "OwnershipChanged"
+        ]
+    }
+}

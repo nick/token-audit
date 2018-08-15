@@ -1,0 +1,122 @@
+{
+    "FoundersVesting": {
+        "functions": [
+            "creator",
+            "withdrawsCount",
+            "mntToken",
+            "withdrawTokens",
+            "lastWithdrawTime",
+            "amountToSend",
+            "teamAccountAddress"
+        ],
+        "events": []
+    },
+    "Goldmint": {
+        "functions": [
+            "creator",
+            "currentState",
+            "startMigration",
+            "tokenManager",
+            "MAX_ISSUED_FROM_OTHER_CURRENCIES",
+            "pauseICO",
+            "startRefunding",
+            "issuedFromOtherCurrencies",
+            "getMyRefund",
+            "unsoldContract",
+            "ICO_TOKEN_SOFT_CAP",
+            "issueTokensFromOtherCurrency",
+            "getTokensIcoSold",
+            "isIcoFinished",
+            "setTokenManager",
+            "mntToken",
+            "startICO",
+            "setUsdPerEthRate",
+            "icoTokensUnsold",
+            "icoStartedTime",
+            "ICO_TOKEN_SUPPLY_LIMIT",
+            "resumeICO",
+            "icoTokensSold",
+            "otherCurrenciesChecker",
+            "getTotalCollectedWei",
+            "lastUsdPerEthChangeDate",
+            "ethRateChanger",
+            "issuedExternallyTokens",
+            "getMntTokenBalance",
+            "finishICO",
+            "usdPerEthCoinmarketcapRate",
+            "multisigs",
+            "issueTokensExternal",
+            "getBlockLength",
+            "BONUS_REWARD",
+            "getMntTokensPerEth",
+            "getCurrentPrice",
+            "buyTokens",
+            "MAX_SINGLE_ISSUED_FROM_OTHER_CURRENCIES",
+            "FOUNDERS_REWARD",
+            "foundersRewardsAccount",
+            "getTotalIcoTokens"
+        ],
+        "events": [
+            "LogStateSwitch",
+            "LogBuy",
+            "LogBurn"
+        ]
+    },
+    "GoldmintUnsold": {
+        "functions": [
+            "creator",
+            "setIcoContractAddress",
+            "icoIsFinishedDate",
+            "mntToken",
+            "withdrawTokens",
+            "icoContractAddress",
+            "teamAccountAddress",
+            "finishIco"
+        ],
+        "events": []
+    },
+    "MNTP": {
+        "functions": [
+            "creator",
+            "name",
+            "approve",
+            "burnTokens",
+            "setIcoContractAddress",
+            "totalSupply",
+            "lockTransfer",
+            "transferFrom",
+            "decimals",
+            "setCreator",
+            "issueTokens",
+            "balanceOf",
+            "lockTransfers",
+            "symbol",
+            "icoContractAddress",
+            "transfer",
+            "TOTAL_TOKEN_SUPPLY",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StdToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

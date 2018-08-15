@@ -1,0 +1,56 @@
+{
+    "HydroToken": {
+        "functions": [
+            "raindropAddress",
+            "authenticate",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "burn",
+            "allowed",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "setRaindropAddress",
+            "setBalances",
+            "approveAndCall",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "OwnershipTransferred"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Raindrop": {
+        "functions": [
+            "authenticate"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

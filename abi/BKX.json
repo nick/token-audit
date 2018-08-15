@@ -1,0 +1,45 @@
+{
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "upgraderSet",
+            "name",
+            "approve",
+            "totalSupply",
+            "setUpgrader",
+            "transferFrom",
+            "decimalMultiplier",
+            "decimals",
+            "setLock",
+            "decreaseApproval",
+            "balanceOf",
+            "upgradeFor",
+            "owner",
+            "symbol",
+            "transfer",
+            "upgrader",
+            "allowUpgrading",
+            "locked",
+            "upgrade",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership",
+            "upgradable"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenUpgraderInterface": {
+        "functions": [
+            "upgradeFrom",
+            "upgradeFor"
+        ],
+        "events": []
+    }
+}

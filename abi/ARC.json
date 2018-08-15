@@ -1,0 +1,76 @@
+{
+    "ARCToken": {
+        "functions": [
+            "allocateTokens",
+            "name",
+            "endBlock",
+            "approve",
+            "buyRecipient",
+            "totalSupply",
+            "transferFrom",
+            "testPrice",
+            "decimals",
+            "presaleEtherRaised",
+            "multisig",
+            "startBlock",
+            "rewardsAllocation",
+            "founder",
+            "halt",
+            "developerAllocation",
+            "balanceOf",
+            "etherCap",
+            "setRewardAddresses",
+            "founderAllocation",
+            "owner",
+            "symbol",
+            "rewards",
+            "price",
+            "transfer",
+            "allocated",
+            "halted",
+            "presaleTokenSupply",
+            "marketactive",
+            "developer",
+            "unhalt",
+            "allowance",
+            "rewardAddressesSet"
+        ],
+        "events": [
+            "Buy",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

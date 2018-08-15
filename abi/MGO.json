@@ -1,0 +1,39 @@
+{
+    "ContractReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "MobileGoToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "_decimals",
+            "amountBurned",
+            "allowed",
+            "balanceOf",
+            "currentSupply",
+            "owner",
+            "symbol",
+            "_currentSupply",
+            "transfer",
+            "_symbol",
+            "transfer",
+            "_initialSupply",
+            "_name",
+            "allowance",
+            "burn"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Transfer",
+            "Burn"
+        ]
+    }
+}

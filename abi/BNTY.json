@@ -1,0 +1,323 @@
+{
+    "AddressWhitelist": {
+        "functions": [
+            "isWhitelisted",
+            "removeFromWhitelist",
+            "addToWhitelist",
+            "owner",
+            "whitelisted",
+            "transferOwnership"
+        ],
+        "events": [
+            "LogWhitelistAdd",
+            "LogWhitelistRemove",
+            "OwnershipTransferred"
+        ]
+    },
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "BntyExchangeRateCalculator": {
+        "functions": [
+            "USDEtherPrice",
+            "weiToBnty",
+            "fixUSDPriceTime",
+            "MICRODOLLARS_PER_DOLLAR",
+            "WEI_PER_ETH",
+            "owner",
+            "usdToWei",
+            "bntyMicrodollarPrice",
+            "currentTime",
+            "setUSDEtherPrice",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Bounty0xCrowdsale": {
+        "functions": [
+            "USDEtherPrice",
+            "HARD_CAP_USD",
+            "MAXIMUM_CONTRIBUTION_WHITELIST_PERIOD_USD",
+            "MICRO_DOLLARS_PER_BNTY_PRESALE",
+            "SALE_END_DATE",
+            "withdraw",
+            "weiToBnty",
+            "totalContributions",
+            "isWhitelisted",
+            "unpause",
+            "LIMITS_END_DATE",
+            "UNFREEZE_DATE",
+            "bounty0xToken",
+            "SALE_START_DATE",
+            "removeFromWhitelist",
+            "fixUSDPriceTime",
+            "paused",
+            "MAX_GAS",
+            "WHITELIST_END_DATE",
+            "MICRODOLLARS_PER_DOLLAR",
+            "WEI_PER_ETH",
+            "addToWhitelist",
+            "pause",
+            "MAXIMUM_CONTRIBUTION_LIMITED_PERIOD_USD",
+            "owner",
+            "contributionAmounts",
+            "FIXED_PRESALE_USD_ETHER_PRICE",
+            "usdToWei",
+            "bntyMicrodollarPrice",
+            "MICRO_DOLLARS_PER_BNTY_MAINSALE",
+            "currentTime",
+            "whitelisted",
+            "MAX_GAS_PRICE",
+            "setUSDEtherPrice",
+            "transferOwnership"
+        ],
+        "events": [
+            "OnContribution",
+            "OnWithdraw",
+            "Pause",
+            "Unpause",
+            "LogWhitelistAdd",
+            "LogWhitelistRemove",
+            "OwnershipTransferred"
+        ]
+    },
+    "Bounty0xPresaleDistributor": {
+        "functions": [
+            "USDEtherPrice",
+            "HARD_CAP_USD",
+            "deployedPresaleContract",
+            "MAXIMUM_CONTRIBUTION_WHITELIST_PERIOD_USD",
+            "MICRO_DOLLARS_PER_BNTY_PRESALE",
+            "SALE_END_DATE",
+            "weiToBnty",
+            "LIMITS_END_DATE",
+            "UNFREEZE_DATE",
+            "bounty0xToken",
+            "SALE_START_DATE",
+            "fixUSDPriceTime",
+            "MAX_GAS",
+            "compensatePreSaleInvestors",
+            "WHITELIST_END_DATE",
+            "MICRODOLLARS_PER_DOLLAR",
+            "WEI_PER_ETH",
+            "MAXIMUM_CONTRIBUTION_LIMITED_PERIOD_USD",
+            "owner",
+            "FIXED_PRESALE_USD_ETHER_PRICE",
+            "usdToWei",
+            "bntyMicrodollarPrice",
+            "MICRO_DOLLARS_PER_BNTY_MAINSALE",
+            "currentTime",
+            "MAX_GAS_PRICE",
+            "setUSDEtherPrice",
+            "tokensPaid",
+            "transferOwnership"
+        ],
+        "events": [
+            "OnPreSaleBuyerCompensated",
+            "OwnershipTransferred"
+        ]
+    },
+    "Bounty0xPresaleI": {
+        "functions": [
+            "balanceOf"
+        ],
+        "events": []
+    },
+    "Bounty0xReserveHolder": {
+        "functions": [
+            "HARD_CAP_USD",
+            "MAXIMUM_CONTRIBUTION_WHITELIST_PERIOD_USD",
+            "MICRO_DOLLARS_PER_BNTY_PRESALE",
+            "SALE_END_DATE",
+            "beneficiary",
+            "LIMITS_END_DATE",
+            "UNFREEZE_DATE",
+            "SALE_START_DATE",
+            "MAX_GAS",
+            "WHITELIST_END_DATE",
+            "release",
+            "MAXIMUM_CONTRIBUTION_LIMITED_PERIOD_USD",
+            "FIXED_PRESALE_USD_ETHER_PRICE",
+            "MICRO_DOLLARS_PER_BNTY_MAINSALE",
+            "currentTime",
+            "MAX_GAS_PRICE",
+            "token"
+        ],
+        "events": []
+    },
+    "Bounty0xToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "generateTokensAll",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "CrowdsaleTokenController": {
+        "functions": [
+            "isWhitelisted",
+            "changeController",
+            "setWhitelistOff",
+            "onTransfer",
+            "removeFromWhitelist",
+            "addToWhitelist",
+            "owner",
+            "whitelistOff",
+            "whitelisted",
+            "onApprove",
+            "transferOwnership",
+            "enableTransfers",
+            "proxyPayment",
+            "token"
+        ],
+        "events": [
+            "LogWhitelistAdd",
+            "LogWhitelistRemove",
+            "OwnershipTransferred"
+        ]
+    },
+    "KnowsConstants": {
+        "functions": [
+            "HARD_CAP_USD",
+            "MAXIMUM_CONTRIBUTION_WHITELIST_PERIOD_USD",
+            "MICRO_DOLLARS_PER_BNTY_PRESALE",
+            "SALE_END_DATE",
+            "LIMITS_END_DATE",
+            "UNFREEZE_DATE",
+            "SALE_START_DATE",
+            "MAX_GAS",
+            "WHITELIST_END_DATE",
+            "MAXIMUM_CONTRIBUTION_LIMITED_PERIOD_USD",
+            "FIXED_PRESALE_USD_ETHER_PRICE",
+            "MICRO_DOLLARS_PER_BNTY_MAINSALE",
+            "MAX_GAS_PRICE"
+        ],
+        "events": []
+    },
+    "KnowsTime": {
+        "functions": [
+            "currentTime"
+        ],
+        "events": []
+    },
+    "Math": {
+        "functions": [],
+        "events": []
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

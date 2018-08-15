@@ -1,0 +1,155 @@
+{
+    "ADXToken": {
+        "functions": [
+            "PREBUY_PORTION_MAX",
+            "tokenGrantsCount",
+            "PRICE_STAGE_TWO",
+            "name",
+            "approve",
+            "preBuy3",
+            "totalSupply",
+            "transferFrom",
+            "preBuy1",
+            "publicEndTime",
+            "grants",
+            "decimals",
+            "ADXSold",
+            "preBuy2",
+            "multisigAddress",
+            "ALLOC_BOUNTIES",
+            "publicStartTime",
+            "tokenGrant",
+            "STAGE_TWO_TIME_END",
+            "lastTokenIsTransferableDate",
+            "ALLOC_WINGS",
+            "STAGE_ONE_TIME_END",
+            "balanceOf",
+            "calcAmount",
+            "ALLOC_CROWDSALE",
+            "adexTeamAddress",
+            "getPriceRate",
+            "privateStartTime",
+            "toggleHalt",
+            "ownerAddress",
+            "PRICE_STAGE_ONE",
+            "symbol",
+            "grantVestedTokens",
+            "drain",
+            "prebuyPortionTotal",
+            "hardcapInEth",
+            "transfer",
+            "ALLOC_TEAM",
+            "halted",
+            "etherRaised",
+            "transferableTokens",
+            "preBuyPrice1",
+            "preBuyPrice2",
+            "allowance",
+            "calculateVestedTokens",
+            "PRICE_STAGE_THREE",
+            "grantVested",
+            "revokeTokenGrant",
+            "preBuyPrice3",
+            "PRICE_STANDARD",
+            "STAGE_THREE_TIME_END",
+            "preBuy"
+        ],
+        "events": [
+            "PreBuy",
+            "Buy",
+            "NewTokenGrant",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "LimitedTransferToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transferableTokens",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "VestedToken": {
+        "functions": [
+            "tokenGrantsCount",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "grants",
+            "tokenGrant",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "grantVestedTokens",
+            "transfer",
+            "transferableTokens",
+            "allowance",
+            "calculateVestedTokens",
+            "revokeTokenGrant"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

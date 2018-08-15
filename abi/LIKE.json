@@ -1,0 +1,136 @@
+{
+    "Claimable": {
+        "functions": [
+            "claimOwnership",
+            "owner",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "HasOperator": {
+        "functions": [
+            "claimOwnership",
+            "operator",
+            "owner",
+            "setOperator",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "LikeCoin": {
+        "functions": [
+            "supply",
+            "lockedBalances",
+            "mintForCreatorsPool",
+            "name",
+            "approve",
+            "signatureOwner",
+            "setSignatureChecker",
+            "allowDelegate",
+            "totalSupply",
+            "transferFrom",
+            "unlockTime",
+            "balances",
+            "decimals",
+            "transferAndCall",
+            "burn",
+            "removeTransferAndCallWhitelist",
+            "claimOwnership",
+            "transferDelegated",
+            "operator",
+            "allowed",
+            "freezeSignatureChecker",
+            "mintForContributorPool",
+            "balanceOf",
+            "contributorPoolAddr",
+            "registerCreatorsPools",
+            "creatorsPoolAddrs",
+            "owner",
+            "creatorsPoolMintQuota",
+            "symbol",
+            "transferMultiple",
+            "transfer",
+            "transferAndCallDelegated",
+            "setOperator",
+            "crowdsaleAddr",
+            "transferAndCallWhitelist",
+            "transferAndLock",
+            "addTransferAndCallWhitelist",
+            "registerCrowdsales",
+            "allowance",
+            "contributorPoolMintQuota",
+            "transferMultipleDelegated",
+            "pendingOwner",
+            "signatureCheckerFreezed",
+            "switchDelegate",
+            "registerContributorPool",
+            "signatureChecker",
+            "transferOwnership",
+            "usedNonce"
+        ],
+        "events": [
+            "Lock",
+            "SignatureCheckerChanged",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SignatureChecker": {
+        "functions": [
+            "checkTransferDelegated",
+            "checkTransferMultipleDelegated",
+            "checkTransferAndCallDelegated"
+        ],
+        "events": []
+    },
+    "TransferAndCallReceiver": {
+        "functions": [
+            "tokenCallback"
+        ],
+        "events": []
+    }
+}

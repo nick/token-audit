@@ -1,0 +1,36 @@
+{
+    "CoinPokerToken": {
+        "functions": [
+            "percent",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "tournamentsReserve",
+            "decimals",
+            "teamReserve",
+            "burn",
+            "tokensPreICO",
+            "cashierAddr",
+            "standard",
+            "balanceOf",
+            "tokensICO",
+            "startTime",
+            "preIcoAddr",
+            "symbol",
+            "ownerAddr",
+            "transfer",
+            "allowance",
+            "tournamentsAddr"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burned"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

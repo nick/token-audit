@@ -1,0 +1,194 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "disableTokenSwapLock",
+            "currentSwapRate",
+            "transferStop",
+            "walletAddress",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "mintReserve",
+            "stopToken",
+            "creationTime",
+            "tokenCap",
+            "allowance",
+            "mintTokens"
+        ],
+        "events": [
+            "TokenMint",
+            "TokenSwapOver",
+            "EmergencyStopActivated",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Wallet": {
+        "functions": [
+            "removeOwner",
+            "TRANSITION_WINDOW",
+            "isOwner",
+            "SWAP_LENGTH",
+            "stopTokenSwap",
+            "startTokenSwap",
+            "m_numOwners",
+            "m_lastDay",
+            "withdrawReserve",
+            "resetSpentToday",
+            "m_spentToday",
+            "addOwner",
+            "m_required",
+            "confirm",
+            "amountRaised",
+            "PRESALE_LENGTH",
+            "tokenSwap",
+            "MAX_ETH",
+            "tokenCtr",
+            "setDailyLimit",
+            "execute",
+            "revoke",
+            "changeRequirement",
+            "setTokenContract",
+            "hasConfirmed",
+            "getOwner",
+            "kill",
+            "stopToken",
+            "buyTokens",
+            "changeOwner",
+            "m_dailyLimit"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke",
+            "OwnerChanged",
+            "OwnerAdded",
+            "OwnerRemoved",
+            "RequirementChanged",
+            "Deposit",
+            "SingleTransact",
+            "MultiTransact",
+            "ConfirmationNeeded"
+        ]
+    },
+    "daylimit": {
+        "functions": [
+            "removeOwner",
+            "isOwner",
+            "m_numOwners",
+            "m_lastDay",
+            "resetSpentToday",
+            "m_spentToday",
+            "addOwner",
+            "m_required",
+            "setDailyLimit",
+            "revoke",
+            "changeRequirement",
+            "hasConfirmed",
+            "getOwner",
+            "changeOwner",
+            "m_dailyLimit"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke",
+            "OwnerChanged",
+            "OwnerAdded",
+            "OwnerRemoved",
+            "RequirementChanged"
+        ]
+    },
+    "multiowned": {
+        "functions": [
+            "removeOwner",
+            "isOwner",
+            "m_numOwners",
+            "addOwner",
+            "m_required",
+            "revoke",
+            "changeRequirement",
+            "hasConfirmed",
+            "getOwner",
+            "changeOwner"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke",
+            "OwnerChanged",
+            "OwnerAdded",
+            "OwnerRemoved",
+            "RequirementChanged"
+        ]
+    },
+    "multisig": {
+        "functions": [
+            "confirm",
+            "execute",
+            "changeOwner"
+        ],
+        "events": [
+            "Deposit",
+            "SingleTransact",
+            "MultiTransact",
+            "ConfirmationNeeded"
+        ]
+    },
+    "tokenswap": {
+        "functions": [
+            "removeOwner",
+            "TRANSITION_WINDOW",
+            "isOwner",
+            "SWAP_LENGTH",
+            "stopTokenSwap",
+            "startTokenSwap",
+            "m_numOwners",
+            "withdrawReserve",
+            "addOwner",
+            "m_required",
+            "confirm",
+            "amountRaised",
+            "PRESALE_LENGTH",
+            "tokenSwap",
+            "MAX_ETH",
+            "tokenCtr",
+            "execute",
+            "revoke",
+            "changeRequirement",
+            "setTokenContract",
+            "hasConfirmed",
+            "getOwner",
+            "buyTokens",
+            "changeOwner"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke",
+            "OwnerChanged",
+            "OwnerAdded",
+            "OwnerRemoved",
+            "RequirementChanged",
+            "Deposit",
+            "SingleTransact",
+            "MultiTransact",
+            "ConfirmationNeeded"
+        ]
+    }
+}

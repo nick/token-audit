@@ -1,0 +1,60 @@
+{
+    "ERC20": {
+        "functions": [
+            "supply",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Rialto": {
+        "functions": [
+            "supply",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "lockPercentage",
+            "expiration",
+            "standard",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

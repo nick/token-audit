@@ -1,0 +1,75 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IcxToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "enableTokenTransfer",
+            "unlockAddress",
+            "walletAddress",
+            "tokenTransfer",
+            "burnTokens",
+            "balanceOf",
+            "owner",
+            "transfer",
+            "lockaddress",
+            "creationTime",
+            "allowance",
+            "disableTokenTransfer",
+            "unlockaddress",
+            "lockAddress",
+            "lock"
+        ],
+        "events": [
+            "TokenBurned",
+            "TokenTransfer",
+            "Locked",
+            "Unlocked",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Lockable": {
+        "functions": [
+            "unlockAddress",
+            "tokenTransfer",
+            "owner",
+            "lockaddress",
+            "creationTime",
+            "unlockaddress",
+            "lockAddress",
+            "lock"
+        ],
+        "events": [
+            "Locked",
+            "Unlocked"
+        ]
+    },
+    "Migrations": {
+        "functions": [
+            "upgrade",
+            "last_completed_migration",
+            "owner",
+            "setCompleted"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

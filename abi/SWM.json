@@ -1,0 +1,202 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "MiniMeMintableToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "mint",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "finishMinting",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "MiniMeVestedToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "vestedBalanceOf",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "getVestingPeriodsCompleted",
+            "setVestingParams",
+            "decimals",
+            "changeController",
+            "mint",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "finishMinting",
+            "parentToken",
+            "generateTokens",
+            "vestingTotalPeriods",
+            "getVestedBalance",
+            "symbol",
+            "totalSupplyAt",
+            "vestingStartTime",
+            "transfer",
+            "vestingPeriodTime",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SwarmToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "vestedBalanceOf",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "getVestingPeriodsCompleted",
+            "setVestingParams",
+            "decimals",
+            "changeController",
+            "mint",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "balanceOf",
+            "finishMinting",
+            "parentToken",
+            "generateTokens",
+            "vestingTotalPeriods",
+            "getVestedBalance",
+            "symbol",
+            "totalSupplyAt",
+            "vestingStartTime",
+            "transfer",
+            "vestingPeriodTime",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "claimTokens",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    }
+}

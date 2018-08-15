@@ -1,0 +1,101 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "HeroCoin": {
+        "functions": [
+            "stateControl",
+            "name",
+            "endBlock",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "anyoneEndICO",
+            "abort",
+            "silencePeriod",
+            "whitelistControl",
+            "endICO",
+            "registerContest",
+            "withdrawControl",
+            "balanceOf",
+            "startICO",
+            "updateEthICOThresholds",
+            "pause",
+            "payRake",
+            "requestPayout",
+            "startAcceptingFundsBlock",
+            "symbol",
+            "whitelist",
+            "ETH_HEROCOIN",
+            "resumeICO",
+            "contests",
+            "transfer",
+            "initialHolder",
+            "state",
+            "rakeEventPlaceholderAddress",
+            "requestRefund",
+            "weiICOMaximum",
+            "allowance",
+            "addToWhitelist",
+            "weiICOMinimum"
+        ],
+        "events": [
+            "ContestAnnouncement",
+            "Whitelisted",
+            "Credited",
+            "StateTransition",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "LockedTokens": {
+        "functions": [
+            "TOKENS_TOTAL",
+            "balancesLocked2Y",
+            "balanceOfLocked1Y",
+            "CONTRIBUTIONS_MIN",
+            "DECIMALS",
+            "START_DATE",
+            "unlock1Y",
+            "TOKENS_SOFT_CAP",
+            "TOKENS_LOCKED_1Y_TOTAL",
+            "END_DATE",
+            "tokenContract",
+            "totalSupplyLocked",
+            "totalSupplyLocked2Y",
+            "balancesLocked1Y",
+            "TRANCHE2_ACCOUNT",
+            "TOKENS_HARD_CAP",
+            "DECIMALSFACTOR",
+            "CONTRIBUTIONS_MAX",
+            "LOCKED_2Y_DATE",
+            "NAME",
+            "balanceOfLocked2Y",
+            "totalSupplyLocked1Y",
+            "unlock2Y",
+            "balanceOfLocked",
+            "addRemainingTokens",
+            "LOCKED_1Y_DATE",
+            "SYMBOL",
+            "TOKENS_LOCKED_2Y_TOTAL"
+        ],
+        "events": []
+    },
+    "OpenANXToken": {
+        "functions": [
+            "name",
+            "approve",
+            "TOKENS_TOTAL",
+            "setTokensPerKEther",
+            "lockedTokens",
+            "totalSupply",
+            "kycVerify",
+            "balanceOfLocked1Y",
+            "finalised",
+            "transferFrom",
+            "CONTRIBUTIONS_MIN",
+            "DECIMALS",
+            "decimals",
+            "START_DATE",
+            "addPrecommitment",
+            "TOKENS_SOFT_CAP",
+            "wallet",
+            "END_DATE",
+            "totalSupplyLocked",
+            "totalSupplyLocked2Y",
+            "balanceOf",
+            "acceptOwnership",
+            "burnFrom",
+            "TOKENS_HARD_CAP",
+            "DECIMALSFACTOR",
+            "owner",
+            "CONTRIBUTIONS_MAX",
+            "symbol",
+            "LOCKED_2Y_DATE",
+            "NAME",
+            "finalise",
+            "tokensPerKEther",
+            "transfer",
+            "kycRequired",
+            "balanceOfLocked2Y",
+            "totalSupplyLocked1Y",
+            "totalSupplyUnlocked",
+            "newOwner",
+            "transferAnyERC20Token",
+            "allowance",
+            "setWallet",
+            "balanceOfLocked",
+            "transferOwnership",
+            "LOCKED_1Y_DATE",
+            "proxyPayment",
+            "SYMBOL"
+        ],
+        "events": [
+            "WalletUpdated",
+            "TokensPerKEtherUpdated",
+            "TokensBought",
+            "PrecommitmentAdded",
+            "KycVerified",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "OpenANXTokenConfig": {
+        "functions": [
+            "TOKENS_TOTAL",
+            "CONTRIBUTIONS_MIN",
+            "DECIMALS",
+            "START_DATE",
+            "TOKENS_SOFT_CAP",
+            "END_DATE",
+            "TOKENS_HARD_CAP",
+            "DECIMALSFACTOR",
+            "CONTRIBUTIONS_MAX",
+            "LOCKED_2Y_DATE",
+            "NAME",
+            "LOCKED_1Y_DATE",
+            "SYMBOL"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

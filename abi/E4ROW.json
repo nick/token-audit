@@ -1,0 +1,75 @@
+{
+    "E4Lava": {
+        "functions": [
+            "approve",
+            "applySettings",
+            "totalSupply",
+            "numToksSwitchedOver",
+            "checkDividends",
+            "transferFrom",
+            "developers",
+            "withdrawDividends",
+            "decimals",
+            "setOpGas",
+            "TotalFeesReceived",
+            "vestTime",
+            "rwGas",
+            "settingsState",
+            "payoutThreshold",
+            "balanceOf",
+            "optInXferGas",
+            "getAccountInfo",
+            "numAccounts",
+            "owner",
+            "symbol",
+            "blackHole",
+            "changeOwner",
+            "transfer",
+            "setOldE4",
+            "haraKiri",
+            "oldE4",
+            "optInFcnMinGas",
+            "transferDividends",
+            "allowance",
+            "oldE4RecycleBin",
+            "holdoverBalance",
+            "optInFromClassic",
+            "setDeveloper"
+        ],
+        "events": [
+            "StatEvent",
+            "StatEventI",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "E4LavaOptIn": {
+        "functions": [
+            "optInFromClassic"
+        ],
+        "events": []
+    },
+    "E4LavaRewards": {
+        "functions": [
+            "checkDividends",
+            "withdrawDividends",
+            "getAccountInfo",
+            "transferDividends"
+        ],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

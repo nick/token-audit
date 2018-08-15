@@ -1,0 +1,32 @@
+{
+    "SuretlyToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "standard",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "symbol",
+            "replaceOwner",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "NewOwner",
+            "Burn"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

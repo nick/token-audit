@@ -1,0 +1,33 @@
+{
+    "BMC": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "withdrawEther",
+            "burn",
+            "unfreeze",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "freezeOf",
+            "freeze",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Burn",
+            "Freeze",
+            "Unfreeze",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

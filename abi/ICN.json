@@ -1,0 +1,34 @@
+{
+    "IconomiToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "setBlockLock",
+            "version",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "replaceOwner",
+            "isLocked",
+            "transfer",
+            "approveAndCall",
+            "lockedUntilBlock",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "BlockLockSet",
+            "NewOwner"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

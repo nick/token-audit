@@ -1,0 +1,40 @@
+{
+    "CryptaurToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mintTokens",
+            "decimals",
+            "cryptaurBackend",
+            "standard",
+            "allowed",
+            "candidate",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "changeOwner",
+            "transfer",
+            "finishCrowdsale",
+            "confirmOwner",
+            "allowance",
+            "changeBackend",
+            "crowdsaleFinished"
+        ],
+        "events": [
+            "Approval",
+            "Transfer",
+            "Mint"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "candidate",
+            "owner",
+            "changeOwner",
+            "confirmOwner"
+        ],
+        "events": []
+    }
+}

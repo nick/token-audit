@@ -1,0 +1,75 @@
+{
+    "NEToken": {
+        "functions": [
+            "TOKEN_SECOND_EXCHANGE_RATE",
+            "name",
+            "approve",
+            "TOKEN_FIRST_EXCHANGE_RATE",
+            "ETH_RECEIVED_MIN",
+            "totalSupply",
+            "redeemTokens",
+            "transferFrom",
+            "exchangeRateChangesBlock",
+            "proceed",
+            "decimals",
+            "finalize",
+            "version",
+            "refund",
+            "balanceOf",
+            "totalReceivedEth",
+            "pause",
+            "fundingEndBlock",
+            "symbol",
+            "ethFundDeposit",
+            "transfer",
+            "createTokens",
+            "state",
+            "fundingStartBlock",
+            "ETH_RECEIVED_CAP",
+            "startRedeeming",
+            "allowance",
+            "retrieveEth",
+            "TOKEN_MIN",
+            "TOKEN_CREATION_CAP"
+        ],
+        "events": [
+            "LogRefund",
+            "LogCreateNET",
+            "LogRedeemNET",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

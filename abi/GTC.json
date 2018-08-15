@@ -1,0 +1,105 @@
+{
+    "GameICO": {
+        "functions": [
+            "window0TotalSupply",
+            "adjustRate",
+            "owners",
+            "preservedTokens",
+            "unlockBalance",
+            "supply",
+            "window3EndTime",
+            "name",
+            "window3TotalSupply",
+            "adjustSupply",
+            "approve",
+            "setAllowTransfer",
+            "window2StartTime",
+            "withDraw",
+            "removeOwner",
+            "totalSupply",
+            "transferFrom",
+            "window2TokenExchangeRate",
+            "availableBalanceOf",
+            "window2TokenCreationCap",
+            "setPreICOLimit",
+            "isOwner",
+            "decimals",
+            "window3TokenCreationCap",
+            "window3StartTime",
+            "multiWallet",
+            "finalize",
+            "version",
+            "window2EndTime",
+            "lockedBalanceOf",
+            "setMultiWallet",
+            "window1TotalSupply",
+            "instantTransfer",
+            "addOwner",
+            "balanceOf",
+            "adjustTime",
+            "window1TokenCreationCap",
+            "isFinalized",
+            "symbol",
+            "setProceedsAccount",
+            "setInstantTransfer",
+            "window1TokenExchangeRate",
+            "transfer",
+            "initLockedBalanceOf",
+            "adjustCap",
+            "window1StartTime",
+            "window2TotalSupply",
+            "preICOPush",
+            "window0StartTime",
+            "window1EndTime",
+            "window3TokenExchangeRate",
+            "allowance",
+            "window0TokenCreationCap",
+            "window0EndTime",
+            "preICOLimit",
+            "window0TokenExchangeRate",
+            "etherProceedsAccount"
+        ],
+        "events": [
+            "CreateGameIco",
+            "PreICOTokenPushed",
+            "UnlockBalance",
+            "OwnerAddition",
+            "OwnerRemoval",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "availableBalanceOf",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

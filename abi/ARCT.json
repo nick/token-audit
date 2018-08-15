@@ -1,0 +1,89 @@
+{
+    "Destroyable": {
+        "functions": [
+            "hammer",
+            "destroy",
+            "setHammer"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Object": {
+        "functions": [
+            "setOwner",
+            "hammer",
+            "destroy",
+            "owner",
+            "setHammer"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "owner"
+        ],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "hammer",
+            "balanceOf",
+            "destroy",
+            "owner",
+            "symbol",
+            "transfer",
+            "setHammer",
+            "allowance",
+            "unapprove"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenEmission": {
+        "functions": [
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "hammer",
+            "emission",
+            "balanceOf",
+            "destroy",
+            "owner",
+            "symbol",
+            "transfer",
+            "setHammer",
+            "allowance",
+            "unapprove"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

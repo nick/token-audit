@@ -1,0 +1,74 @@
+{
+    "HawalaToken": {
+        "functions": [
+            "name",
+            "approve",
+            "CalculateReward",
+            "totalSupply",
+            "disperseRewards",
+            "transferFrom",
+            "canExecute",
+            "decimals",
+            "initialSupply",
+            "setIFS",
+            "totalstakeamount",
+            "changeTransactionFee",
+            "version",
+            "inflation_complete",
+            "claimIFSReward",
+            "balanceOf",
+            "IFSBalances",
+            "transactionfeeAmount",
+            "symbol",
+            "transfer",
+            "totalFeeCollected",
+            "approveAndCall",
+            "rewardsupply",
+            "allowance",
+            "HawalaKickoffTime",
+            "reClaimIFS"
+        ],
+        "events": [
+            "IFSActive",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "initialSupply",
+            "inflation_complete",
+            "balanceOf",
+            "transactionfeeAmount",
+            "transfer",
+            "totalFeeCollected",
+            "rewardsupply",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "CSToken": {
+        "functions": [
+            "allAgingTimesAdded",
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "mintToken",
+            "transferFrom",
+            "calculateDividends",
+            "allowManuallyBurnTokens",
+            "decimals",
+            "burn",
+            "standard",
+            "balanceOf",
+            "disableManuallyBurnTokens",
+            "receiveDividends",
+            "issue",
+            "addAgingTime",
+            "owner",
+            "symbol",
+            "destroy",
+            "changeOwner",
+            "transfer",
+            "transfersEnabled",
+            "approveAndCall",
+            "accountBalance",
+            "addressByIndex",
+            "allowance",
+            "agingBalanceOf",
+            "addAgingTimesForPool",
+            "countAddresses"
+        ],
+        "events": [
+            "Transfer",
+            "AgingTransfer",
+            "Approval",
+            "Issuance",
+            "Destruction",
+            "Burn",
+            "NewSmartToken"
+        ]
+    },
+    "Utils": {
+        "functions": [],
+        "events": []
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

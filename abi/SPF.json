@@ -1,0 +1,127 @@
+{
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "burn",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "crowdsaleContractAddress",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Burn",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20TokenInterface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Lockable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "lockUntil",
+            "newOwner",
+            "lockedUntilBlock",
+            "transferOwnership"
+        ],
+        "events": [
+            "ContractLocked",
+            "OwnerUpdate"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "ReentrancyHandlingContract": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SportifyToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "burn",
+            "standard",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "crowdsaleContractAddress",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Burn",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SportifyTokenInterface": {
+        "functions": [
+            "mint"
+        ],
+        "events": []
+    },
+    "tokenRecipientInterface": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

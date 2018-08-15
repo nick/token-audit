@@ -1,0 +1,185 @@
+{
+    "Administrable": {
+        "functions": [
+            "removeAdministrators",
+            "administrators",
+            "acceptOwnership",
+            "owner",
+            "addAdministrators",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "AdminstratorAdded",
+            "AdminstratorRemoved",
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Gimli": {
+        "functions": [
+            "name",
+            "approve",
+            "paidAmount",
+            "totalSupply",
+            "VESTING_1_DATE",
+            "transferFrom",
+            "VESTING_2_AMOUNT",
+            "decimals",
+            "MULTISIG_WALLET_ADDRESS",
+            "START_DATE",
+            "removeAdministrators",
+            "END_DATE",
+            "version",
+            "LOCKED_ADDRESS",
+            "streamerContract",
+            "setStreamerContract",
+            "VESTING_1_AMOUNT",
+            "balanceOf",
+            "vesting2Withdrawn",
+            "vesting1Withdrawn",
+            "administrators",
+            "acceptOwnership",
+            "owner",
+            "TOTAL_SUPPLY",
+            "transferable",
+            "addAdministrators",
+            "symbol",
+            "closeCrowdsale",
+            "UNIT",
+            "CROWDSALE_PRICE",
+            "transfer",
+            "transferGIM",
+            "transferOtherERC20Token",
+            "VESTING_2_DATE",
+            "preAllocate",
+            "releaseVesting",
+            "newOwner",
+            "allowance",
+            "transferOwnership",
+            "streamerContractMaxAmount",
+            "crowdsaleCanceled",
+            "cancelCrowdsale",
+            "CROWDSALE_AMOUNT",
+            "soldAmount"
+        ],
+        "events": [
+            "StreamerContractChanged",
+            "AdminstratorAdded",
+            "AdminstratorRemoved",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "GimliCrowdsale": {
+        "functions": [
+            "name",
+            "approve",
+            "paidAmount",
+            "totalSupply",
+            "VESTING_1_DATE",
+            "transferFrom",
+            "VESTING_2_AMOUNT",
+            "decimals",
+            "MULTISIG_WALLET_ADDRESS",
+            "START_DATE",
+            "END_DATE",
+            "version",
+            "LOCKED_ADDRESS",
+            "VESTING_1_AMOUNT",
+            "balanceOf",
+            "vesting2Withdrawn",
+            "vesting1Withdrawn",
+            "acceptOwnership",
+            "owner",
+            "TOTAL_SUPPLY",
+            "transferable",
+            "symbol",
+            "closeCrowdsale",
+            "UNIT",
+            "CROWDSALE_PRICE",
+            "transfer",
+            "transferOtherERC20Token",
+            "VESTING_2_DATE",
+            "preAllocate",
+            "releaseVesting",
+            "newOwner",
+            "allowance",
+            "transferOwnership",
+            "crowdsaleCanceled",
+            "cancelCrowdsale",
+            "CROWDSALE_AMOUNT",
+            "soldAmount"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "GimliToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "TOTAL_SUPPLY",
+            "transferable",
+            "symbol",
+            "UNIT",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

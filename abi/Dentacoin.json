@@ -1,0 +1,78 @@
+{
+    "DentacoinToken": {
+        "functions": [
+            "sellPriceEth",
+            "buyDentacoinsAgainstEther",
+            "name",
+            "approve",
+            "setGasReserve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "setDCNForGas",
+            "directTradeAllowed",
+            "minBalanceForAccounts",
+            "setEtherPrices",
+            "buyPriceEth",
+            "refundToOwner",
+            "setGasForDCN",
+            "balanceOf",
+            "sellDentacoinsAgainstEther",
+            "haltDirectTrade",
+            "owner",
+            "symbol",
+            "transfer",
+            "DentacoinAddress",
+            "DCNForGas",
+            "gasForDCN",
+            "setMinBalance",
+            "allowance",
+            "unhaltDirectTrade",
+            "gasReserve",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "FirstBloodToken": {
+        "functions": [
+            "name",
+            "endBlock",
+            "approve",
+            "totalSupply",
+            "bountyAllocated",
+            "signer",
+            "transferFrom",
+            "testPrice",
+            "decimals",
+            "presaleEtherRaised",
+            "startBlock",
+            "allocateBountyAndEcosystemTokens",
+            "founder",
+            "halt",
+            "balanceOf",
+            "etherCap",
+            "ecosystemAllocated",
+            "founderAllocation",
+            "founderLockup",
+            "changeFounder",
+            "symbol",
+            "founderAllocated",
+            "price",
+            "transfer",
+            "halted",
+            "allocateFounderTokens",
+            "ecosystemAllocation",
+            "transferLockup",
+            "presaleTokenSupply",
+            "unhalt",
+            "allowance",
+            "buyRecipient",
+            "buy",
+            "bountyAllocation"
+        ],
+        "events": [
+            "Buy",
+            "Withdraw",
+            "AllocateFounderTokens",
+            "AllocateBountyAndEcosystemTokens",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

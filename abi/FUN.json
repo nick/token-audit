@@ -1,0 +1,136 @@
+{
+    "Controller": {
+        "functions": [
+            "setToken",
+            "transferFrom",
+            "totalSupply",
+            "setLedger",
+            "finalize",
+            "ledger",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "burn",
+            "changeOwner",
+            "finalized",
+            "increaseApproval",
+            "transfer",
+            "allowance",
+            "approve",
+            "decreaseApproval",
+            "token"
+        ],
+        "events": []
+    },
+    "EventDefinitions": {
+        "functions": [],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Finalizable": {
+        "functions": [
+            "finalize",
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "finalized"
+        ],
+        "events": []
+    },
+    "IToken": {
+        "functions": [
+            "balanceOf",
+            "transfer"
+        ],
+        "events": []
+    },
+    "Ledger": {
+        "functions": [
+            "transferFrom",
+            "totalSupply",
+            "stopMinting",
+            "mint",
+            "finalize",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "setController",
+            "burn",
+            "changeOwner",
+            "finalized",
+            "increaseApproval",
+            "transfer",
+            "allowance",
+            "approve",
+            "decreaseApproval",
+            "mintingStopped",
+            "controller"
+        ],
+        "events": [
+            "LogMint",
+            "LogMintingStopped"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "multilocked",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "finalize",
+            "multiApprove",
+            "motd",
+            "setMotd",
+            "decreaseApproval",
+            "claimTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "lockMultis",
+            "owner",
+            "controllerApprove",
+            "setController",
+            "symbol",
+            "controllerTransfer",
+            "changeOwner",
+            "transfer",
+            "multiTransfer",
+            "finalized",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Motd",
+            "Transfer",
+            "Approval",
+            "logTokenTransfer"
+        ]
+    },
+    "TokenReceivable": {
+        "functions": [
+            "claimTokens",
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": [
+            "logTokenTransfer"
+        ]
+    }
+}

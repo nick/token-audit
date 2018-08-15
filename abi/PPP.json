@@ -1,0 +1,57 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "kill",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "initialSupply",
+            "kill",
+            "version",
+            "decreaseApproval",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "burn",
+            "unlock",
+            "transfer",
+            "locked",
+            "increaseApproval",
+            "allowance",
+            "preSaleAddress",
+            "transferOwnership",
+            "lock"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "CNNToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Burn",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "CNNTokenBase": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Burn",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

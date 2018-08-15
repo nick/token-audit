@@ -1,0 +1,242 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "CappedCrowdsale": {
+        "functions": [
+            "rate",
+            "endTime",
+            "cap",
+            "weiRaised",
+            "wallet",
+            "startTime",
+            "buyTokens",
+            "hasEnded",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "Crowdsale": {
+        "functions": [
+            "rate",
+            "endTime",
+            "weiRaised",
+            "wallet",
+            "startTime",
+            "buyTokens",
+            "hasEnded",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "LamdenTau": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "acceptOwnership",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwner",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Mediator": {
+        "functions": [
+            "setSale",
+            "acceptToken",
+            "sale",
+            "acceptOwnership",
+            "owner",
+            "passOff",
+            "setTau",
+            "tau",
+            "newOwner",
+            "setPresale",
+            "transferOwnership",
+            "presale"
+        ],
+        "events": []
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "acceptOwnership",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "newOwner",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Presale": {
+        "functions": [
+            "allocateTokens",
+            "unWhitelistUser",
+            "rate",
+            "changeEndTime",
+            "endTime",
+            "cap",
+            "weiRaised",
+            "whitelistUser",
+            "finalize",
+            "wallet",
+            "hasAllocated",
+            "acceptToken",
+            "mediator",
+            "unWhitelistUsers",
+            "startTime",
+            "acceptOwnership",
+            "seed",
+            "team",
+            "isFinalized",
+            "owner",
+            "mintTokens",
+            "whitelist",
+            "assignMediator",
+            "newOwner",
+            "seedShare",
+            "teamShare",
+            "buyTokens",
+            "hasEnded",
+            "whitelistUsers",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "Finalized",
+            "TokenPurchase"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Sale": {
+        "functions": [
+            "UNIX_DAY",
+            "unWhitelistUser",
+            "currentContributionLimit",
+            "rate",
+            "changeEndTime",
+            "endTime",
+            "claimToken",
+            "cap",
+            "weiRaised",
+            "currentPersonalLimit",
+            "whitelistUser",
+            "finalize",
+            "amountContributedBy",
+            "wallet",
+            "unWhitelistUsers",
+            "startTime",
+            "acceptOwnership",
+            "isFinalized",
+            "owner",
+            "mintTokens",
+            "whitelist",
+            "daysSinceLaunch",
+            "newOwner",
+            "amountPerDay",
+            "buyTokens",
+            "hasEnded",
+            "whitelistUsers",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "Finalized",
+            "TokenPurchase"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

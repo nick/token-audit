@@ -1,0 +1,82 @@
+{
+    "IMigrationContract": {
+        "functions": [
+            "migrate"
+        ],
+        "events": []
+    },
+    "NebulasToken": {
+        "functions": [
+            "name",
+            "approve",
+            "allocateToken",
+            "isFunding",
+            "totalSupply",
+            "transferFrom",
+            "tokenRaised",
+            "decimals",
+            "newContractAddr",
+            "tokenExchangeRate",
+            "stopFunding",
+            "setMigrateContract",
+            "version",
+            "tokenMigrated",
+            "balanceOf",
+            "currentSupply",
+            "startFunding",
+            "migrate",
+            "symbol",
+            "decreaseSupply",
+            "changeOwner",
+            "ethFundDeposit",
+            "transfer",
+            "increaseSupply",
+            "setTokenExchangeRate",
+            "fundingStartBlock",
+            "allowance",
+            "transferETH",
+            "fundingStopBlock"
+        ],
+        "events": [
+            "AllocateToken",
+            "IssueToken",
+            "IncreaseSupply",
+            "DecreaseSupply",
+            "Migrate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

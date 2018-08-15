@@ -1,0 +1,77 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "transferOwner",
+            "owner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "MAX_ALLOCATIONS_COUNT",
+            "decimals",
+            "releasePremine",
+            "transferOwner",
+            "balanceOf",
+            "DAYS_28",
+            "accountsToAllocate",
+            "owner",
+            "symbol",
+            "disablePreminer",
+            "transfer",
+            "addPremineAllocation",
+            "getPreminer",
+            "allocate",
+            "multisignature",
+            "allowance",
+            "getPreminerAllocation",
+            "DAYS_31",
+            "addPreminer"
+        ],
+        "events": [
+            "ALLOCATION",
+            "PREMINER_ADDED",
+            "PREMINE_ALLOCATION_ADDED",
+            "PREMINE_RELEASE",
+            "PREMINER_CHANGED",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

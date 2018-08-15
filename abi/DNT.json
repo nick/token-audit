@@ -1,0 +1,300 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Controlled": {
+        "functions": [
+            "changeController",
+            "controller"
+        ],
+        "events": []
+    },
+    "District0xContribution": {
+        "functions": [
+            "totalContributed",
+            "setMinContribAmount",
+            "advisers",
+            "founder1",
+            "EARLY_CONTRIBUTOR_STAKE",
+            "reclaimToken",
+            "contributors",
+            "COMMUNITY_ADVISERS_STAKE",
+            "setContribPeriod",
+            "ADVISER_STAKE",
+            "softCapReached",
+            "endTime",
+            "claimTokensFromTokenDistrict0xNetworkToken",
+            "getContributor",
+            "maxGasPrice",
+            "ADVISER_STAKE2",
+            "contributorsKeys",
+            "onTransfer",
+            "TEAM_VESTING_CLIFF",
+            "EARLY_CONTRIBUTOR_VESTING_CLIFF",
+            "enableContribPeriod",
+            "minContribAmount",
+            "afterSoftCapDuration",
+            "emergencyStop",
+            "isEnabled",
+            "getConfiguration",
+            "FOUNDER2_STAKE",
+            "CONTRIB_PERIOD2_STAKE",
+            "stopped",
+            "startTime",
+            "acceptOwnership",
+            "contributeWithAddress",
+            "founder2",
+            "earlySponsor",
+            "CONTRIB_PERIOD3_STAKE",
+            "release",
+            "owner",
+            "multisigWallet",
+            "hardCapReached",
+            "changeOwner",
+            "enableDistrict0xNetworkTokenTransfers",
+            "tokenTransfersEnabled",
+            "getUncompensatedContributors",
+            "getNow",
+            "tokenFallback",
+            "kill",
+            "hardCapAmount",
+            "isContribPeriodRunning",
+            "setMaxGasPrice",
+            "newOwner",
+            "contribute",
+            "onApprove",
+            "setDistrict0xNetworkToken",
+            "TEAM_VESTING_PERIOD",
+            "district0xNetworkToken",
+            "getContribPeriod",
+            "isTokenSaleToken",
+            "CONTRIB_PERIOD1_STAKE",
+            "EARLY_CONTRIBUTOR_VESTING_PERIOD",
+            "proxyPayment",
+            "softCapAmount",
+            "FOUNDER1_STAKE",
+            "compensateContributors"
+        ],
+        "events": [
+            "onContribution",
+            "onSoftCapReached",
+            "onHardCapReached",
+            "onCompensated",
+            "onEmergencyChanged"
+        ]
+    },
+    "District0xNetworkToken": {
+        "functions": [
+            "tokenGrantsCount",
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "grants",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "tokenGrant",
+            "createCloneToken",
+            "claimTokens",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "grantsController",
+            "symbol",
+            "grantVestedTokens",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "revokeAllTokenGrants",
+            "transferableTokens",
+            "destroyTokens",
+            "allowance",
+            "calculateVestedTokens",
+            "changeGrantsController",
+            "tokenFactory",
+            "revokeTokenGrant",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "GrantsControlled": {
+        "functions": [
+            "grantsController",
+            "changeGrantsController"
+        ],
+        "events": []
+    },
+    "HasNoTokens": {
+        "functions": [
+            "reclaimToken",
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "tokenFallback",
+            "newOwner",
+            "district0xNetworkToken",
+            "isTokenSaleToken"
+        ],
+        "events": []
+    },
+    "LimitedTransferToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "approveAndCall",
+            "transferableTokens",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MiniMeToken": {
+        "functions": [
+            "name",
+            "approve",
+            "creationBlock",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeController",
+            "balanceOfAt",
+            "version",
+            "createCloneToken",
+            "claimTokens",
+            "balanceOf",
+            "parentToken",
+            "generateTokens",
+            "symbol",
+            "totalSupplyAt",
+            "transfer",
+            "transfersEnabled",
+            "parentSnapShotBlock",
+            "approveAndCall",
+            "destroyTokens",
+            "allowance",
+            "tokenFactory",
+            "enableTransfers",
+            "controller"
+        ],
+        "events": [
+            "ClaimedTokens",
+            "Transfer",
+            "NewCloneToken",
+            "Approval"
+        ]
+    },
+    "MiniMeTokenFactory": {
+        "functions": [
+            "createCloneToken"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "newOwner"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "emergencyStop",
+            "stopped",
+            "acceptOwnership",
+            "release",
+            "owner",
+            "changeOwner",
+            "newOwner"
+        ],
+        "events": [
+            "onEmergencyChanged"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenController": {
+        "functions": [
+            "onTransfer",
+            "onApprove",
+            "proxyPayment"
+        ],
+        "events": []
+    },
+    "VestedToken": {
+        "functions": [
+            "tokenGrantsCount",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "grants",
+            "tokenGrant",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "grantsController",
+            "grantVestedTokens",
+            "transfer",
+            "approveAndCall",
+            "revokeAllTokenGrants",
+            "transferableTokens",
+            "allowance",
+            "calculateVestedTokens",
+            "changeGrantsController",
+            "revokeTokenGrant"
+        ],
+        "events": [
+            "NewTokenGrant",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

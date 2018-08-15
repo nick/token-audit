@@ -1,0 +1,59 @@
+{
+    "IERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SunContractToken": {
+        "functions": [
+            "isRestrictedAddress",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "burnTokens",
+            "balanceOf",
+            "owner",
+            "tokenFrozenUntilBlock",
+            "symbol",
+            "icoContractAddress",
+            "transfer",
+            "freezeTransfersUntil",
+            "approveAndCall",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Burn",
+            "TokenFrozen",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

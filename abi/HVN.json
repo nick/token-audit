@@ -1,0 +1,67 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "HVNToken": {
+        "functions": [
+            "freezeTransfers",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unfreezeTransfers",
+            "version",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "newOwner",
+            "allowance",
+            "claimTokens",
+            "transfersFrozen",
+            "transferOwnership"
+        ],
+        "events": [
+            "Freeze",
+            "Unfreeze",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

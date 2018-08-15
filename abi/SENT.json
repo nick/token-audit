@@ -1,0 +1,60 @@
+{
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Sentinel": {
+        "functions": [
+            "name",
+            "approve",
+            "services",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "payService",
+            "owner",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance",
+            "transferOwnership",
+            "deployService"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

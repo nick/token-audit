@@ -1,0 +1,108 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "potentialOwner",
+            "owner",
+            "confirmOwnership"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner"
+        ]
+    },
+    "PoetToken": {
+        "functions": [
+            "name",
+            "approve",
+            "withdrawFromReserve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "icoAllocation",
+            "transferERC20Token",
+            "availableReserve",
+            "foundationReserve",
+            "balanceOf",
+            "potentialOwner",
+            "owner",
+            "symbol",
+            "transfer",
+            "confirmOwnership",
+            "creationTime",
+            "allowance",
+            "distribute"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner",
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "potentialOwner",
+            "owner",
+            "transfer",
+            "confirmOwnership",
+            "allowance"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner",
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "transferERC20Token",
+            "balanceOf",
+            "potentialOwner",
+            "owner",
+            "transfer",
+            "confirmOwnership",
+            "creationTime",
+            "allowance"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner",
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    }
+}

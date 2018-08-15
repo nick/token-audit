@@ -1,0 +1,187 @@
+{
+    "ERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20TokenInterface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "FabricToken": {
+        "functions": [
+            "frozen",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "freeze",
+            "unfreeze",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "FabricTokenConfig": {
+        "functions": [],
+        "events": []
+    },
+    "FabricTokenFundraiser": {
+        "functions": [
+            "claimPartnerTokens",
+            "frozen",
+            "name",
+            "approve",
+            "startDate",
+            "totalSupply",
+            "setBeneficiary",
+            "transferFrom",
+            "whitelistAddresses",
+            "decimals",
+            "beneficiary",
+            "finalize",
+            "freeze",
+            "unfreeze",
+            "balanceOf",
+            "blacklistAddresses",
+            "acceptOwnership",
+            "conversionRate",
+            "owner",
+            "symbol",
+            "whitelist",
+            "transfer",
+            "finalized",
+            "endDate",
+            "buyTokens",
+            "setConversionRate",
+            "newOwner",
+            "allowance",
+            "transferOwnership",
+            "fabricTokenSafe",
+            "hardCap"
+        ],
+        "events": [
+            "FundsReceived",
+            "BeneficiaryChange",
+            "ConversionRateChange",
+            "Finalized",
+            "OwnershipTransfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "FabricTokenFundraiserConfig": {
+        "functions": [],
+        "events": []
+    },
+    "FabricTokenSafe": {
+        "functions": [
+            "releaseAdvisorsAccount",
+            "bundles",
+            "releaseCoreTeamAccount",
+            "totalTokensLocked"
+        ],
+        "events": []
+    },
+    "Freezable": {
+        "functions": [
+            "frozen",
+            "freeze",
+            "unfreeze",
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransfer"
+        ]
+    },
+    "FreezableERC20Token": {
+        "functions": [
+            "frozen",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "freeze",
+            "unfreeze",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransfer",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "HasOwner": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenSafe": {
+        "functions": [
+            "bundles"
+        ],
+        "events": []
+    },
+    "Whitelist": {
+        "functions": [
+            "whitelistAddresses",
+            "blacklistAddresses",
+            "acceptOwnership",
+            "owner",
+            "whitelist",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransfer"
+        ]
+    }
+}

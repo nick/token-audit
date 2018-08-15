@@ -1,0 +1,248 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "CrowdsaleConfig": {
+        "functions": [
+            "SALE_CAP",
+            "MIN_TOKEN_UNIT",
+            "PURCHASER_MIN_TOKEN_CAP",
+            "FOUNDATION_POOL_ADDR",
+            "FOUNDERS_POOL_ADDR",
+            "TOTAL_SUPPLY_CAP",
+            "COMMUNITY_POOL_TOKENS",
+            "PURCHASER_MAX_TOKEN_CAP_DAY1",
+            "FOUNDATION_POOL_TOKENS_VESTED",
+            "TOKEN_DECIMALS",
+            "PRECOMMITMENT_VESTING_SECONDS",
+            "FOUNDERS_TOKENS",
+            "LEGAL_EXPENSES_2_TOKENS",
+            "FOUNDERS_TOKENS_VESTED_2",
+            "CROWDSALE_WALLET_ADDR",
+            "FOUNDERS_TOKENS_VESTED_1",
+            "FOUNDATION_POOL_TOKENS",
+            "LEGAL_EXPENSES_ADDR_2",
+            "LEGAL_EXPENSES_1_TOKENS",
+            "COMMUNITY_POOL_ADDR",
+            "PURCHASER_MAX_TOKEN_CAP",
+            "LEGAL_EXPENSES_ADDR_1",
+            "FOUNDATION_POOL_ADDR_VEST",
+            "TOKEN_PRICE_THOUSANDTH"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "RefundVault": {
+        "functions": [
+            "close",
+            "wallet",
+            "enableRefunds",
+            "owner",
+            "state",
+            "deposited",
+            "transferOwnership",
+            "deposit",
+            "refund"
+        ],
+        "events": [
+            "Closed",
+            "RefundsEnabled",
+            "Refunded",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeERC20": {
+        "functions": [],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SelfKeyCrowdsale": {
+        "functions": [
+            "setEthPrice",
+            "releaseLockFounders1",
+            "SALE_CAP",
+            "MIN_TOKEN_UNIT",
+            "PURCHASER_MIN_TOKEN_CAP",
+            "tokensPurchased",
+            "rate",
+            "endTime",
+            "isVerifier",
+            "setStartTime",
+            "releaseLockFoundation",
+            "verifyKYC",
+            "vestedTokens",
+            "addPrecommitment",
+            "goal",
+            "FOUNDATION_POOL_ADDR",
+            "FOUNDERS_POOL_ADDR",
+            "TOTAL_SUPPLY_CAP",
+            "finalize",
+            "COMMUNITY_POOL_TOKENS",
+            "PURCHASER_MAX_TOKEN_CAP_DAY1",
+            "FOUNDATION_POOL_TOKENS_VESTED",
+            "TOKEN_DECIMALS",
+            "PRECOMMITMENT_VESTING_SECONDS",
+            "FOUNDERS_TOKENS",
+            "releaseLockFounders2",
+            "LEGAL_EXPENSES_2_TOKENS",
+            "FOUNDERS_TOKENS_VESTED_2",
+            "startTime",
+            "goalReached",
+            "isFinalized",
+            "owner",
+            "CROWDSALE_WALLET_ADDR",
+            "addVerifier",
+            "FOUNDERS_TOKENS_VESTED_1",
+            "FOUNDATION_POOL_TOKENS",
+            "kycVerified",
+            "LEGAL_EXPENSES_ADDR_2",
+            "LEGAL_EXPENSES_1_TOKENS",
+            "COMMUNITY_POOL_ADDR",
+            "claimRefund",
+            "foundersTimelock1",
+            "foundersTimelock2",
+            "removeVerifier",
+            "releaseLock",
+            "PURCHASER_MAX_TOKEN_CAP",
+            "LEGAL_EXPENSES_ADDR_1",
+            "FOUNDATION_POOL_ADDR_VEST",
+            "totalPurchased",
+            "setEndTime",
+            "foundationTimelock",
+            "TOKEN_PRICE_THOUSANDTH",
+            "transferOwnership",
+            "vault",
+            "token",
+            "ethPrice"
+        ],
+        "events": [
+            "TokenPurchase",
+            "VerifiedKYC",
+            "AddedPrecommitment",
+            "Finalized",
+            "OwnershipTransferred"
+        ]
+    },
+    "SelfKeyToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "cap",
+            "mint",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "enableTransfers",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burned",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "TokenTimelock": {
+        "functions": [
+            "beneficiary",
+            "release",
+            "releaseTime",
+            "token"
+        ],
+        "events": []
+    }
+}

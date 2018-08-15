@@ -1,0 +1,323 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Claimable": {
+        "functions": [
+            "claimOwnership",
+            "owner",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Crowdsale": {
+        "functions": [
+            "rate",
+            "endTime",
+            "weiRaised",
+            "wallet",
+            "getRate",
+            "startTime",
+            "buyTokens",
+            "hasEnded",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FinalizableCrowdsale": {
+        "functions": [
+            "rate",
+            "endTime",
+            "weiRaised",
+            "finalize",
+            "claimOwnership",
+            "wallet",
+            "getRate",
+            "startTime",
+            "isFinalized",
+            "owner",
+            "pendingOwner",
+            "buyTokens",
+            "hasEnded",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "Finalized",
+            "OwnershipTransferred",
+            "TokenPurchase"
+        ]
+    },
+    "ISmartToken": {
+        "functions": [
+            "disableTransfers",
+            "issue",
+            "destroy",
+            "transfersEnabled"
+        ],
+        "events": [
+            "NewSmartToken",
+            "Issuance",
+            "Destruction"
+        ]
+    },
+    "LimitedTransferBancorSmartToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "claimOwnership",
+            "setDestroyEnabled",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "issue",
+            "owner",
+            "destroy",
+            "transfer",
+            "transfersEnabled",
+            "transferableTokens",
+            "increaseApproval",
+            "allowance",
+            "destroyEnabled",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "NewSmartToken",
+            "Issuance",
+            "Destruction",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "LimitedTransferToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transferableTokens",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "claimOwnership",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "RefundVault": {
+        "functions": [
+            "etherWallet",
+            "claimAllTokens",
+            "REFUND_TIME_FRAME",
+            "close",
+            "claimTokens",
+            "deposit",
+            "claimOwnership",
+            "refundStartTime",
+            "enableRefunds",
+            "owner",
+            "depositedToken",
+            "refundETH",
+            "state",
+            "pendingOwner",
+            "transferOwnership",
+            "depositedETH",
+            "token"
+        ],
+        "events": [
+            "Active",
+            "Closed",
+            "Deposit",
+            "RefundsEnabled",
+            "RefundedETH",
+            "TokensClaimed",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SirinCrowdsale": {
+        "functions": [
+            "getTotalFundsRaised",
+            "claimTokenOwnership",
+            "refundVault",
+            "EXCHANGE_RATE",
+            "isActive",
+            "rate",
+            "presaleGranteesMap",
+            "endTime",
+            "weiRaised",
+            "finalize",
+            "claimOwnership",
+            "claimRefundVaultOwnership",
+            "wallet",
+            "setFiatRaisedConvertedToWei",
+            "getRate",
+            "walletTeam",
+            "walletReserve",
+            "startTime",
+            "buyTokensWithGuarantee",
+            "isFinalized",
+            "owner",
+            "fiatRaisedConvertedToWei",
+            "MAX_TOKEN_GRANTEES",
+            "walletBounties",
+            "addUpdateGrantee",
+            "presaleGranteesMapKeys",
+            "deleteGrantee",
+            "pendingOwner",
+            "buyTokens",
+            "hasEnded",
+            "transferOwnership",
+            "walletOEM",
+            "token",
+            "REFUND_DIVISION_RATE"
+        ],
+        "events": [
+            "GrantAdded",
+            "GrantUpdated",
+            "GrantDeleted",
+            "FiatRaisedUpdated",
+            "TokenPurchaseWithGuarantee",
+            "Finalized",
+            "OwnershipTransferred",
+            "TokenPurchase"
+        ]
+    },
+    "SirinSmartToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "claimOwnership",
+            "setDestroyEnabled",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "issue",
+            "owner",
+            "symbol",
+            "destroy",
+            "transfer",
+            "transfersEnabled",
+            "transferableTokens",
+            "increaseApproval",
+            "allowance",
+            "destroyEnabled",
+            "pendingOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "NewSmartToken",
+            "Issuance",
+            "Destruction",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

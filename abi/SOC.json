@@ -1,0 +1,35 @@
+{
+    "AllSportsCoin": {
+        "functions": [
+            "name",
+            "totalSupply",
+            "decimals",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "TokenERC20": {
+        "functions": [
+            "name",
+            "totalSupply",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "ERC223ReceivingContract": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "PhiToken": {
+        "functions": [
+            "name",
+            "approve",
+            "lockTime",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "WALLET_ADDR",
+            "ICO_ADDR",
+            "balanceOf",
+            "PRE_ICO_ADDR",
+            "symbol",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Deployed",
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "burn",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "LympoToken": {
+        "functions": [
+            "name",
+            "approve",
+            "advisersReserve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "teamReserve",
+            "burn",
+            "ecoLock23",
+            "tokensPreICO",
+            "lockReleaseDate2year",
+            "standard",
+            "ecosystemReserve",
+            "balanceOf",
+            "tokensICO",
+            "lockReleaseDate1year",
+            "startTime",
+            "ecosystemAddr",
+            "symbol",
+            "advisersAddr",
+            "ownerAddr",
+            "transfer",
+            "ecoLock13",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burned"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

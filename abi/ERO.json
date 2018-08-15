@@ -1,0 +1,80 @@
+{
+    "EROMaths": {
+        "functions": [],
+        "events": []
+    },
+    "EROSCOIN": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "frozenAccount",
+            "approveAndCall",
+            "newOwner",
+            "allowance",
+            "freezeAccount",
+            "transferOwnership"
+        ],
+        "events": [
+            "FrozenFunds",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "EROSCOINToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "EroStandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "transfer",
+            "frozenAccount",
+            "newOwner",
+            "allowance",
+            "freezeAccount",
+            "transferOwnership"
+        ],
+        "events": [
+            "FrozenFunds",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    }
+}

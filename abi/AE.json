@@ -1,0 +1,96 @@
+{
+    "AEToken": {
+        "functions": [
+            "launch",
+            "creator",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "prefill",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "transferableUntil",
+            "allowance",
+            "prefilled"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "HumanStandardToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "PrefilledToken": {
+        "functions": [
+            "launch",
+            "creator",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "balanceOf",
+            "prefill",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance",
+            "prefilled"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FuelToken": {
+        "functions": [
+            "name",
+            "approve",
+            "vanbexTeamAddress",
+            "releaseVanbexTeamTokens",
+            "totalSupply",
+            "transferFrom",
+            "vanbexTeamVestingPeriod",
+            "decimals",
+            "icoSupply",
+            "presaleFinalized",
+            "balanceOf",
+            "crowdfundAddress",
+            "platformSupply",
+            "crowdfundEndsAt",
+            "presaleAmountRemaining",
+            "incentivisingEffortsAddress",
+            "crowdfundFinalized",
+            "transferFromCrowdfund",
+            "owner",
+            "symbol",
+            "setCrowdfundAddress",
+            "finalizePresale",
+            "transfer",
+            "vanbexTeamSupply",
+            "incentivisingEffortsSupply",
+            "presaleSupply",
+            "finalizeCrowdfund",
+            "deliverPresaleFuelBalances",
+            "platformAddress",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "CrowdfundFinalized",
+            "PresaleFinalized",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "NonZero": {
+        "functions": [],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

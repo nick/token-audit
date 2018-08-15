@@ -1,0 +1,143 @@
+{
+    "Controller": {
+        "functions": [
+            "setToken",
+            "transferFrom",
+            "totalSupply",
+            "setLedger",
+            "finalize",
+            "ledger",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "burn",
+            "changeOwner",
+            "finalized",
+            "increaseApproval",
+            "transfer",
+            "allowance",
+            "approve",
+            "decreaseApproval",
+            "ledgerTransfer",
+            "token"
+        ],
+        "events": []
+    },
+    "EventDefinitions": {
+        "functions": [],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Finalizable": {
+        "functions": [
+            "finalize",
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "finalized"
+        ],
+        "events": []
+    },
+    "IToken": {
+        "functions": [
+            "balanceOf",
+            "transfer"
+        ],
+        "events": []
+    },
+    "Ledger": {
+        "functions": [
+            "transferFrom",
+            "totalSupply",
+            "stopMinting",
+            "finalize",
+            "balanceOf",
+            "acceptOwnership",
+            "multiMint",
+            "owner",
+            "setController",
+            "burn",
+            "changeOwner",
+            "finalized",
+            "increaseApproval",
+            "transfer",
+            "allowance",
+            "approve",
+            "decreaseApproval",
+            "mintingStopped",
+            "controller",
+            "mintingNonce"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "acceptOwnership",
+            "pause",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unpause",
+            "burn",
+            "finalize",
+            "motd",
+            "paused",
+            "setMotd",
+            "decreaseApproval",
+            "claimTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "pause",
+            "owner",
+            "controllerApprove",
+            "setController",
+            "symbol",
+            "controllerTransfer",
+            "changeOwner",
+            "transfer",
+            "finalized",
+            "increaseApproval",
+            "allowance",
+            "controller"
+        ],
+        "events": [
+            "Motd",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenReceivable": {
+        "functions": [
+            "claimTokens",
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "BETR_TOKEN": {
+        "functions": [
+            "name",
+            "approve",
+            "escrowAllowed",
+            "totalSupply",
+            "escrowReturn",
+            "transferFrom",
+            "tgeIssuer",
+            "decimals",
+            "tgeActive",
+            "mint",
+            "stopTge",
+            "setTgeIssuer",
+            "extendTge",
+            "tgeDuration",
+            "balanceOf",
+            "reserveTokens",
+            "startTge",
+            "reserveTokensGroup",
+            "owner",
+            "symbol",
+            "allowEscrow",
+            "transfer",
+            "setEscrow",
+            "escrowFrom",
+            "allowance",
+            "escrow",
+            "tgeStartTime",
+            "hardCap"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

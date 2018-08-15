@@ -1,0 +1,66 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "HumaniqToken": {
+        "functions": [
+            "preICOSupply",
+            "name",
+            "minter",
+            "approve",
+            "allocationAddressPreICO",
+            "ICOSupply",
+            "totalSupply",
+            "changeMultisig",
+            "transferFrom",
+            "maxTotalSupply",
+            "changeMinter",
+            "decimals",
+            "issueTokens",
+            "multisig",
+            "founder",
+            "balanceOf",
+            "allocationAddressICO",
+            "changeFounder",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    }
+}

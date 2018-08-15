@@ -1,0 +1,122 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IndorseSaleContract": {
+        "functions": [
+            "totalSupply",
+            "fundingStartTime",
+            "decimals",
+            "indFundDeposit",
+            "unpause",
+            "tokenExchangeRate",
+            "finalize",
+            "paused",
+            "tokenCreationCap",
+            "indAddress",
+            "fundingEndTime",
+            "pause",
+            "isFinalized",
+            "owner",
+            "ethFundDeposit",
+            "minContribution",
+            "MAX_GAS_PRICE",
+            "maxTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "MintIND",
+            "LogRefund",
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "IndorseToken": {
+        "functions": [
+            "indCommunity",
+            "name",
+            "indVestingDeposit",
+            "approve",
+            "totalSupply",
+            "indFutureDeposit",
+            "indFuture",
+            "transferFrom",
+            "indCommunityDeposit",
+            "decimals",
+            "unpause",
+            "indPreSale",
+            "indPresaleDeposit",
+            "version",
+            "paused",
+            "indSeedDeposit",
+            "balanceOf",
+            "indInflation",
+            "indVesting",
+            "indSale",
+            "pause",
+            "owner",
+            "symbol",
+            "transfer",
+            "indSaleDeposit",
+            "allowance",
+            "indInflationDeposit",
+            "transferOwnership",
+            "indSeed"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "LockedToken": {
+        "functions": [
+            "name",
+            "approve",
+            "spendableBalanceOf",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "transferAndLock",
+            "lastTokenIsTransferableDate",
+            "balanceOf",
+            "burnFrom",
+            "transferableTokens",
+            "owner",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "transfer",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

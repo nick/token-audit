@@ -1,0 +1,175 @@
+{
+    "Coin": {
+        "functions": [
+            "updateTokenInformation",
+            "setTransferAgent",
+            "name",
+            "approve",
+            "setPublicSaleParams",
+            "setTotalTokensForPublicSale",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "destroyToken",
+            "decimals",
+            "setMinAndMaxEthersForPublicSale",
+            "upgrade",
+            "isCrowdsaleOpen",
+            "upgradeAgent",
+            "releaseTokenTransfer",
+            "upgradeMaster",
+            "updateTokenPrice",
+            "balanceOf",
+            "acceptOwnership",
+            "getUpgradeState",
+            "transferAgents",
+            "sendTokensToInvestors",
+            "owner",
+            "symbol",
+            "released",
+            "canUpgrade",
+            "decreaseSupply",
+            "safeSub",
+            "transfer",
+            "increaseSupply",
+            "stopCrowdSale",
+            "totalUpgraded",
+            "dispenseTokensToInvestorAddressesByValue",
+            "safeMul",
+            "buyTokens",
+            "releaseAgent",
+            "newOwner",
+            "setUpgradeAgent",
+            "updateOnSaleSupply",
+            "allowance",
+            "onSaleTokens",
+            "safeAdd",
+            "sendTokensToOwner",
+            "startCrowdSale",
+            "transferOwnership",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "UpdatedTokenInformation",
+            "OwnershipTransferred",
+            "Upgrade",
+            "UpgradeAgentSet",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "ReleasableToken": {
+        "functions": [
+            "setTransferAgent",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "decimals",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "acceptOwnership",
+            "transferAgents",
+            "owner",
+            "released",
+            "transfer",
+            "releaseAgent",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMathLib": {
+        "functions": [
+            "safeSub",
+            "safeMul",
+            "safeAdd"
+        ],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "safeSub",
+            "transfer",
+            "safeMul",
+            "allowance",
+            "safeAdd"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "UpgradeAgent": {
+        "functions": [
+            "originalSupply",
+            "isUpgradeAgent",
+            "upgradeFrom"
+        ],
+        "events": []
+    },
+    "XinfinUpgradeableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "upgrade",
+            "upgradeAgent",
+            "upgradeMaster",
+            "balanceOf",
+            "getUpgradeState",
+            "canUpgrade",
+            "safeSub",
+            "transfer",
+            "totalUpgraded",
+            "safeMul",
+            "setUpgradeAgent",
+            "allowance",
+            "safeAdd",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "Upgrade",
+            "UpgradeAgentSet",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

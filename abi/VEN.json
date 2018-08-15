@@ -1,0 +1,86 @@
+{
+    "ApprovalReceiver": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "owner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "VEN": {
+        "functions": [
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "seal",
+            "offerBonus",
+            "isSealed",
+            "balanceOf",
+            "lastMintedTimestamp",
+            "owner",
+            "symbol",
+            "transfer",
+            "mint",
+            "approveAndCall",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "VENSale": {
+        "functions": [
+            "setOwner",
+            "channelsLimit",
+            "totalSupply",
+            "endTime",
+            "exchangeRate",
+            "blockTime",
+            "finalize",
+            "publicSupply",
+            "officialSold",
+            "startTime",
+            "channelsSold",
+            "officialLimit",
+            "owner",
+            "buy",
+            "earlyStageLasts",
+            "stage",
+            "initialize",
+            "offerToChannel",
+            "nonPublicSupply"
+        ],
+        "events": [
+            "onInitialized",
+            "onFinalized",
+            "onSold"
+        ]
+    }
+}

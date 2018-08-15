@@ -1,0 +1,42 @@
+{
+    "DSSafeAddSub": {
+        "functions": [],
+        "events": []
+    },
+    "EtherollToken": {
+        "functions": [
+            "ownerSetPriviledgedAddress",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "updateTokenStatus",
+            "tokensFrozen",
+            "decimals",
+            "nextThaw",
+            "standard",
+            "priviledgedAddressBurnUnsoldCoins",
+            "balanceOf",
+            "crowdfundDeadline",
+            "nextFreeze",
+            "owner",
+            "priviledgedAddress",
+            "symbol",
+            "ownerTransferOwnership",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "LogTokensFrozen"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "ownerTransferOwnership"
+        ],
+        "events": []
+    }
+}

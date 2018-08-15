@@ -1,0 +1,216 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "BerryToken": {
+        "functions": [
+            "name",
+            "approve",
+            "increaseApproval",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unpause",
+            "burn",
+            "approve",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "decreaseApproval",
+            "pause",
+            "owner",
+            "symbol",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "totalSupply",
+            "burn",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Burn",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC827": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "approve",
+            "balanceOf",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC827Token": {
+        "functions": [
+            "approve",
+            "increaseApproval",
+            "totalSupply",
+            "transferFrom",
+            "approve",
+            "decreaseApproval",
+            "balanceOf",
+            "decreaseApproval",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "PausableERC827Token": {
+        "functions": [
+            "approve",
+            "increaseApproval",
+            "totalSupply",
+            "transferFrom",
+            "unpause",
+            "approve",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "decreaseApproval",
+            "pause",
+            "owner",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "PausableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "unpause",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "pause",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

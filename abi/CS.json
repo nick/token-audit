@@ -1,0 +1,63 @@
+{
+    "CREDITS": {
+        "functions": [
+            "name",
+            "approve",
+            "ArrAccountIsFrozenByDate",
+            "GetAccountIsFrozenByDateCount",
+            "totalSupply",
+            "setAccountIsFrozen",
+            "transferFrom",
+            "ArrAccountIsNotFrozen",
+            "decimals",
+            "Arrholders",
+            "GetAccountIsNotFrozenCount",
+            "burn",
+            "isArrAccountIsFrozen",
+            "SetAddressForReturn",
+            "setAdmin",
+            "balanceOf",
+            "GetAccountIsNotFrozenForReturnCount",
+            "burnFrom",
+            "setFrozen",
+            "setAccountIsNotFrozen",
+            "ArrAccountIsFrozen",
+            "CanChange",
+            "owner",
+            "isArrAccountIsNotFrozenForReturn",
+            "GetHoldersCount",
+            "setAccountIsFrozenByDate",
+            "symbol",
+            "AccountIsNotFrozen",
+            "Frozen",
+            "transfer",
+            "setSymbol",
+            "TotalHoldersAmount",
+            "AddressForReturn",
+            "setAccountIsNotFrozenForReturn",
+            "ArrAccountIsNotFrozenForReturn",
+            "setName",
+            "AccountIsFrozen",
+            "isHolder",
+            "AccountIsNotFrozenForReturn",
+            "allowance",
+            "GetAccountIsFrozenCount",
+            "AccountIsFrozenByDate",
+            "isArrAccountIsNotFrozen",
+            "isArrAccountIsFrozenByDate",
+            "setCanChange",
+            "Admin"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner"
+        ],
+        "events": []
+    }
+}

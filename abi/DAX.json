@@ -1,0 +1,45 @@
+{
+    "DAEXToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "target",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

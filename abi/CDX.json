@@ -1,0 +1,185 @@
+{
+    "Auth": {
+        "functions": [
+            "setOwner",
+            "setAuthority",
+            "owner",
+            "authority"
+        ],
+        "events": [
+            "LogSetAuthority",
+            "LogSetOwner",
+            "UnauthorizedAccess"
+        ]
+    },
+    "AuthEvents": {
+        "functions": [],
+        "events": [
+            "LogSetAuthority",
+            "LogSetOwner",
+            "UnauthorizedAccess"
+        ]
+    },
+    "Authority": {
+        "functions": [
+            "canCall"
+        ],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Events": {
+        "functions": [],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Math": {
+        "functions": [],
+        "events": []
+    },
+    "Migrations": {
+        "functions": [
+            "upgrade",
+            "last_completed_migration",
+            "owner",
+            "setCompleted"
+        ],
+        "events": []
+    },
+    "Note": {
+        "functions": [],
+        "events": [
+            "LogNote"
+        ]
+    },
+    "Stoppable": {
+        "functions": [
+            "stop",
+            "setOwner",
+            "stopped",
+            "setAuthority",
+            "owner",
+            "start",
+            "authority"
+        ],
+        "events": [
+            "LogNote",
+            "LogSetAuthority",
+            "LogSetOwner",
+            "UnauthorizedAccess"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "stop",
+            "approve",
+            "payout",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "push",
+            "setSymbol",
+            "mint",
+            "balanceOf",
+            "setLogic",
+            "stopped",
+            "setAuthority",
+            "pull",
+            "owner",
+            "burn",
+            "symbol",
+            "transfer",
+            "start",
+            "authority",
+            "setName",
+            "logic",
+            "allowance",
+            "transferEth",
+            "triggerTansferEvent"
+        ],
+        "events": [
+            "LogNote",
+            "LogSetAuthority",
+            "LogSetOwner",
+            "UnauthorizedAccess",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TokenData": {
+        "functions": [
+            "supply",
+            "setOwner",
+            "setToken",
+            "balances",
+            "setBalances",
+            "setSupply",
+            "setAuthority",
+            "owner",
+            "approvals",
+            "authority",
+            "setApprovals"
+        ],
+        "events": [
+            "LogSetAuthority",
+            "LogSetOwner",
+            "UnauthorizedAccess"
+        ]
+    },
+    "TokenLogic": {
+        "functions": [
+            "icoEnd",
+            "returnIcoInvestments",
+            "stop",
+            "setIcoStart",
+            "setOwner",
+            "setToken",
+            "totalSupply",
+            "tokensPerWei",
+            "transferFrom",
+            "icoSale",
+            "setTokensPerWei",
+            "handlePayment",
+            "mint",
+            "balanceOf",
+            "burn",
+            "data",
+            "stopped",
+            "setAuthority",
+            "icoStart",
+            "owner",
+            "start",
+            "transfer",
+            "authority",
+            "allowance",
+            "approve",
+            "contributorCount",
+            "maxIco",
+            "token"
+        ],
+        "events": [
+            "LogNote",
+            "LogSetAuthority",
+            "LogSetOwner",
+            "UnauthorizedAccess",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

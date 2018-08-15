@@ -1,0 +1,39 @@
+{
+    "CrypteriumToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "transferAllowed",
+            "mint",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "allowTransfer",
+            "transfer",
+            "hardcap",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Mint",
+            "MintFinished",
+            "Burn"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    }
+}

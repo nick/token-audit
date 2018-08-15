@@ -1,0 +1,45 @@
+{
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "canMintBurn",
+            "transferFrom",
+            "numberOfAddress",
+            "getHour",
+            "burn",
+            "getWeekday",
+            "changeHoldingTaxInterval",
+            "lastHoldingTax",
+            "physicalString",
+            "balanceOf",
+            "txnTax",
+            "isSecured",
+            "getSecond",
+            "owner",
+            "addressIndex",
+            "symbol",
+            "mint",
+            "addressExists",
+            "chargeHoldingTax",
+            "transfer",
+            "addAddressManual",
+            "holdingTaxInterval",
+            "cryptoString",
+            "removeAddressManual",
+            "changeHoldingTax",
+            "holdingTaxDecimals",
+            "allowance",
+            "holdingTax",
+            "changeTxnTax",
+            "addresses",
+            "getMinute",
+            "isPrivate"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

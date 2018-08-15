@@ -1,0 +1,153 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "totalSupply",
+            "burn",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Burn",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "mintAgents",
+            "setMintAgent",
+            "decreaseApproval",
+            "balanceOf",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "isToken",
+            "transferOwnership"
+        ],
+        "events": [
+            "MintingAgentChanged",
+            "Minted",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StandardTokenExt": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "isToken"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "WINCrowdSaleToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "burn",
+            "mintAgents",
+            "setMintAgent",
+            "setTokenInformation",
+            "decreaseApproval",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "isToken",
+            "transferOwnership"
+        ],
+        "events": [
+            "UpdatedTokenInformation",
+            "Burn",
+            "MintingAgentChanged",
+            "Minted",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

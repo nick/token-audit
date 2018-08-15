@@ -1,0 +1,121 @@
+{
+    "B2BCoinContract": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "killContract",
+            "transferFrom",
+            "decimals",
+            "MAX_UINT256",
+            "burn",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "totalSupplyLimit",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Burn",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "killContract",
+            "transferFrom",
+            "decimals",
+            "MAX_UINT256",
+            "burn",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "salvageTokensFromContract",
+            "transfer",
+            "lockUntil",
+            "totalSupplyLimit",
+            "approveAndCall",
+            "newOwner",
+            "lockedUntilBlock",
+            "allowance",
+            "mintTokens",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Burn",
+            "ContractLocked",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20TokenInterface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Lockable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "lockUntil",
+            "newOwner",
+            "lockedUntilBlock",
+            "transferOwnership"
+        ],
+        "events": [
+            "ContractLocked",
+            "OwnerUpdate"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "SafeMath": {
+        "functions": [
+            "MAX_UINT256"
+        ],
+        "events": []
+    },
+    "tokenRecipientInterface": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

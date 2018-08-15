@@ -1,0 +1,309 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "DetailedERC20": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "DetherSale": {
+        "functions": [
+            "setupDone",
+            "presaleAddress",
+            "WHITELISTING_DURATION",
+            "registerUser",
+            "unregisterUser",
+            "weiPerDTH",
+            "MAX_DTH",
+            "weiContributed",
+            "SALE_ENDED",
+            "MIN_CONTRIBUTION",
+            "PUBLIC_MAX_CONTRIBUTION",
+            "getContributionLimit",
+            "contributions",
+            "WEI_CAP",
+            "wallet",
+            "setSaleStartTime",
+            "performInitialAllocations",
+            "PRESALE_WEI",
+            "presaleAllocateTokens",
+            "disbursementHandler",
+            "SETUP_DONE",
+            "owner",
+            "contributionCap",
+            "registerPresaleContributor",
+            "WHITELISTING_MAX_CONTRIBUTION",
+            "getCurrentStageId",
+            "getStageStartTime",
+            "DECIMALS_MULTIPLIER",
+            "allocateTokens",
+            "setSaleEndTime",
+            "calculatePrice",
+            "conditionalTransitions",
+            "contribute",
+            "whitelisted",
+            "SALE_IN_PROGRESS",
+            "transferOwnership",
+            "SETUP",
+            "token",
+            "presaleMaxContribution",
+            "distributeTimelockedTokens"
+        ],
+        "events": [
+            "LogUserRegistered",
+            "LogUserUnregistered",
+            "LogContribution",
+            "LogTokenAllocation",
+            "LogDisbursement",
+            "LogSetStageStartTime",
+            "LogTransition",
+            "OwnershipTransferred"
+        ]
+    },
+    "DetherToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "DisbursementHandler": {
+        "functions": [
+            "changeTimestamp",
+            "calcMaxWithdraw",
+            "setupDisbursement",
+            "disbursements",
+            "owner",
+            "withdrawnTokens",
+            "transferOwnership",
+            "withdraw",
+            "token"
+        ],
+        "events": [
+            "LogSetup",
+            "LogChangeTimestamp",
+            "LogWithdraw",
+            "OwnershipTransferred"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC223Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "transfer"
+        ],
+        "events": [
+            "Transfer",
+            "Transfer"
+        ]
+    },
+    "ERC223BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "transfer"
+        ],
+        "events": [
+            "Transfer",
+            "Transfer"
+        ]
+    },
+    "ERC223ReceivingContract": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Sale": {
+        "functions": [
+            "setupDone",
+            "weiContributed",
+            "SALE_ENDED",
+            "getContributionLimit",
+            "contributions",
+            "wallet",
+            "setSaleStartTime",
+            "disbursementHandler",
+            "SETUP_DONE",
+            "owner",
+            "contributionCap",
+            "getCurrentStageId",
+            "getStageStartTime",
+            "setSaleEndTime",
+            "conditionalTransitions",
+            "contribute",
+            "SALE_IN_PROGRESS",
+            "transferOwnership",
+            "SETUP",
+            "token",
+            "distributeTimelockedTokens"
+        ],
+        "events": [
+            "LogContribution",
+            "LogTokenAllocation",
+            "LogDisbursement",
+            "LogSetStageStartTime",
+            "LogTransition",
+            "OwnershipTransferred"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StateMachine": {
+        "functions": [
+            "getCurrentStageId",
+            "conditionalTransitions"
+        ],
+        "events": [
+            "LogTransition"
+        ]
+    },
+    "StateMachineLib": {
+        "functions": [],
+        "events": []
+    },
+    "TimedStateMachine": {
+        "functions": [
+            "getCurrentStageId",
+            "getStageStartTime",
+            "conditionalTransitions"
+        ],
+        "events": [
+            "LogSetStageStartTime",
+            "LogTransition"
+        ]
+    },
+    "Whitelistable": {
+        "functions": [
+            "registerUser",
+            "unregisterUser",
+            "owner",
+            "whitelisted",
+            "transferOwnership"
+        ],
+        "events": [
+            "LogUserRegistered",
+            "LogUserUnregistered",
+            "OwnershipTransferred"
+        ]
+    }
+}

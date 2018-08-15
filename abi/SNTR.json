@@ -1,0 +1,63 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Killable": {
+        "functions": [
+            "kill",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SilentNotaryToken": {
+        "functions": [
+            "name",
+            "approve",
+            "crowdsaleAgent",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "holders",
+            "decimals",
+            "setCrowdsaleAgent",
+            "mint",
+            "kill",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "released",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

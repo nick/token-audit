@@ -1,0 +1,124 @@
+{
+    "AbstractToken": {
+        "functions": [
+            "approve",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "potentialOwner",
+            "owner",
+            "confirmOwnership"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "potentialOwner",
+            "owner",
+            "transfer",
+            "confirmOwnership",
+            "allowance"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner",
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "transferFrom",
+            "transferERC20Token",
+            "balanceOf",
+            "potentialOwner",
+            "owner",
+            "transfer",
+            "confirmOwnership",
+            "creationTime",
+            "allowance"
+        ],
+        "events": [
+            "NewOwner",
+            "NewPotentialOwner",
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    },
+    "TokenboxToken": {
+        "functions": [
+            "totalPicoUSD",
+            "btcInvestment",
+            "name",
+            "approve",
+            "withdrawFromReserve",
+            "setOwner",
+            "totalSupply",
+            "changeMultisig",
+            "transferFrom",
+            "decimals",
+            "migrationCompleted",
+            "finaliseICO",
+            "multisig",
+            "icoAllocation",
+            "transferERC20Token",
+            "foundationReserve",
+            "usdDecimals",
+            "wireInvestment",
+            "balanceOf",
+            "potentialOwner",
+            "allowToWithdrawFromReserve",
+            "owner",
+            "ethInvestment",
+            "symbol",
+            "totalUSD",
+            "transfer",
+            "preIcoInvestment",
+            "confirmOwnership",
+            "creationTime",
+            "vestingDateEnd",
+            "allowance",
+            "migrateTransfer",
+            "preIcoAllocation"
+        ],
+        "events": [
+            "InvestmentInETH",
+            "InvestmentInBTC",
+            "InvestmentInUSD",
+            "PresaleInvestment",
+            "NewOwner",
+            "NewPotentialOwner",
+            "Transfer",
+            "Approval",
+            "Issuance"
+        ]
+    }
+}

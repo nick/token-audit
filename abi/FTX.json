@@ -1,0 +1,113 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FTXToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "allowTransfers",
+            "transferFrom",
+            "addToException",
+            "setToken4Gas",
+            "INITIAL_SUPPLY",
+            "decimals",
+            "version",
+            "minGas4Accts",
+            "transferException",
+            "decreaseApproval",
+            "withdrawToOwner",
+            "balanceOf",
+            "FINTRUX_RESERVE_FTX",
+            "owner",
+            "symbol",
+            "isException",
+            "VESTING_DATE",
+            "transfer",
+            "setMinGas4Accts",
+            "FINTRUX_RESERVE",
+            "TEAM_RESERVE_FTX",
+            "setGas4Token",
+            "CROSS_RESERVE",
+            "increaseApproval",
+            "gas4Token",
+            "allowance",
+            "token4Gas",
+            "setAllowTransfers",
+            "TEAM_RESERVE",
+            "delFrException",
+            "masterOwner",
+            "CROSS_RESERVE_FTX",
+            "transferOwnership"
+        ],
+        "events": [
+            "Withdraw",
+            "GasRebateFailed",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "masterOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

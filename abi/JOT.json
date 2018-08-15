@@ -1,0 +1,67 @@
+{
+    "Base": {
+        "functions": [],
+        "events": []
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isStarted",
+            "approve_fixed",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    },
+    "JOT": {
+        "functions": [
+            "name",
+            "approve",
+            "multimint",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "isStarted",
+            "approve_fixed",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "start",
+            "getTotalSupply",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

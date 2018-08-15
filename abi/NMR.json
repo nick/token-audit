@@ -1,0 +1,129 @@
+{
+    "NumeraireBackend": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "getTournament",
+            "transferFrom",
+            "numerai",
+            "isOwner",
+            "decimals",
+            "getRound",
+            "delegateContract",
+            "standard",
+            "createRound",
+            "releaseStake",
+            "emergencyStop",
+            "stakeOnBehalf",
+            "balanceOf",
+            "tournaments",
+            "stopped",
+            "changeShareable",
+            "contractUpgradable",
+            "numeraiTransfer",
+            "release",
+            "getStake",
+            "initial_disbursement",
+            "stake",
+            "changeApproval",
+            "symbol",
+            "weekly_disbursement",
+            "mint",
+            "destroyStake",
+            "deploy_time",
+            "disableContractUpgradability",
+            "transfer",
+            "revoke",
+            "stoppable",
+            "total_minted",
+            "hasConfirmed",
+            "getOwner",
+            "disableStopping",
+            "withdraw",
+            "required",
+            "createTournament",
+            "allowance",
+            "claimTokens",
+            "changeDelegate",
+            "supply_cap",
+            "getMintable",
+            "previousDelegates"
+        ],
+        "events": [
+            "DelegateChanged",
+            "Mint",
+            "Transfer",
+            "Approval",
+            "Staked",
+            "RoundCreated",
+            "TournamentCreated",
+            "StakeDestroyed",
+            "StakeReleased",
+            "Confirmation",
+            "Revoke"
+        ]
+    },
+    "NumeraireShared": {
+        "functions": [
+            "totalSupply",
+            "numerai",
+            "balanceOf",
+            "tournaments",
+            "initial_disbursement",
+            "weekly_disbursement",
+            "deploy_time",
+            "total_minted",
+            "allowance",
+            "supply_cap",
+            "getMintable"
+        ],
+        "events": [
+            "Mint",
+            "Transfer",
+            "Approval",
+            "Staked",
+            "RoundCreated",
+            "TournamentCreated",
+            "StakeDestroyed",
+            "StakeReleased"
+        ]
+    },
+    "Safe": {
+        "functions": [],
+        "events": []
+    },
+    "Shareable": {
+        "functions": [
+            "isOwner",
+            "changeShareable",
+            "revoke",
+            "hasConfirmed",
+            "getOwner",
+            "required"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke"
+        ]
+    },
+    "StoppableShareable": {
+        "functions": [
+            "isOwner",
+            "emergencyStop",
+            "stopped",
+            "changeShareable",
+            "release",
+            "revoke",
+            "stoppable",
+            "hasConfirmed",
+            "getOwner",
+            "disableStopping",
+            "required"
+        ],
+        "events": [
+            "Confirmation",
+            "Revoke"
+        ]
+    }
+}

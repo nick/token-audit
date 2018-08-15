@@ -1,0 +1,33 @@
+{
+    "Owned": {
+        "functions": [
+            "owner",
+            "changeOwner"
+        ],
+        "events": [
+            "ChangeOwner"
+        ]
+    },
+    "UNetworkToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "symbol",
+            "changeOwner",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Burn",
+            "ChangeOwner"
+        ]
+    }
+}

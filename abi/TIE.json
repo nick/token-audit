@@ -1,0 +1,136 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC23": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "transfer"
+        ],
+        "events": [
+            "TransferData",
+            "Transfer"
+        ]
+    },
+    "ERC23PayableReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "ERC23PayableToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "transferAndPay"
+        ],
+        "events": [
+            "TransferData",
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "balanceOf",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership",
+            "setMinter"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "TieToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "transferEnabled",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "transfer",
+            "transferAndPay",
+            "allowance",
+            "enableTransfer",
+            "transferOwnership",
+            "setMinter"
+        ],
+        "events": [
+            "TransferData",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

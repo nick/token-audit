@@ -1,0 +1,87 @@
+{
+    "ApproveAndCallFallBack": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    },
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ExtendedMath": {
+        "functions": [],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "_0xBitcoinToken": {
+        "functions": [
+            "name",
+            "approve",
+            "lastRewardEthBlockNumber",
+            "getMiningDifficulty",
+            "mint",
+            "totalSupply",
+            "transferFrom",
+            "rewardEra",
+            "decimals",
+            "getMiningTarget",
+            "_totalSupply",
+            "getMiningReward",
+            "getChallengeNumber",
+            "maxSupplyForEra",
+            "tokensMinted",
+            "lastRewardTo",
+            "balanceOf",
+            "acceptOwnership",
+            "checkMintSolution",
+            "epochCount",
+            "_MAXIMUM_TARGET",
+            "miningTarget",
+            "challengeNumber",
+            "owner",
+            "symbol",
+            "getMintDigest",
+            "transfer",
+            "_BLOCKS_PER_READJUSTMENT",
+            "lastRewardAmount",
+            "approveAndCall",
+            "latestDifficultyPeriodStarted",
+            "newOwner",
+            "transferAnyERC20Token",
+            "_MINIMUM_TARGET",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

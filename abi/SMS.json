@@ -1,0 +1,68 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SMSCoin": {
+        "functions": [
+            "name",
+            "start2BonusPeriod2",
+            "approve",
+            "checkAddress",
+            "saleCounterThisPhase",
+            "totalSupply",
+            "transferFrom",
+            "start3XPhase",
+            "decimals",
+            "hardBurnSMS",
+            "start4NormalPeriod",
+            "sentBonus",
+            "soldToken",
+            "setMembershipPrice",
+            "setTokenPrice",
+            "balanceOf",
+            "tokenPrice",
+            "checkMinBalance",
+            "giveReward",
+            "giveAways",
+            "symbol",
+            "UNIT",
+            "resumePhase",
+            "extend1Week",
+            "transfer",
+            "getAddress",
+            "limitedSale",
+            "startManualPeriod",
+            "start1BonusPeriod1",
+            "getAddressSize",
+            "pausePhase",
+            "endPhase",
+            "start3BonusPeriod3",
+            "allowance",
+            "drainETH",
+            "firstMembershipPurchase",
+            "drainSMS"
+        ],
+        "events": [
+            "Log",
+            "Message",
+            "TOKEN",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SMSLIB": {
+        "functions": [],
+        "events": []
+    }
+}

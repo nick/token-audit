@@ -1,0 +1,94 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "QVT": {
+        "functions": [
+            "name",
+            "approve",
+            "roundCount",
+            "totalSupply",
+            "multiplier",
+            "transferFrom",
+            "decimals",
+            "proceedPreIcoTransactions",
+            "sendBounty",
+            "setPreSaleOff",
+            "presaleEtherRaised",
+            "isPreSale",
+            "founder",
+            "halt",
+            "freeze",
+            "sendSupplyTokens",
+            "setDayFirst",
+            "balanceOf",
+            "unHalt",
+            "preIcoSold",
+            "unFreeze",
+            "totalTokens",
+            "burnRemainingTokens",
+            "team",
+            "owner",
+            "setDaySecond",
+            "changeFounder",
+            "bounty",
+            "symbol",
+            "setPreSaleOn",
+            "price",
+            "buy",
+            "changeOwner",
+            "transfer",
+            "isDayFirst",
+            "halted",
+            "startNewRound",
+            "presaleTokenSupply",
+            "isDaySecond",
+            "setDayThird",
+            "icoCap",
+            "allowance",
+            "isDayThird",
+            "isToken",
+            "setBonusOff"
+        ],
+        "events": [
+            "Buy",
+            "TokensSent",
+            "ContributionReceived",
+            "Burn",
+            "Minted",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance",
+            "isToken"
+        ],
+        "events": [
+            "Minted",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

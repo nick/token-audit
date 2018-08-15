@@ -1,0 +1,71 @@
+{
+    "CreditBIT": {
+        "functions": [
+            "getCreditBondAddress",
+            "name",
+            "approve",
+            "setCreditGameAddress",
+            "totalLockedSupply",
+            "totalSupply",
+            "lockBalance",
+            "transferFrom",
+            "decimals",
+            "mintMigrationTokens",
+            "lockdown",
+            "setCreditDaoAddress",
+            "creditDaoAddress",
+            "lockedBalanceOf",
+            "standard",
+            "getAccountData",
+            "claimBondReward",
+            "balanceOf",
+            "claimGameReward",
+            "dev",
+            "symbol",
+            "creditGameAddress",
+            "setCreditBond",
+            "transfer",
+            "lockToken",
+            "setCreditMcAddress",
+            "approveAndCall",
+            "mintBonusTokensForGames",
+            "allowance",
+            "totalAvaliableSupply",
+            "creditMcAddress"
+        ],
+        "events": [
+            "LockCredits",
+            "UnlockCredits",
+            "Mint",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ICreditBOND": {
+        "functions": [
+            "getBondMultiplier",
+            "getNewCoinsIssued"
+        ],
+        "events": []
+    },
+    "IERC20Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ITokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

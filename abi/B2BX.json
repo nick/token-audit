@@ -1,0 +1,98 @@
+{
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "IOwned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ISmartToken": {
+        "functions": [
+            "initialSupply",
+            "totalProjectToken",
+            "transfersEnabled",
+            "totalSoldTokens",
+            "fundingEnabled"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SmartToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "initialSupply",
+            "disableTransfers",
+            "fundingWallet",
+            "finalize",
+            "allocations",
+            "totalProjectToken",
+            "maxSaleToken",
+            "standard",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "unlock",
+            "transfer",
+            "disableFundingWallets",
+            "transfersEnabled",
+            "totalSoldTokens",
+            "allowance",
+            "fundingEnabled",
+            "transferOwnership"
+        ],
+        "events": [
+            "Finalize",
+            "Lock",
+            "Unlock",
+            "DisableTransfers",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

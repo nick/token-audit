@@ -1,0 +1,129 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "unmintTokens",
+            "setMintMaster",
+            "mintMaster",
+            "allowance",
+            "isToken",
+            "mintTokens"
+        ],
+        "events": [
+            "LogMintTokens",
+            "LogUnmintTokens",
+            "LogSetMintMaster",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SigToken": {
+        "functions": [
+            "name",
+            "approve",
+            "crowdsaleCompleted",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "crowdsaleContract",
+            "upgrade",
+            "setCrowdsaleCompleted",
+            "upgradeMaster",
+            "balanceOf",
+            "getUpgradeState",
+            "symbol",
+            "canUpgrade",
+            "transfer",
+            "unmintTokens",
+            "totalUpgraded",
+            "approveAndCall",
+            "setUpgradeTarget",
+            "setMintMaster",
+            "mintMaster",
+            "allowance",
+            "isToken",
+            "mintTokens",
+            "upgradeTarget",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "LogMintTokens",
+            "LogUnmintTokens",
+            "LogSetMintMaster",
+            "LogUpgrade",
+            "LogSetUpgradeTarget",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance",
+            "isToken"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "UpgradeTarget": {
+        "functions": [
+            "isUpgradeTarget",
+            "originalSupply",
+            "upgradeFrom"
+        ],
+        "events": []
+    },
+    "UpgradeableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "upgrade",
+            "upgradeMaster",
+            "balanceOf",
+            "getUpgradeState",
+            "canUpgrade",
+            "transfer",
+            "totalUpgraded",
+            "setUpgradeTarget",
+            "allowance",
+            "isToken",
+            "upgradeTarget",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "LogUpgrade",
+            "LogSetUpgradeTarget",
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "BurnableToken": {
+        "functions": [
+            "totalSupply",
+            "burn",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Burn",
+            "Transfer"
+        ]
+    },
+    "DAOToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "increaseApproval",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "cap",
+            "mint",
+            "burn",
+            "approve",
+            "decreaseApproval",
+            "balanceOf",
+            "decreaseApproval",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Burn",
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC827": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "approve",
+            "balanceOf",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC827Token": {
+        "functions": [
+            "approve",
+            "increaseApproval",
+            "totalSupply",
+            "transferFrom",
+            "approve",
+            "decreaseApproval",
+            "balanceOf",
+            "decreaseApproval",
+            "transfer",
+            "transferFrom",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

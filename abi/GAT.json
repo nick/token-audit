@@ -1,0 +1,145 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GATToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerChanged",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GATTokenSale": {
+        "functions": [
+            "resume",
+            "name",
+            "approve",
+            "setBonus",
+            "setTokensPerKEther",
+            "totalSupply",
+            "setTimeWindow",
+            "PRESALE_BONUS",
+            "transferFrom",
+            "TOKEN_PRIVATE_SALE_CAP",
+            "DECIMALS",
+            "decimals",
+            "endTime",
+            "END_TIME",
+            "finalize",
+            "contributionMinimum",
+            "totalTokensSold",
+            "reserve1Address",
+            "suspended",
+            "balanceOf",
+            "bonus",
+            "bankAddress",
+            "startTime",
+            "acceptOwnership",
+            "TOKEN_FOUNDATION_CAP",
+            "TOKEN_RESERVE1_CAP",
+            "DECIMALSFACTOR",
+            "TOKEN_RESERVE2_CAP",
+            "owner",
+            "reclaimContractTokens",
+            "symbol",
+            "reserve2Address",
+            "NAME",
+            "tokensPerKEther",
+            "transfer",
+            "finalized",
+            "TOKEN_FUTURE_CAP",
+            "CONTRIBUTION_MIN",
+            "TOKEN_PUBLIC_SALE_CAP",
+            "TOKEN_TOTAL_CAP",
+            "setContributionMinimum",
+            "currentTime",
+            "fundingAddress",
+            "newOwner",
+            "allowance",
+            "START_TIME",
+            "suspend",
+            "TOKEN_PRESALE_CAP",
+            "buyTokens",
+            "transferOwnership",
+            "TOKENS_PER_KETHER",
+            "SYMBOL"
+        ],
+        "events": [
+            "TokensPurchased",
+            "TokensPerKEtherUpdated",
+            "ContributionMinimumUpdated",
+            "BonusAmountUpdated",
+            "TimeWindowUpdated",
+            "SaleSuspended",
+            "SaleResumed",
+            "TokenFinalized",
+            "ContractTokensReclaimed",
+            "OwnerChanged",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GATTokenSaleConfig": {
+        "functions": [
+            "PRESALE_BONUS",
+            "TOKEN_PRIVATE_SALE_CAP",
+            "DECIMALS",
+            "END_TIME",
+            "TOKEN_FOUNDATION_CAP",
+            "TOKEN_RESERVE1_CAP",
+            "DECIMALSFACTOR",
+            "TOKEN_RESERVE2_CAP",
+            "NAME",
+            "TOKEN_FUTURE_CAP",
+            "CONTRIBUTION_MIN",
+            "TOKEN_PUBLIC_SALE_CAP",
+            "TOKEN_TOTAL_CAP",
+            "START_TIME",
+            "TOKEN_PRESALE_CAP",
+            "TOKENS_PER_KETHER",
+            "SYMBOL"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerChanged"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

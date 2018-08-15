@@ -1,0 +1,233 @@
+{
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "IOwned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ISmartToken": {
+        "functions": [
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "withdrawTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "issue",
+            "owner",
+            "symbol",
+            "destroy",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "ITokenHolder": {
+        "functions": [
+            "withdrawTokens",
+            "acceptOwnership",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwnerCandidate",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "SaferMath": {
+        "functions": [],
+        "events": []
+    },
+    "SmartToken": {
+        "functions": [
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "standard",
+            "withdrawTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "issue",
+            "owner",
+            "symbol",
+            "destroy",
+            "transfer",
+            "transfersEnabled",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "NewSmartToken",
+            "Issuance",
+            "Destruction",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StoxSmartToken": {
+        "functions": [
+            "name",
+            "approve",
+            "disableTransfers",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "version",
+            "standard",
+            "withdrawTokens",
+            "balanceOf",
+            "acceptOwnership",
+            "issue",
+            "owner",
+            "symbol",
+            "destroy",
+            "transfer",
+            "transfersEnabled",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "NewSmartToken",
+            "Issuance",
+            "Destruction",
+            "OwnerUpdate",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StoxSmartTokenSale": {
+        "functions": [
+            "EXCHANGE_RATE",
+            "fundingRecipient",
+            "DURATION",
+            "stox",
+            "endTime",
+            "transferTrusteeOwnership",
+            "finalize",
+            "tokensSold",
+            "acceptTrusteeOwnership",
+            "startTime",
+            "acceptSmartTokenOwnership",
+            "acceptOwnership",
+            "transferSmartTokenOwnership",
+            "distributePartnerTokens",
+            "isFinalized",
+            "owner",
+            "TOKEN_SALE_CAP",
+            "ETH_CAP",
+            "create",
+            "newOwnerCandidate",
+            "transferOwnership",
+            "isDistributed",
+            "trustee"
+        ],
+        "events": [
+            "TokensIssued",
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    },
+    "TokenHolder": {
+        "functions": [
+            "withdrawTokens",
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnerUpdate"
+        ]
+    },
+    "Trustee": {
+        "functions": [
+            "vestedTokens",
+            "stox",
+            "grant",
+            "revoke",
+            "acceptOwnership",
+            "totalVesting",
+            "unlockVestedTokens",
+            "owner",
+            "grants",
+            "newOwnerCandidate",
+            "transferOwnership"
+        ],
+        "events": [
+            "NewGrant",
+            "UnlockGrant",
+            "RevokeGrant",
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    }
+}

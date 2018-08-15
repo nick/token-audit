@@ -1,0 +1,70 @@
+{
+    "DRPToken": {
+        "functions": [
+            "incentiveDistributionStarted",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "incentiveDistributionRoundDenominator",
+            "standard",
+            "startIncentiveDistribution",
+            "incentiveDistributionRound",
+            "incentiveDistributionInterval",
+            "balanceOf",
+            "issue",
+            "owner",
+            "symbol",
+            "unlock",
+            "transfer",
+            "incentiveDistributionMaxRounds",
+            "locked",
+            "allowance",
+            "withdrawIncentives",
+            "incentives",
+            "transferOwnership",
+            "incentiveDistributionDate"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "locked",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

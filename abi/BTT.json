@@ -1,0 +1,57 @@
+{
+    "blocktrade": {
+        "functions": [
+            "isRestrictedAddress",
+            "airDrop",
+            "supply",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "initialSupply",
+            "tokenDecimals",
+            "burn",
+            "editRestrictedAddress",
+            "airDropFinished",
+            "unfreezeTransfersUntil",
+            "tokenFrozenUntilNotice",
+            "tokenFrozenSinceNotice",
+            "tokenName",
+            "endAirDrop",
+            "balanceOf",
+            "tokenSymbol",
+            "owner",
+            "getFreezeUntilDetails",
+            "tokenFrozenUntilBlock",
+            "symbol",
+            "unfreezeTransfersSince",
+            "transfer",
+            "freezeTransfersUntil",
+            "tokenFrozenSinceBlock",
+            "allowance",
+            "blockLock",
+            "getFreezeSinceDetails",
+            "transferOwnership",
+            "freezeTransfersSince"
+        ],
+        "events": [
+            "Transfer",
+            "TokenFrozenUntil",
+            "TokenFrozenSince",
+            "Approval",
+            "Burn"
+        ]
+    },
+    "controlled": {
+        "functions": [
+            "editRestrictedAddress",
+            "owner",
+            "tokenFrozenUntilBlock",
+            "tokenFrozenSinceBlock",
+            "blockLock",
+            "transferOwnership"
+        ],
+        "events": []
+    }
+}

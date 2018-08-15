@@ -1,0 +1,163 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Crowdsale": {
+        "functions": [
+            "endBlock",
+            "rate",
+            "weiRaised",
+            "startBlock",
+            "wallet",
+            "buyTokens",
+            "hasEnded",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "EidooToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "mint",
+            "burn",
+            "mintLocked",
+            "lockedBalanceOf",
+            "balanceOf",
+            "lockEndBlock",
+            "owner",
+            "symbol",
+            "transfer",
+            "transferableFromBlock",
+            "allowance",
+            "transferOwnership",
+            "initiallyLockedAmount"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "EidooTokenSale": {
+        "functions": [
+            "endBlock",
+            "POST_ICO",
+            "rate",
+            "MAXIMUM_SUPPLY",
+            "weiRaised",
+            "startBlock",
+            "LOCKED",
+            "wallet",
+            "soldTokens",
+            "owner",
+            "timeLocks",
+            "claimed",
+            "claimTokens",
+            "tokenCap",
+            "LOCK_END",
+            "buyTokens",
+            "hasEnded",
+            "transferOwnership",
+            "token"
+        ],
+        "events": [
+            "ClaimTokens",
+            "TokenPurchase"
+        ]
+    },
+    "MintableInterface": {
+        "functions": [
+            "mint",
+            "mintLocked"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "TokenCappedCrowdsale": {
+        "functions": [
+            "endBlock",
+            "rate",
+            "weiRaised",
+            "startBlock",
+            "wallet",
+            "soldTokens",
+            "tokenCap",
+            "buyTokens",
+            "hasEnded",
+            "token"
+        ],
+        "events": [
+            "TokenPurchase"
+        ]
+    },
+    "TokenTimelock": {
+        "functions": [
+            "beneficiary",
+            "release",
+            "releaseTime",
+            "token"
+        ],
+        "events": []
+    }
+}

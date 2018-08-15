@@ -1,0 +1,184 @@
+{
+    "BasicToken": {
+        "functions": [
+            "approve",
+            "superApprove",
+            "mintToken",
+            "transferFrom",
+            "getAddressLength",
+            "superMint",
+            "getAddressIndex",
+            "balanceOf",
+            "getAllAddress",
+            "owner",
+            "getAddressExist",
+            "transfer",
+            "transferClose",
+            "transfer_close",
+            "transferOpen",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "FreezeToken": {
+        "functions": [
+            "checkFreeze",
+            "owner",
+            "freezeDateOf",
+            "transferOwnership"
+        ],
+        "events": [
+            "Freeze",
+            "Melt"
+        ]
+    },
+    "PreSale": {
+        "functions": [
+            "changeSaleBonusRate",
+            "changeSaleTokenLimit",
+            "getSaleSold",
+            "getSaleInfo",
+            "changeSaleEnd",
+            "owner",
+            "changeSaleInfo",
+            "canSaleInfo",
+            "newSale",
+            "changeSaleStart",
+            "getSaleLength",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "meltAddress",
+            "superVoteAgree",
+            "voteAgree",
+            "totalSupply",
+            "superApprove",
+            "open_free",
+            "mintToken",
+            "transferFrom",
+            "decimals",
+            "changeSaleBonusRate",
+            "getProposalVoterList",
+            "total_supply",
+            "getAddressLength",
+            "superMint",
+            "getProposalIndex",
+            "changeSaleTokenLimit",
+            "getSaleSold",
+            "mintTokenBulk",
+            "getAddressIndex",
+            "getSaleInfo",
+            "tokenWalletChange",
+            "balanceOf",
+            "getAllAddress",
+            "checkFreeze",
+            "changeSaleEnd",
+            "tokenOpen",
+            "getProposalLength",
+            "newVote",
+            "owner",
+            "changeSaleInfo",
+            "transferBulk",
+            "symbol",
+            "token_wallet_address",
+            "burn",
+            "getAddressExist",
+            "transfer",
+            "transferClose",
+            "canSaleInfo",
+            "changeTokenName",
+            "checkVote",
+            "tokenClose",
+            "transfer_close",
+            "newSale",
+            "freezeAddress",
+            "voteClose",
+            "changeTokenSymbol",
+            "transferOpen",
+            "freezeDateOf",
+            "changeConversionRate",
+            "changeSaleStart",
+            "conversion_rate",
+            "allowance",
+            "getSaleLength",
+            "additionalTotalSupply",
+            "superMintBulk",
+            "transferOwnership"
+        ],
+        "events": [
+            "Payable",
+            "Transfer",
+            "Burn",
+            "Mint",
+            "ProposalAdd",
+            "ProposalEnd",
+            "ChangeTokenName",
+            "ChangeTokenSymbol",
+            "ChangeTokenWalletAddress",
+            "ChangeTotalSupply",
+            "ChangeConversionRate",
+            "ChangeFreezeTime",
+            "Freeze",
+            "Melt"
+        ]
+    },
+    "TokenInfo": {
+        "functions": [
+            "name",
+            "totalSupply",
+            "decimals",
+            "total_supply",
+            "owner",
+            "symbol",
+            "token_wallet_address",
+            "changeTokenName",
+            "changeTokenSymbol",
+            "changeConversionRate",
+            "conversion_rate",
+            "transferOwnership"
+        ],
+        "events": [
+            "ChangeTokenName",
+            "ChangeTokenSymbol",
+            "ChangeTokenWalletAddress",
+            "ChangeTotalSupply",
+            "ChangeConversionRate",
+            "ChangeFreezeTime"
+        ]
+    },
+    "Vote": {
+        "functions": [
+            "getProposalVoterList",
+            "getProposalIndex",
+            "getProposalLength",
+            "newVote",
+            "owner",
+            "checkVote",
+            "voteClose",
+            "transferOwnership"
+        ],
+        "events": [
+            "ProposalAdd",
+            "ProposalEnd"
+        ]
+    },
+    "owned": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "GreenMed": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "candidate",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "changeOwner",
+            "transfer",
+            "frozenAccount",
+            "confirmOwner",
+            "allowance",
+            "freezeAccount"
+        ],
+        "events": [
+            "FrozenFunds",
+            "Burn",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "owned": {
+        "functions": [
+            "candidate",
+            "owner",
+            "changeOwner",
+            "confirmOwner"
+        ],
+        "events": []
+    }
+}

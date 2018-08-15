@@ -1,0 +1,136 @@
+{
+    "GLAToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isOwner",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "issue",
+            "getOwner",
+            "symbol",
+            "retreiveTokens",
+            "isLocked",
+            "unlock",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "IManagedToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "issue",
+            "isLocked",
+            "unlock",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "IOwnership": {
+        "functions": [
+            "isOwner",
+            "getOwner"
+        ],
+        "events": []
+    },
+    "IToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": []
+    },
+    "ITokenRetreiver": {
+        "functions": [
+            "retreiveTokens"
+        ],
+        "events": []
+    },
+    "ITransferableOwnership": {
+        "functions": [
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "InputValidator": {
+        "functions": [],
+        "events": []
+    },
+    "ManagedToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isOwner",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "issue",
+            "getOwner",
+            "symbol",
+            "isLocked",
+            "unlock",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Owned": {
+        "functions": [],
+        "events": []
+    },
+    "Ownership": {
+        "functions": [
+            "isOwner",
+            "getOwner"
+        ],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "standard",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "TransferableOwnership": {
+        "functions": [
+            "isOwner",
+            "getOwner",
+            "transferOwnership"
+        ],
+        "events": []
+    }
+}

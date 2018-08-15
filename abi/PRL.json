@@ -1,0 +1,53 @@
+{
+    "OysterPearl": {
+        "functions": [
+            "name",
+            "approve",
+            "openSale",
+            "totalSupply",
+            "claim",
+            "retentionMax",
+            "transferFrom",
+            "withdrawFunds",
+            "balances",
+            "decimals",
+            "buried",
+            "burn",
+            "amendEpoch",
+            "director",
+            "amendRetention",
+            "bury",
+            "feeAmount",
+            "balanceOf",
+            "burnFrom",
+            "amendClaim",
+            "claimAmount",
+            "epoch",
+            "symbol",
+            "transfer",
+            "saleClosed",
+            "payAmount",
+            "claimed",
+            "funds",
+            "approveAndCall",
+            "selfLock",
+            "allowance",
+            "transferDirector",
+            "closeSale",
+            "directorLock"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "Bury",
+            "Claim"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

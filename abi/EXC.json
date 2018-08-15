@@ -1,0 +1,173 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "EximchainToken": {
+        "functions": [
+            "frozen",
+            "name",
+            "approve",
+            "totalSupply",
+            "TOKEN_NAME",
+            "transferFrom",
+            "TOKEN_SYMBOL",
+            "isOwner",
+            "decimals",
+            "reclaimTokens",
+            "burn",
+            "finalize",
+            "TOKEN_DECIMALS",
+            "freeze",
+            "setOpsAddress",
+            "balanceOf",
+            "TOKEN_TOTALSUPPLY",
+            "DECIMALSFACTOR",
+            "owner",
+            "opsAddress",
+            "symbol",
+            "transfer",
+            "isOwnerOrOps",
+            "finalized",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "allowance",
+            "completeOwnershipTransfer",
+            "isOps"
+        ],
+        "events": [
+            "TokensBurnt",
+            "TokensReclaimed",
+            "Frozen",
+            "Finalized",
+            "OpsAddressUpdated",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "EximchainTokenConfig": {
+        "functions": [
+            "TOKEN_NAME",
+            "TOKEN_SYMBOL",
+            "TOKEN_DECIMALS",
+            "TOKEN_TOTALSUPPLY",
+            "DECIMALSFACTOR"
+        ],
+        "events": []
+    },
+    "Finalizable": {
+        "functions": [
+            "isOwner",
+            "finalize",
+            "owner",
+            "finalized",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "completeOwnershipTransfer"
+        ],
+        "events": [
+            "Finalized",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted"
+        ]
+    },
+    "FinalizableToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isOwner",
+            "decimals",
+            "finalize",
+            "setOpsAddress",
+            "balanceOf",
+            "owner",
+            "opsAddress",
+            "symbol",
+            "transfer",
+            "isOwnerOrOps",
+            "finalized",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "allowance",
+            "completeOwnershipTransfer",
+            "isOps"
+        ],
+        "events": [
+            "Finalized",
+            "OpsAddressUpdated",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Math": {
+        "functions": [],
+        "events": []
+    },
+    "OpsManaged": {
+        "functions": [
+            "isOwner",
+            "setOpsAddress",
+            "owner",
+            "opsAddress",
+            "isOwnerOrOps",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "completeOwnershipTransfer",
+            "isOps"
+        ],
+        "events": [
+            "OpsAddressUpdated",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "isOwner",
+            "owner",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "completeOwnershipTransfer"
+        ],
+        "events": [
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted"
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "EIP20": {
+        "functions": [
+            "advisors",
+            "name",
+            "approve",
+            "BONUS_DATES",
+            "totalSupply",
+            "eligibleForBonus",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "allocations",
+            "allowed",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwner",
+            "initialAllocations",
+            "FOUNDERS_LOCK_DATES",
+            "allowance",
+            "founders",
+            "ADVISORS_LOCK_DATES",
+            "unspentAmounts",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "EIP20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Legolas": {
+        "functions": [
+            "advisors",
+            "name",
+            "approve",
+            "claimBonus",
+            "BONUS_DATES",
+            "totalSupply",
+            "eligibleForBonus",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "allocations",
+            "allowed",
+            "balanceOf",
+            "holdersAllocatedAmount",
+            "acceptOwnership",
+            "advisorsAllocatedAmount",
+            "owner",
+            "symbol",
+            "foundersAllocatedAmount",
+            "transfer",
+            "allocate",
+            "newOwner",
+            "initialAllocations",
+            "FOUNDERS_LOCK_DATES",
+            "allowance",
+            "founders",
+            "ADVISORS_LOCK_DATES",
+            "unspentAmounts",
+            "transferOwnership"
+        ],
+        "events": [
+            "Allocate",
+            "OwnershipTransferred",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "LegolasBase": {
+        "functions": [
+            "advisors",
+            "BONUS_DATES",
+            "eligibleForBonus",
+            "balances",
+            "allocations",
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "initialAllocations",
+            "FOUNDERS_LOCK_DATES",
+            "founders",
+            "ADVISORS_LOCK_DATES",
+            "unspentAmounts",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    }
+}

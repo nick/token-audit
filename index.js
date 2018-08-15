@@ -1,6 +1,7 @@
 const fs = require('fs')
 const Xray = require('x-ray');
 const superagent = require('superagent')
+const spawn = require('child_process').spawn
 
 const x = Xray({
   filters: {
@@ -253,6 +254,62 @@ async function writeCsv(tokens) {
   console.log("Done")
 }
 
-// getTokens() // Uncomment this to get the list of tokens
+async function writeAbi(tokens) {
+  const records = []
+  const contractNames = {}
+  for (const token of tokens) {
+    const symbol = getSymbol(token)
+    console.log(`Processing ${symbol}`)
+    try {
+      var data = await new Promise((resolve, reject) => {
+        let data = ''
+        const solc = spawn('solc', [
+          '--combined-json=abi',
+          `contracts/${symbol}.sol`
+        ])
+        solc.stdout.on('data', (d) => data += d);
+        solc.stderr.on('data', (d) => d.toString());
+        solc.on('close', () => resolve(data))
+      })
+
+      const contracts = JSON.parse(data).contracts
+      const output = {}
+
+      for (let contract in contracts) {
+        const contractName = contract.split(':')[1]
+        contractNames[contractName] = contractNames[contractName] || 0
+        contractNames[contractName] += 1
+        const abi = JSON.parse(contracts[contract].abi)
+        output[contractName] = {
+          // abi, // Uncomment to include full ABI in output
+          functions: abi.filter(a => a.type === 'function').map(a => a.name),
+          events: abi.filter(a => a.type === 'event').map(a => a.name)
+        }
+      }
+
+      fs.writeFileSync(`${__dirname}/abi/${symbol}.json`, JSON.stringify(output, null, 4))
+    } catch(e) {
+      console.log(`Error with ${symbol}`)
+      // console.log(e)
+    }
+  }
+
+  let contractNameStats =
+    Object.keys(contractNames)
+    .map(n => [n, contractNames[n]])
+    .filter(n => n[1] > 1)
+    .sort((a, b) => {
+      if(a[1] > b[1]) return -1
+      if(a[1] < b[1]) return 1
+      return 0
+    })
+
+  // console.log(contractNameStats)
+
+  console.log("Done")
+}
+
+// getTokens() // Uncomment this to scrape the list of tokens
 // getAllData(Tokens) // Uncomment this to scrape each token
-writeCsv(Tokens) // Uncomment this to generate a CSV of token data
+// writeCsv(Tokens) // Uncomment this to generate a CSV of token data
+// writeAbi(Tokens) // Uncomment this to generate abi / stats for each contract. Requires solc in path

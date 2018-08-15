@@ -1,0 +1,178 @@
+{
+    "BluzelleToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "TOKEN_NAME",
+            "cancelOwnershipTransfer",
+            "transferFrom",
+            "TOKEN_SYMBOL",
+            "isOwner",
+            "decimals",
+            "reclaimTokens",
+            "finalize",
+            "TOKEN_DECIMALS",
+            "setOpsAddress",
+            "balanceOf",
+            "TOKEN_TOTALSUPPLY",
+            "DECIMALSFACTOR",
+            "owner",
+            "opsAddress",
+            "symbol",
+            "transfer",
+            "isOwnerOrOps",
+            "finalized",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "allowance",
+            "completeOwnershipTransfer",
+            "isOps"
+        ],
+        "events": [
+            "TokensReclaimed",
+            "Finalized",
+            "OpsAddressUpdated",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "OwnershipTransferCanceled",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "BluzelleTokenConfig": {
+        "functions": [
+            "TOKEN_NAME",
+            "TOKEN_SYMBOL",
+            "TOKEN_DECIMALS",
+            "TOKEN_TOTALSUPPLY",
+            "DECIMALSFACTOR"
+        ],
+        "events": []
+    },
+    "ERC20Interface": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Finalizable": {
+        "functions": [
+            "cancelOwnershipTransfer",
+            "isOwner",
+            "finalize",
+            "owner",
+            "finalized",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "completeOwnershipTransfer"
+        ],
+        "events": [
+            "Finalized",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "OwnershipTransferCanceled"
+        ]
+    },
+    "FinalizableToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "cancelOwnershipTransfer",
+            "transferFrom",
+            "isOwner",
+            "decimals",
+            "finalize",
+            "setOpsAddress",
+            "balanceOf",
+            "owner",
+            "opsAddress",
+            "symbol",
+            "transfer",
+            "isOwnerOrOps",
+            "finalized",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "allowance",
+            "completeOwnershipTransfer",
+            "isOps"
+        ],
+        "events": [
+            "Finalized",
+            "OpsAddressUpdated",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "OwnershipTransferCanceled",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Math": {
+        "functions": [],
+        "events": []
+    },
+    "OpsManaged": {
+        "functions": [
+            "cancelOwnershipTransfer",
+            "isOwner",
+            "setOpsAddress",
+            "owner",
+            "opsAddress",
+            "isOwnerOrOps",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "completeOwnershipTransfer",
+            "isOps"
+        ],
+        "events": [
+            "OpsAddressUpdated",
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "OwnershipTransferCanceled"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "cancelOwnershipTransfer",
+            "isOwner",
+            "owner",
+            "initiateOwnershipTransfer",
+            "proposedOwner",
+            "completeOwnershipTransfer"
+        ],
+        "events": [
+            "OwnershipTransferInitiated",
+            "OwnershipTransferCompleted",
+            "OwnershipTransferCanceled"
+        ]
+    }
+}

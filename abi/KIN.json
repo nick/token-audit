@@ -1,0 +1,160 @@
+{
+    "BasicToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "KinToken": {
+        "functions": [
+            "name",
+            "requestOwnershipTransfer",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "isMinting",
+            "decimals",
+            "mint",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "symbol",
+            "transfer",
+            "newOwnerCandidate",
+            "transferAnyERC20Token",
+            "allowance",
+            "endMinting"
+        ],
+        "events": [
+            "MintingEnded",
+            "Approval",
+            "Transfer",
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    },
+    "KinTokenSale": {
+        "functions": [
+            "lastGrantedIndex",
+            "requestOwnershipTransfer",
+            "MAX_TOKENS_SOLD",
+            "fundingRecipient",
+            "TIER_2_CAP",
+            "endTime",
+            "WEI_PER_USD",
+            "acceptKinTokenOwnership",
+            "grantTokens",
+            "setTier2Participants",
+            "deleteTokenGrant",
+            "participationHistory",
+            "finalize",
+            "KIN_PER_WEI",
+            "tokensSold",
+            "setHardParticipationCap",
+            "hardParticipationCap",
+            "SALE_DURATION",
+            "participationCaps",
+            "startTime",
+            "acceptOwnership",
+            "TIER_1_CAP",
+            "owner",
+            "MAX_TOKEN_GRANTEES",
+            "kin",
+            "create",
+            "setTier1Participants",
+            "TOKEN_UNIT",
+            "tokenGrants",
+            "addTokenGrant",
+            "requestVestingTrusteeOwnershipTransfer",
+            "acceptVestingTrusteeOwnership",
+            "newOwnerCandidate",
+            "tokenGrantees",
+            "transferAnyERC20Token",
+            "KIN_PER_USD",
+            "KIK_ADDRESS",
+            "requestKinTokenOwnershipTransfer",
+            "MAX_TOKENS",
+            "GRANT_BATCH_SIZE",
+            "trustee",
+            "KIN_FOUNDATION_ADDRESS"
+        ],
+        "events": [
+            "TokensIssued",
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "requestOwnershipTransfer",
+            "acceptOwnership",
+            "owner",
+            "newOwnerCandidate"
+        ],
+        "events": [
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "TokenHolder": {
+        "functions": [
+            "requestOwnershipTransfer",
+            "acceptOwnership",
+            "owner",
+            "newOwnerCandidate",
+            "transferAnyERC20Token"
+        ],
+        "events": [
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    },
+    "VestingTrustee": {
+        "functions": [
+            "requestOwnershipTransfer",
+            "vestedTokens",
+            "revoke",
+            "acceptOwnership",
+            "totalVesting",
+            "unlockVestedTokens",
+            "owner",
+            "grant",
+            "kin",
+            "grants",
+            "newOwnerCandidate"
+        ],
+        "events": [
+            "NewGrant",
+            "TokensUnlocked",
+            "GrantRevoked",
+            "OwnershipRequested",
+            "OwnershipTransferred"
+        ]
+    }
+}

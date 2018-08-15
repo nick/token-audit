@@ -1,0 +1,63 @@
+{
+    "AuctusToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "burn",
+            "allowed",
+            "tokenSaleContract",
+            "decreaseApproval",
+            "balanceOf",
+            "burnFrom",
+            "preSaleDistributionContract",
+            "setTokenSale",
+            "symbol",
+            "transfer",
+            "transfer",
+            "contractOwner",
+            "tokenSaleIsFinished",
+            "increaseApproval",
+            "allowance",
+            "setTokenSaleFinished",
+            "transferOwnership",
+            "transfer"
+        ],
+        "events": [
+            "Burn",
+            "Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ContractReceiver": {
+        "functions": [
+            "tokenFallback"
+        ],
+        "events": []
+    },
+    "EthereumStandards": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "transfer",
+            "allowance",
+            "transfer"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

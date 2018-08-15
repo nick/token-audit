@@ -1,0 +1,55 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Gifto": {
+        "functions": [
+            "setMaximumBuy",
+            "name",
+            "approve",
+            "totalSupply",
+            "turnOffSale",
+            "transferFrom",
+            "turnOnTradable",
+            "decimals",
+            "setIcoPercent",
+            "_icoSupply",
+            "withdraw",
+            "_totalSupply",
+            "buyGifto",
+            "_icoPercent",
+            "tradable",
+            "setBuyPrice",
+            "_minimumBuy",
+            "balanceOf",
+            "_originalBuyPrice",
+            "_maximumBuy",
+            "owner",
+            "symbol",
+            "isApprovedInvestor",
+            "removeInvestorList",
+            "transfer",
+            "totalTokenSold",
+            "addInvestorList",
+            "allowance",
+            "getDeposit",
+            "turnOnSale",
+            "_selling"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

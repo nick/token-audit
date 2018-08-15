@@ -1,0 +1,50 @@
+{
+    "OysterShell": {
+        "functions": [
+            "amendFee",
+            "name",
+            "approve",
+            "lockMax",
+            "totalSupply",
+            "claim",
+            "retentionMax",
+            "transferFrom",
+            "withdrawFunds",
+            "balances",
+            "decimals",
+            "burn",
+            "director",
+            "feeAmount",
+            "balanceOf",
+            "burnFrom",
+            "symbol",
+            "lockTime",
+            "transfer",
+            "retentionMin",
+            "lockedSupply",
+            "approveAndCall",
+            "amendLock",
+            "locked",
+            "selfLock",
+            "amendRetention",
+            "lock",
+            "allowance",
+            "transferDirector",
+            "lockMin",
+            "directorLock"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "Lock",
+            "Claim"
+        ]
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}

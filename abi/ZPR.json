@@ -1,0 +1,34 @@
+{
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "ZperToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balances",
+            "decimals",
+            "cap",
+            "mint",
+            "burn",
+            "allowed",
+            "balanceOf",
+            "batchTransfer",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "Transfer",
+            "Approval",
+            "OwnershipTransferred",
+            "Burn"
+        ]
+    }
+}

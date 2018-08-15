@@ -1,0 +1,72 @@
+{
+    "OldSmartRouletteToken": {
+        "functions": [
+            "tempTokensBalanceOf",
+            "isOperationBlocked",
+            "totalSupply",
+            "tempTokensPeriodOf",
+            "getCountHolders",
+            "balanceOf",
+            "getItemTempHolders",
+            "getItemHolders",
+            "getCountTempHolders"
+        ],
+        "events": []
+    },
+    "SmartRouletteToken": {
+        "functions": [
+            "tempTokensBalanceOf",
+            "name",
+            "getListAddressHolders",
+            "approve",
+            "emission",
+            "sendTempTokens",
+            "isOperationBlocked",
+            "totalSupply",
+            "tempTokensPeriodOf",
+            "transferFrom",
+            "IsTransferFromOldContractDone",
+            "changeDeveloper",
+            "decimals",
+            "getCountHolders",
+            "changeMaxValueBetForEmission",
+            "infoICO",
+            "IsTransferTempFromOldContractDone",
+            "standard",
+            "newCostToken",
+            "balanceOf",
+            "changeDividentContract",
+            "deleteGame",
+            "getItemTempHolders",
+            "symbol",
+            "costOfOneToken",
+            "returnTempTokens",
+            "changeManager",
+            "transfer",
+            "isOperationAllowed",
+            "stopOperation",
+            "restoreAllPersistentTokens",
+            "changeMaxCoefPlayerForEmission",
+            "runICO",
+            "stopICO",
+            "getItemHolders",
+            "startOperation",
+            "restoreAllTempTokens",
+            "getCountTempHolders",
+            "allowance",
+            "getCostToken",
+            "changeMaxCoefPartnerForEmission",
+            "gameListOf",
+            "initCountTokens",
+            "getListTempHolders",
+            "addNewGame"
+        ],
+        "events": [
+            "TokenBuy",
+            "Transfer",
+            "Approval",
+            "Emission",
+            "TempTokensSend"
+        ]
+    }
+}

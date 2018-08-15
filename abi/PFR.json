@@ -1,0 +1,57 @@
+{
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "PayFairToken": {
+        "functions": [
+            "MULTIPLIER",
+            "name",
+            "approve",
+            "crowdsaleAgent",
+            "FROZEN_TOKENS",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "setCrowdsaleAgent",
+            "mint",
+            "crowdSaleOverTimestamp",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "FREEZE_PERIOD",
+            "owner",
+            "symbol",
+            "released",
+            "transfer",
+            "allowance",
+            "convertToDecimal",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

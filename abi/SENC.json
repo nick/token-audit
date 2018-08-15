@@ -1,0 +1,198 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Operatable": {
+        "functions": [
+            "isSecondaryOperator",
+            "isPrimaryOperator",
+            "setSecondaryOperator",
+            "owner",
+            "setPrimaryOperator",
+            "primaryOperator",
+            "transferOwnership",
+            "secondaryOperator"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "OperatableBasic": {
+        "functions": [
+            "isSecondaryOperator",
+            "isPrimaryOperator",
+            "setSecondaryOperator",
+            "setPrimaryOperator"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred"
+        ]
+    },
+    "PausableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "unpause",
+            "paused",
+            "decreaseApproval",
+            "balanceOf",
+            "pause",
+            "owner",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Salvageable": {
+        "functions": [
+            "isSecondaryOperator",
+            "isPrimaryOperator",
+            "setSecondaryOperator",
+            "owner",
+            "setPrimaryOperator",
+            "primaryOperator",
+            "emergencyERC20Drain",
+            "transferOwnership",
+            "secondaryOperator"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "SencToken": {
+        "functions": [
+            "airdrop",
+            "mintingFinished",
+            "name",
+            "approve",
+            "isSecondaryOperator",
+            "totalSupply",
+            "transferFrom",
+            "isPrimaryOperator",
+            "DECIMALS",
+            "decimals",
+            "unpause",
+            "mint",
+            "paused",
+            "setSecondaryOperator",
+            "decreaseApproval",
+            "balanceOf",
+            "finishMinting",
+            "pause",
+            "DECIMALSFACTOR",
+            "owner",
+            "TOTALSUPPLY",
+            "symbol",
+            "NAME",
+            "transfer",
+            "setPrimaryOperator",
+            "primaryOperator",
+            "increaseApproval",
+            "emergencyERC20Drain",
+            "allowance",
+            "transferOwnership",
+            "SYMBOL",
+            "secondaryOperator"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Pause",
+            "Unpause",
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SencTokenConfig": {
+        "functions": [
+            "DECIMALS",
+            "DECIMALSFACTOR",
+            "TOTALSUPPLY",
+            "NAME",
+            "SYMBOL"
+        ],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

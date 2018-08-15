@@ -1,0 +1,24 @@
+{
+    "XBLToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "balanceOf",
+            "burnFrom",
+            "owner",
+            "symbol",
+            "transfer",
+            "totalBurned",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    }
+}

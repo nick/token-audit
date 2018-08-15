@@ -1,0 +1,156 @@
+{
+    "AceToken": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "toggleTransferFor",
+            "totalSupply",
+            "specialAllowed",
+            "transferFrom",
+            "finilize",
+            "DISTRIBUTION_INVESTORS",
+            "decimals",
+            "transferAllowed",
+            "communityTokensHolder",
+            "DISTRIBUTION_TEAM",
+            "mint",
+            "freeToExtraMinting",
+            "decreaseApproval",
+            "MAXSOLD_SUPPLY",
+            "setTeamTokensHolder",
+            "balanceOf",
+            "DISTRIBUTION_COMMUNITY",
+            "finishMinting",
+            "owner",
+            "symbol",
+            "setCommunityTokensHolder",
+            "transfer",
+            "extraSupply",
+            "openTransfer",
+            "increaseApproval",
+            "extraMint",
+            "investorSupply",
+            "allowance",
+            "teamTokensHolder",
+            "transferOwnership",
+            "HARDCAPPED_SUPPLY"
+        ],
+        "events": [
+            "ChangeCommunityHolder",
+            "ChangeTeamHolder",
+            "TransferAllowed",
+            "TransferAllowanceFor",
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "StarTokenInterface": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "toggleTransferFor",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "balanceOf",
+            "finishMinting",
+            "owner",
+            "transfer",
+            "openTransfer",
+            "extraMint",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "TransferAllowed",
+            "TransferAllowanceFor",
+            "Mint",
+            "MintFinished",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

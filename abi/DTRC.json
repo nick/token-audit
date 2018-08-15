@@ -1,0 +1,43 @@
+{
+    "DatariusToken": {
+        "functions": [
+            "name",
+            "approve",
+            "burnTokens",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "ico",
+            "balanceOf",
+            "symbol",
+            "transfer",
+            "tokensAreFrozen",
+            "allowance",
+            "mintTokens",
+            "defrost"
+        ],
+        "events": [
+            "Burn",
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

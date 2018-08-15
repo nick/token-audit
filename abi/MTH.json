@@ -1,0 +1,35 @@
+{
+    "MonethaToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "burn",
+            "standard",
+            "ico",
+            "lockedAmount",
+            "balanceOf",
+            "startTime",
+            "tokensForIco",
+            "owner",
+            "symbol",
+            "transfer",
+            "lockReleaseDate",
+            "setICO",
+            "allowance",
+            "setStart",
+            "reservedAmount"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burned"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

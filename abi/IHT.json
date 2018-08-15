@@ -1,0 +1,482 @@
+{
+    "Allocatable": {
+        "functions": [
+            "setAllocateAgent",
+            "allocateAgents",
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "AllocateAgentChanged",
+            "OwnershipTransferred"
+        ]
+    },
+    "BonusFinalizeAgent": {
+        "functions": [
+            "allocatedTokens",
+            "finalizeCrowdsale",
+            "isFinalizeAgent",
+            "isSane",
+            "crowdsale",
+            "token"
+        ],
+        "events": []
+    },
+    "BurnableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "burn",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Burn",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Crowdsale": {
+        "functions": [
+            "ownerTestValue",
+            "requireCustomerId",
+            "invest",
+            "isPricingSane",
+            "endsAt",
+            "minimumFundingGoal",
+            "getState",
+            "setFinalizeAgent",
+            "investedAmountOf",
+            "finalizeAgent",
+            "setAllocateAgent",
+            "allocateAgents",
+            "weiRaised",
+            "isCrowdsale",
+            "finalize",
+            "setPricingStrategy",
+            "tokensSold",
+            "setDefaultWhitelistVestingParameters",
+            "refund",
+            "signerAddress",
+            "weiRefunded",
+            "halt",
+            "MAX_INVESTMENTS_BEFORE_MULTISIG_CHANGE",
+            "whitelistBonusPercentage",
+            "setEndsAt",
+            "setWhiteList",
+            "pricingStrategy",
+            "loadedRefund",
+            "acceptOwnership",
+            "isMinimumGoalReached",
+            "whitelistPrincipleLockPercentage",
+            "setRequireCustomerId",
+            "loadRefund",
+            "setOwnerTestValue",
+            "owner",
+            "multisigWallet",
+            "whitelistPrincipleLockPeriod",
+            "tokenAmountOf",
+            "buyWithCustomerId",
+            "isBreakingCap",
+            "preallocate",
+            "buy",
+            "isFinalizerSane",
+            "startsAt",
+            "finalized",
+            "halted",
+            "tokenVestingAddress",
+            "earlyParticipantWhitelist",
+            "unhalt",
+            "requiredSignedAddress",
+            "earlyPariticipantWeiPrice",
+            "newOwner",
+            "isCrowdsaleFull",
+            "whitelistBonusLockPeriod",
+            "investorCount",
+            "setEarlyParicipantWhitelist",
+            "investWithCustomerId",
+            "transferOwnership",
+            "setMultisig",
+            "setStartAt",
+            "token"
+        ],
+        "events": [
+            "Invested",
+            "Refund",
+            "InvestmentPolicyChanged",
+            "Whitelisted",
+            "EndsAtChanged",
+            "StartAtChanged",
+            "AllocateAgentChanged",
+            "OwnershipTransferred"
+        ]
+    },
+    "CrowdsaleToken": {
+        "functions": [
+            "setTransferAgent",
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "decimals",
+            "mint",
+            "burn",
+            "mintAgents",
+            "setMintAgent",
+            "upgrade",
+            "setTokenInformation",
+            "upgradeAgent",
+            "releaseTokenTransfer",
+            "upgradeMaster",
+            "decreaseApproval",
+            "balanceOf",
+            "acceptOwnership",
+            "getUpgradeState",
+            "transferAgents",
+            "owner",
+            "symbol",
+            "released",
+            "canUpgrade",
+            "transfer",
+            "totalUpgraded",
+            "releaseAgent",
+            "newOwner",
+            "increaseApproval",
+            "setUpgradeAgent",
+            "allowance",
+            "transferOwnership",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "UpdatedTokenInformation",
+            "Burn",
+            "Upgrade",
+            "UpgradeAgentSet",
+            "MintingAgentChanged",
+            "Mint",
+            "OwnershipTransferred",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "EthTranchePricing": {
+        "functions": [
+            "isPricingStrategy",
+            "calculatePrice",
+            "tranches",
+            "getPricingStartsAt",
+            "trancheCount",
+            "getPricingEndsAt",
+            "acceptOwnership",
+            "MAX_TRANCHES",
+            "owner",
+            "isSane",
+            "getCurrentPrice",
+            "newOwner",
+            "getTranche",
+            "setPreicoAddress",
+            "preicoAddresses",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "FinalizeAgent": {
+        "functions": [
+            "finalizeCrowdsale",
+            "isFinalizeAgent",
+            "isSane"
+        ],
+        "events": []
+    },
+    "FractionalERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Haltable": {
+        "functions": [
+            "halt",
+            "acceptOwnership",
+            "owner",
+            "halted",
+            "unhalt",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "mint",
+            "mintAgents",
+            "setMintAgent",
+            "decreaseApproval",
+            "balanceOf",
+            "acceptOwnership",
+            "owner",
+            "transfer",
+            "newOwner",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "MintingAgentChanged",
+            "Mint",
+            "OwnershipTransferred",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "MintedEthCappedCrowdsale": {
+        "functions": [
+            "ownerTestValue",
+            "requireCustomerId",
+            "invest",
+            "isPricingSane",
+            "endsAt",
+            "minimumFundingGoal",
+            "getState",
+            "setFinalizeAgent",
+            "investedAmountOf",
+            "finalizeAgent",
+            "setAllocateAgent",
+            "allocateAgents",
+            "weiRaised",
+            "isCrowdsale",
+            "finalize",
+            "setPricingStrategy",
+            "tokensSold",
+            "setDefaultWhitelistVestingParameters",
+            "refund",
+            "signerAddress",
+            "weiRefunded",
+            "halt",
+            "MAX_INVESTMENTS_BEFORE_MULTISIG_CHANGE",
+            "whitelistBonusPercentage",
+            "setEndsAt",
+            "setWhiteList",
+            "pricingStrategy",
+            "loadedRefund",
+            "acceptOwnership",
+            "isMinimumGoalReached",
+            "whitelistPrincipleLockPercentage",
+            "setRequireCustomerId",
+            "weiCap",
+            "loadRefund",
+            "setOwnerTestValue",
+            "owner",
+            "multisigWallet",
+            "whitelistPrincipleLockPeriod",
+            "tokenAmountOf",
+            "buyWithCustomerId",
+            "isBreakingCap",
+            "preallocate",
+            "buy",
+            "isFinalizerSane",
+            "startsAt",
+            "finalized",
+            "halted",
+            "tokenVestingAddress",
+            "earlyParticipantWhitelist",
+            "unhalt",
+            "requiredSignedAddress",
+            "earlyPariticipantWeiPrice",
+            "newOwner",
+            "isCrowdsaleFull",
+            "whitelistBonusLockPeriod",
+            "investorCount",
+            "setEarlyParicipantWhitelist",
+            "investWithCustomerId",
+            "transferOwnership",
+            "setMultisig",
+            "setStartAt",
+            "token"
+        ],
+        "events": [
+            "Invested",
+            "Refund",
+            "InvestmentPolicyChanged",
+            "Whitelisted",
+            "EndsAtChanged",
+            "StartAtChanged",
+            "AllocateAgentChanged",
+            "OwnershipTransferred"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "newOwner",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred"
+        ]
+    },
+    "PricingStrategy": {
+        "functions": [
+            "isPricingStrategy",
+            "calculatePrice",
+            "isSane"
+        ],
+        "events": []
+    },
+    "ReleasableToken": {
+        "functions": [
+            "setTransferAgent",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "setReleaseAgent",
+            "releaseTokenTransfer",
+            "balanceOf",
+            "acceptOwnership",
+            "transferAgents",
+            "owner",
+            "released",
+            "transfer",
+            "releaseAgent",
+            "newOwner",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "OwnershipTransferred",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "SafeMathLib": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decreaseApproval",
+            "balanceOf",
+            "transfer",
+            "increaseApproval",
+            "allowance"
+        ],
+        "events": [
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "TokenVesting": {
+        "functions": [
+            "setAllocateAgent",
+            "allocateAgents",
+            "setVesting",
+            "vestingMap",
+            "acceptOwnership",
+            "owner",
+            "TokenAddress",
+            "releaseVestedTokens",
+            "isVestingSet",
+            "newOwner",
+            "totalUnreleasedTokens",
+            "transferOwnership",
+            "releaseMyVestedTokens"
+        ],
+        "events": [
+            "VestedTokensReleased",
+            "AllocateAgentChanged",
+            "OwnershipTransferred"
+        ]
+    },
+    "UpgradeAgent": {
+        "functions": [
+            "originalSupply",
+            "isUpgradeAgent",
+            "upgradeFrom"
+        ],
+        "events": []
+    },
+    "UpgradeableToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "upgrade",
+            "upgradeAgent",
+            "upgradeMaster",
+            "decreaseApproval",
+            "balanceOf",
+            "getUpgradeState",
+            "canUpgrade",
+            "transfer",
+            "totalUpgraded",
+            "increaseApproval",
+            "setUpgradeAgent",
+            "allowance",
+            "setUpgradeMaster"
+        ],
+        "events": [
+            "Upgrade",
+            "UpgradeAgentSet",
+            "Minted",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

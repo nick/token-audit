@@ -1,0 +1,56 @@
+{
+    "QRL_Token": {
+        "functions": [
+            "creator",
+            "name",
+            "approve",
+            "currentState",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "allSupply",
+            "close",
+            "issueTokens",
+            "balanceOf",
+            "changeCreator",
+            "symbol",
+            "transfer",
+            "freeze",
+            "allowance",
+            "setAllSupply"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "StdToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "allSupply",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "Token": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

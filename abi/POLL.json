@@ -1,0 +1,46 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "burnPoll",
+            "transfer",
+            "allowance",
+            "burnExcess"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    },
+    "POLLToken": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "pollCompleted",
+            "pollBurnCompleted",
+            "balanceOf",
+            "pollBurnQtyMax",
+            "owner",
+            "burnPoll",
+            "symbol",
+            "excessTokensBurnt",
+            "transfer",
+            "pollBurnQty",
+            "allowance",
+            "pollBurnInc",
+            "burnExcess"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn"
+        ]
+    }
+}

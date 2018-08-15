@@ -1,0 +1,416 @@
+{
+    "AssetID": {
+        "functions": [
+            "getAssetID",
+            "getAssetIDHash"
+        ],
+        "events": []
+    },
+    "AssetIDInterface": {
+        "functions": [
+            "getAssetID",
+            "getAssetIDHash"
+        ],
+        "events": []
+    },
+    "BytecodeExecutor": {
+        "functions": [
+            "isManagerAllowed",
+            "executeCall",
+            "executeDelegatecall"
+        ],
+        "events": [
+            "CallExecutedEvent",
+            "DelegatecallExecutedEvent"
+        ]
+    },
+    "BytecodeExecutorInterface": {
+        "functions": [
+            "executeCall",
+            "executeDelegatecall"
+        ],
+        "events": [
+            "CallExecutedEvent",
+            "DelegatecallExecutedEvent"
+        ]
+    },
+    "CommonModifiers": {
+        "functions": [],
+        "events": []
+    },
+    "CommonModifiersInterface": {
+        "functions": [],
+        "events": []
+    },
+    "CrydrControllerERC20Interface": {
+        "functions": [
+            "getAllowance",
+            "transferFrom",
+            "transfer",
+            "getTotalSupply",
+            "approve",
+            "getBalance"
+        ],
+        "events": []
+    },
+    "CrydrViewBase": {
+        "functions": [
+            "isManagerAllowed",
+            "getCrydrViewStandardNameHash",
+            "setCrydrController",
+            "pauseContract",
+            "getPaused",
+            "getAssetID",
+            "getCrydrViewStandardName",
+            "getAssetIDHash",
+            "unpauseContract",
+            "getCrydrController"
+        ],
+        "events": [
+            "CrydrControllerChangedEvent",
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    },
+    "CrydrViewBaseInterface": {
+        "functions": [
+            "getCrydrViewStandardNameHash",
+            "setCrydrController",
+            "getCrydrViewStandardName",
+            "getCrydrController"
+        ],
+        "events": [
+            "CrydrControllerChangedEvent"
+        ]
+    },
+    "CrydrViewERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "getCrydrViewStandardNameHash",
+            "transferFrom",
+            "setCrydrController",
+            "pauseContract",
+            "getPaused",
+            "balanceOf",
+            "getCrydrViewStandardName",
+            "transfer",
+            "unpauseContract",
+            "getCrydrController",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "CrydrControllerChangedEvent",
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    },
+    "CrydrViewERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "CrydrViewERC20Loggable": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "getCrydrViewStandardNameHash",
+            "transferFrom",
+            "setCrydrController",
+            "pauseContract",
+            "getPaused",
+            "balanceOf",
+            "getCrydrViewStandardName",
+            "emitTransferEvent",
+            "transfer",
+            "unpauseContract",
+            "getCrydrController",
+            "allowance",
+            "emitApprovalEvent"
+        ],
+        "events": [
+            "Transfer",
+            "Approval",
+            "CrydrControllerChangedEvent",
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    },
+    "CrydrViewERC20LoggableInterface": {
+        "functions": [
+            "emitTransferEvent",
+            "emitApprovalEvent"
+        ],
+        "events": []
+    },
+    "CrydrViewERC20Mintable": {
+        "functions": [
+            "getCrydrViewStandardNameHash",
+            "setCrydrController",
+            "pauseContract",
+            "getPaused",
+            "getCrydrViewStandardName",
+            "emitMintEvent",
+            "unpauseContract",
+            "getCrydrController",
+            "emitBurnEvent"
+        ],
+        "events": [
+            "MintEvent",
+            "BurnEvent",
+            "CrydrControllerChangedEvent",
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    },
+    "CrydrViewERC20MintableInterface": {
+        "functions": [
+            "emitMintEvent",
+            "emitBurnEvent"
+        ],
+        "events": [
+            "MintEvent",
+            "BurnEvent"
+        ]
+    },
+    "CrydrViewERC20Named": {
+        "functions": [
+            "isManagerAllowed",
+            "name",
+            "decimals",
+            "pauseContract",
+            "getPaused",
+            "getSymbolHash",
+            "setDecimals",
+            "symbol",
+            "unpauseContract",
+            "setSymbol",
+            "setName",
+            "getNameHash"
+        ],
+        "events": [
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    },
+    "CrydrViewERC20NamedInterface": {
+        "functions": [
+            "name",
+            "decimals",
+            "getSymbolHash",
+            "setDecimals",
+            "symbol",
+            "setSymbol",
+            "setName",
+            "getNameHash"
+        ],
+        "events": []
+    },
+    "JCashCrydrViewERC20": {
+        "functions": [
+            "isManagerAllowed",
+            "name",
+            "approve",
+            "totalSupply",
+            "cancelOwnershipOffer",
+            "getCrydrViewStandardNameHash",
+            "transferFrom",
+            "setCrydrController",
+            "decimals",
+            "isPermissionGranted",
+            "pauseContract",
+            "enableManager",
+            "getPaused",
+            "getAssetID",
+            "getSymbolHash",
+            "balanceOf",
+            "setDecimals",
+            "revokeManagerPermission",
+            "getCrydrViewStandardName",
+            "grantManagerPermission",
+            "getOwner",
+            "executeCall",
+            "emitMintEvent",
+            "symbol",
+            "createOwnershipOffer",
+            "isManagerEnabled",
+            "emitTransferEvent",
+            "getAssetIDHash",
+            "transfer",
+            "unpauseContract",
+            "setSymbol",
+            "setName",
+            "getCrydrController",
+            "executeDelegatecall",
+            "disableManager",
+            "allowance",
+            "getNameHash",
+            "getProposedOwner",
+            "emitBurnEvent",
+            "emitApprovalEvent",
+            "acceptOwnershipOffer"
+        ],
+        "events": [
+            "MintEvent",
+            "BurnEvent",
+            "Transfer",
+            "Approval",
+            "CrydrControllerChangedEvent",
+            "CallExecutedEvent",
+            "DelegatecallExecutedEvent",
+            "PauseEvent",
+            "UnpauseEvent",
+            "ManagerEnabledEvent",
+            "ManagerDisabledEvent",
+            "ManagerPermissionGrantedEvent",
+            "ManagerPermissionRevokedEvent",
+            "OwnerAssignedEvent",
+            "OwnershipOfferCreatedEvent",
+            "OwnershipOfferAcceptedEvent",
+            "OwnershipOfferCancelledEvent"
+        ]
+    },
+    "JNTViewERC20": {
+        "functions": [
+            "isManagerAllowed",
+            "name",
+            "approve",
+            "totalSupply",
+            "cancelOwnershipOffer",
+            "getCrydrViewStandardNameHash",
+            "transferFrom",
+            "setCrydrController",
+            "decimals",
+            "isPermissionGranted",
+            "pauseContract",
+            "enableManager",
+            "getPaused",
+            "getAssetID",
+            "getSymbolHash",
+            "balanceOf",
+            "setDecimals",
+            "revokeManagerPermission",
+            "getCrydrViewStandardName",
+            "grantManagerPermission",
+            "getOwner",
+            "executeCall",
+            "emitMintEvent",
+            "symbol",
+            "createOwnershipOffer",
+            "isManagerEnabled",
+            "emitTransferEvent",
+            "getAssetIDHash",
+            "transfer",
+            "unpauseContract",
+            "setSymbol",
+            "setName",
+            "getCrydrController",
+            "executeDelegatecall",
+            "disableManager",
+            "allowance",
+            "getNameHash",
+            "getProposedOwner",
+            "emitBurnEvent",
+            "emitApprovalEvent",
+            "acceptOwnershipOffer"
+        ],
+        "events": [
+            "MintEvent",
+            "BurnEvent",
+            "Transfer",
+            "Approval",
+            "CrydrControllerChangedEvent",
+            "CallExecutedEvent",
+            "DelegatecallExecutedEvent",
+            "PauseEvent",
+            "UnpauseEvent",
+            "ManagerEnabledEvent",
+            "ManagerDisabledEvent",
+            "ManagerPermissionGrantedEvent",
+            "ManagerPermissionRevokedEvent",
+            "OwnerAssignedEvent",
+            "OwnershipOfferCreatedEvent",
+            "OwnershipOfferAcceptedEvent",
+            "OwnershipOfferCancelledEvent"
+        ]
+    },
+    "Manageable": {
+        "functions": [
+            "isManagerAllowed",
+            "isPermissionGranted",
+            "enableManager",
+            "revokeManagerPermission",
+            "grantManagerPermission",
+            "getOwner",
+            "isManagerEnabled",
+            "disableManager"
+        ],
+        "events": [
+            "ManagerEnabledEvent",
+            "ManagerDisabledEvent",
+            "ManagerPermissionGrantedEvent",
+            "ManagerPermissionRevokedEvent"
+        ]
+    },
+    "ManageableInterface": {
+        "functions": [
+            "isManagerAllowed"
+        ],
+        "events": []
+    },
+    "Ownable": {
+        "functions": [
+            "cancelOwnershipOffer",
+            "getOwner",
+            "createOwnershipOffer",
+            "getProposedOwner",
+            "acceptOwnershipOffer"
+        ],
+        "events": [
+            "OwnerAssignedEvent",
+            "OwnershipOfferCreatedEvent",
+            "OwnershipOfferAcceptedEvent",
+            "OwnershipOfferCancelledEvent"
+        ]
+    },
+    "OwnableInterface": {
+        "functions": [
+            "getOwner"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "isManagerAllowed",
+            "pauseContract",
+            "getPaused",
+            "unpauseContract"
+        ],
+        "events": [
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    },
+    "PausableInterface": {
+        "functions": [
+            "pauseContract",
+            "getPaused",
+            "unpauseContract"
+        ],
+        "events": [
+            "PauseEvent",
+            "UnpauseEvent"
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "Accelerator": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "ownerSetStakeStartTime",
+            "maxTotalSupply",
+            "decimals",
+            "getBlockNumber",
+            "AcceleratorStart",
+            "chainStartTime",
+            "balanceOf",
+            "stakeStartTime",
+            "owner",
+            "symbol",
+            "mine",
+            "totalInitialSupply",
+            "transfer",
+            "coinAge",
+            "annualInterest",
+            "stakeMinAge",
+            "chainStartBlockNumber",
+            "allowance",
+            "stakeMaxAge",
+            "maxMintProofOfStake",
+            "transferOwnership"
+        ],
+        "events": [
+            "Mine",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "PoSTokenStandard": {
+        "functions": [
+            "stakeStartTime",
+            "mine",
+            "coinAge",
+            "annualInterest",
+            "stakeMinAge",
+            "stakeMaxAge"
+        ],
+        "events": [
+            "Mine"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    }
+}

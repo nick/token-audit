@@ -1,0 +1,179 @@
+{
+    "Controller": {
+        "functions": [
+            "setToken",
+            "transferFrom",
+            "totalSupply",
+            "claim",
+            "setLedger",
+            "burn",
+            "setBurnAddress",
+            "finalize",
+            "claimByProof",
+            "ledger",
+            "balanceOf",
+            "burnAddress",
+            "enableBurning",
+            "acceptOwnership",
+            "owner",
+            "disableBurning",
+            "changeOwner",
+            "finalized",
+            "increaseApproval",
+            "transfer",
+            "allowance",
+            "approve",
+            "decreaseApproval",
+            "ledgerTransfer",
+            "token"
+        ],
+        "events": [
+            "ControllerBurn"
+        ]
+    },
+    "ControllerEventDefinitions": {
+        "functions": [],
+        "events": [
+            "ControllerBurn"
+        ]
+    },
+    "EventDefinitions": {
+        "functions": [],
+        "events": [
+            "Transfer",
+            "Approval",
+            "Burn",
+            "Claimed"
+        ]
+    },
+    "Finalizable": {
+        "functions": [
+            "finalize",
+            "acceptOwnership",
+            "owner",
+            "changeOwner",
+            "finalized"
+        ],
+        "events": []
+    },
+    "IToken": {
+        "functions": [
+            "balanceOf",
+            "transfer"
+        ],
+        "events": []
+    },
+    "Ledger": {
+        "functions": [
+            "transferFrom",
+            "totalSupply",
+            "stopMinting",
+            "setBurnAddress",
+            "finalize",
+            "balanceOf",
+            "burnAddress",
+            "metadata",
+            "setLocked",
+            "acceptOwnership",
+            "multiMint",
+            "bridgeNodes",
+            "owner",
+            "setController",
+            "proofs",
+            "changeOwner",
+            "setBridgeNode",
+            "finalized",
+            "increaseApproval",
+            "transfer",
+            "setProof",
+            "locked",
+            "setMetadata",
+            "allowance",
+            "approve",
+            "decreaseApproval",
+            "mintingStopped",
+            "controller",
+            "mintingNonce"
+        ],
+        "events": []
+    },
+    "Owned": {
+        "functions": [
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "acceptOwnership",
+            "pause",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "Token": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "claimByProof",
+            "unpause",
+            "setBurnAddress",
+            "finalize",
+            "claim",
+            "motd",
+            "paused",
+            "setMotd",
+            "decreaseApproval",
+            "claimTokens",
+            "balanceOf",
+            "burnAddress",
+            "enableBurning",
+            "acceptOwnership",
+            "burn",
+            "controllerClaim",
+            "pause",
+            "owner",
+            "controllerApprove",
+            "setController",
+            "symbol",
+            "disableBurning",
+            "controllerTransfer",
+            "burnable",
+            "changeOwner",
+            "transfer",
+            "finalized",
+            "increaseApproval",
+            "allowance",
+            "controllerBurn",
+            "controller"
+        ],
+        "events": [
+            "Motd",
+            "Transfer",
+            "Approval",
+            "Burn",
+            "Claimed"
+        ]
+    },
+    "TokenReceivable": {
+        "functions": [
+            "claimTokens",
+            "acceptOwnership",
+            "owner",
+            "changeOwner"
+        ],
+        "events": []
+    }
+}

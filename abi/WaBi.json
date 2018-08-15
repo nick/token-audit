@@ -1,0 +1,134 @@
+{
+    "BasicToken": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "ERC20": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "ERC20Basic": {
+        "functions": [
+            "totalSupply",
+            "balanceOf",
+            "transfer"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "MintableToken": {
+        "functions": [
+            "mintingFinished",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "unpause",
+            "mint",
+            "paused",
+            "balanceOf",
+            "finishMinting",
+            "pause",
+            "owner",
+            "transfer",
+            "allowance",
+            "transferOwnership",
+            "maxTokensToMint"
+        ],
+        "events": [
+            "Mint",
+            "MintFinished",
+            "Pause",
+            "Unpause",
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "Ownable": {
+        "functions": [
+            "owner",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Pausable": {
+        "functions": [
+            "unpause",
+            "paused",
+            "pause",
+            "owner",
+            "transferOwnership"
+        ],
+        "events": [
+            "Pause",
+            "Unpause"
+        ]
+    },
+    "SafeMath": {
+        "functions": [],
+        "events": []
+    },
+    "StandardToken": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Approval",
+            "Transfer"
+        ]
+    },
+    "WaBi": {
+        "functions": [
+            "mintingFinished",
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "unpause",
+            "mint",
+            "transferEnabled",
+            "paused",
+            "balanceOf",
+            "finishMinting",
+            "pause",
+            "owner",
+            "symbol",
+            "transfer",
+            "allowance",
+            "enableTransfer",
+            "transferOwnership",
+            "maxTokensToMint"
+        ],
+        "events": [
+            "TokenPurchase",
+            "Mint",
+            "MintFinished",
+            "Pause",
+            "Unpause",
+            "Approval",
+            "Transfer"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "ERC20Interface": {
+        "functions": [
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "balanceOf",
+            "transfer",
+            "allowance"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    },
+    "FlexiInterface": {
+        "functions": [
+            "decreaseApproval",
+            "increaseApproval",
+            "transferOwnership"
+        ],
+        "events": []
+    },
+    "Tracto": {
+        "functions": [
+            "name",
+            "approve",
+            "totalSupply",
+            "transferFrom",
+            "decimals",
+            "changeNameSymbol",
+            "decreaseApproval",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "transfer",
+            "increaseApproval",
+            "allowance",
+            "transferOwnership"
+        ],
+        "events": [
+            "Transfer",
+            "Approval"
+        ]
+    }
+}

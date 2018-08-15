@@ -1,0 +1,50 @@
+{
+    "AURA": {
+        "functions": [
+            "name",
+            "approve",
+            "setOwner",
+            "totalSupply",
+            "unlockToken",
+            "transferFrom",
+            "decimals",
+            "lockBalances",
+            "balanceOf",
+            "owner",
+            "symbol",
+            "safeSub",
+            "transfer",
+            "approveAndCall",
+            "locked",
+            "safeMul",
+            "uploadBalances",
+            "allowance",
+            "safeAdd",
+            "balancesUploaded"
+        ],
+        "events": [
+            "Transfer"
+        ]
+    },
+    "Owned": {
+        "functions": [
+            "setOwner",
+            "owner"
+        ],
+        "events": []
+    },
+    "SafeMath": {
+        "functions": [
+            "safeSub",
+            "safeMul",
+            "safeAdd"
+        ],
+        "events": []
+    },
+    "tokenRecipient": {
+        "functions": [
+            "receiveApproval"
+        ],
+        "events": []
+    }
+}
