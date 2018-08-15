@@ -1,0 +1,16 @@
+{
+  "name": "token-audit",
+  "version": "0.1.0",
+  "description": "Scraped ERC20 Token data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Poulden <nick@poulden.com>",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.0.1",
+    "superagent": "^3.8.3",
+    "x-ray": "^2.3.3"
+  }
+}
