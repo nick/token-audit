@@ -5,3 +5,5 @@
 - Generates a CSV of interesting data (results.csv)
 
 Uncomment lines at the bottom of index.js to generate data
+
+[Google Sheet of results](https://docs.google.com/spreadsheets/d/1A0rNMXKMkHJVXcbhT-1SwK4zdb-9i77VYkGOLYUKUIg)
